@@ -1,0 +1,1101 @@
+State 58 conflicts: 2 shift/reduce
+State 59 conflicts: 2 shift/reduce
+State 65 conflicts: 5 shift/reduce
+State 66 conflicts: 5 shift/reduce
+State 67 conflicts: 5 shift/reduce
+State 68 conflicts: 5 shift/reduce
+State 69 conflicts: 5 shift/reduce
+
+
+Grammar
+
+    0 $accept: S $end
+
+    1 S: P
+
+    2 P: INT MAIN '(' ')' '{' L '}'
+
+    3 L: L G
+    4  | G
+
+    5 G: I
+    6  | D
+
+    7 J: I
+    8  | E
+
+    9 I: IF '(' E ')' '{' L '}' ELSE '{' L '}'
+   10  | IF '(' E ')' '{' L '}'
+   11  | FOR '(' J ';' J ';' J ')' '{' L '}'
+   12  | CIN VAR ';'
+   13  | COUT X ';'
+   14  | VAR '=' E
+
+   15 D: INT VAR ';'
+   16  | DOUBLE VAR ';'
+
+   17 E: E AND E
+   18  | E OR E
+   19  | F
+   20  | R
+
+   21 R: F GE F
+   22  | F LE F
+   23  | F '>' F
+   24  | F '<' F
+   25  | F EQUAL F
+
+   26 F: F '+' F
+   27  | F '-' F
+   28  | F '*' F
+   29  | F '/' F
+   30  | F '%' F
+   31  | X
+
+   32 X: CONST
+   33  | VAR
+
+
+Terminals, with rules where they appear
+
+$end (0) 0
+'%' (37) 30
+'(' (40) 2 9 10 11
+')' (41) 2 9 10 11
+'*' (42) 28
+'+' (43) 26
+'-' (45) 27
+'/' (47) 29
+';' (59) 11 12 13 15 16
+'<' (60) 24
+'=' (61) 14
+'>' (62) 23
+'{' (123) 2 9 10 11
+'}' (125) 2 9 10 11
+error (256)
+VAR (258) 12 14 15 16 33
+CONST (259) 32
+INT (260) 2 15
+DOUBLE (261) 16
+MAIN (262) 2
+IF (263) 9 10
+FOR (264) 11
+ELSE (265) 9
+CIN (266) 12
+COUT (267) 13
+AND (268) 17
+OR (269) 18
+GE (270) 21
+LE (271) 22
+EQUAL (272) 25
+
+
+Nonterminals, with rules where they appear
+
+$accept (31)
+    on left: 0
+S (32)
+    on left: 1, on right: 0
+P (33)
+    on left: 2, on right: 1
+L (34)
+    on left: 3 4, on right: 2 3 9 10 11
+G (35)
+    on left: 5 6, on right: 3 4
+J (36)
+    on left: 7 8, on right: 11
+I (37)
+    on left: 9 10 11 12 13 14, on right: 5 7
+D (38)
+    on left: 15 16, on right: 6
+E (39)
+    on left: 17 18 19 20, on right: 8 9 10 14 17 18
+R (40)
+    on left: 21 22 23 24 25, on right: 20
+F (41)
+    on left: 26 27 28 29 30 31, on right: 19 21 22 23 24 25 26 27 28
+    29 30
+X (42)
+    on left: 32 33, on right: 13 31
+
+
+state 0
+
+    0 $accept: . S $end
+
+    INT  shift, and go to state 1
+
+    S  go to state 2
+    P  go to state 3
+
+
+state 1
+
+    2 P: INT . MAIN '(' ')' '{' L '}'
+
+    MAIN  shift, and go to state 4
+
+
+state 2
+
+    0 $accept: S . $end
+
+    $end  shift, and go to state 5
+
+
+state 3
+
+    1 S: P .
+
+    $default  reduce using rule 1 (S)
+
+
+state 4
+
+    2 P: INT MAIN . '(' ')' '{' L '}'
+
+    '('  shift, and go to state 6
+
+
+state 5
+
+    0 $accept: S $end .
+
+    $default  accept
+
+
+state 6
+
+    2 P: INT MAIN '(' . ')' '{' L '}'
+
+    ')'  shift, and go to state 7
+
+
+state 7
+
+    2 P: INT MAIN '(' ')' . '{' L '}'
+
+    '{'  shift, and go to state 8
+
+
+state 8
+
+    2 P: INT MAIN '(' ')' '{' . L '}'
+
+    VAR     shift, and go to state 9
+    INT     shift, and go to state 10
+    DOUBLE  shift, and go to state 11
+    IF      shift, and go to state 12
+    FOR     shift, and go to state 13
+    CIN     shift, and go to state 14
+    COUT    shift, and go to state 15
+
+    L  go to state 16
+    G  go to state 17
+    I  go to state 18
+    D  go to state 19
+
+
+state 9
+
+   14 I: VAR . '=' E
+
+    '='  shift, and go to state 20
+
+
+state 10
+
+   15 D: INT . VAR ';'
+
+    VAR  shift, and go to state 21
+
+
+state 11
+
+   16 D: DOUBLE . VAR ';'
+
+    VAR  shift, and go to state 22
+
+
+state 12
+
+    9 I: IF . '(' E ')' '{' L '}' ELSE '{' L '}'
+   10  | IF . '(' E ')' '{' L '}'
+
+    '('  shift, and go to state 23
+
+
+state 13
+
+   11 I: FOR . '(' J ';' J ';' J ')' '{' L '}'
+
+    '('  shift, and go to state 24
+
+
+state 14
+
+   12 I: CIN . VAR ';'
+
+    VAR  shift, and go to state 25
+
+
+state 15
+
+   13 I: COUT . X ';'
+
+    VAR    shift, and go to state 26
+    CONST  shift, and go to state 27
+
+    X  go to state 28
+
+
+state 16
+
+    2 P: INT MAIN '(' ')' '{' L . '}'
+    3 L: L . G
+
+    VAR     shift, and go to state 9
+    INT     shift, and go to state 10
+    DOUBLE  shift, and go to state 11
+    IF      shift, and go to state 12
+    FOR     shift, and go to state 13
+    CIN     shift, and go to state 14
+    COUT    shift, and go to state 15
+    '}'     shift, and go to state 29
+
+    G  go to state 30
+    I  go to state 18
+    D  go to state 19
+
+
+state 17
+
+    4 L: G .
+
+    $default  reduce using rule 4 (L)
+
+
+state 18
+
+    5 G: I .
+
+    $default  reduce using rule 5 (G)
+
+
+state 19
+
+    6 G: D .
+
+    $default  reduce using rule 6 (G)
+
+
+state 20
+
+   14 I: VAR '=' . E
+
+    VAR    shift, and go to state 26
+    CONST  shift, and go to state 27
+
+    E  go to state 31
+    R  go to state 32
+    F  go to state 33
+    X  go to state 34
+
+
+state 21
+
+   15 D: INT VAR . ';'
+
+    ';'  shift, and go to state 35
+
+
+state 22
+
+   16 D: DOUBLE VAR . ';'
+
+    ';'  shift, and go to state 36
+
+
+state 23
+
+    9 I: IF '(' . E ')' '{' L '}' ELSE '{' L '}'
+   10  | IF '(' . E ')' '{' L '}'
+
+    VAR    shift, and go to state 26
+    CONST  shift, and go to state 27
+
+    E  go to state 37
+    R  go to state 32
+    F  go to state 33
+    X  go to state 34
+
+
+state 24
+
+   11 I: FOR '(' . J ';' J ';' J ')' '{' L '}'
+
+    VAR    shift, and go to state 38
+    CONST  shift, and go to state 27
+    IF     shift, and go to state 12
+    FOR    shift, and go to state 13
+    CIN    shift, and go to state 14
+    COUT   shift, and go to state 15
+
+    J  go to state 39
+    I  go to state 40
+    E  go to state 41
+    R  go to state 32
+    F  go to state 33
+    X  go to state 34
+
+
+state 25
+
+   12 I: CIN VAR . ';'
+
+    ';'  shift, and go to state 42
+
+
+state 26
+
+   33 X: VAR .
+
+    $default  reduce using rule 33 (X)
+
+
+state 27
+
+   32 X: CONST .
+
+    $default  reduce using rule 32 (X)
+
+
+state 28
+
+   13 I: COUT X . ';'
+
+    ';'  shift, and go to state 43
+
+
+state 29
+
+    2 P: INT MAIN '(' ')' '{' L '}' .
+
+    $default  reduce using rule 2 (P)
+
+
+state 30
+
+    3 L: L G .
+
+    $default  reduce using rule 3 (L)
+
+
+state 31
+
+   14 I: VAR '=' E .
+   17 E: E . AND E
+   18  | E . OR E
+
+    AND  shift, and go to state 44
+    OR   shift, and go to state 45
+
+    $default  reduce using rule 14 (I)
+
+
+state 32
+
+   20 E: R .
+
+    $default  reduce using rule 20 (E)
+
+
+state 33
+
+   19 E: F .
+   21 R: F . GE F
+   22  | F . LE F
+   23  | F . '>' F
+   24  | F . '<' F
+   25  | F . EQUAL F
+   26 F: F . '+' F
+   27  | F . '-' F
+   28  | F . '*' F
+   29  | F . '/' F
+   30  | F . '%' F
+
+    GE     shift, and go to state 46
+    LE     shift, and go to state 47
+    EQUAL  shift, and go to state 48
+    '>'    shift, and go to state 49
+    '<'    shift, and go to state 50
+    '+'    shift, and go to state 51
+    '-'    shift, and go to state 52
+    '*'    shift, and go to state 53
+    '/'    shift, and go to state 54
+    '%'    shift, and go to state 55
+
+    $default  reduce using rule 19 (E)
+
+
+state 34
+
+   31 F: X .
+
+    $default  reduce using rule 31 (F)
+
+
+state 35
+
+   15 D: INT VAR ';' .
+
+    $default  reduce using rule 15 (D)
+
+
+state 36
+
+   16 D: DOUBLE VAR ';' .
+
+    $default  reduce using rule 16 (D)
+
+
+state 37
+
+    9 I: IF '(' E . ')' '{' L '}' ELSE '{' L '}'
+   10  | IF '(' E . ')' '{' L '}'
+   17 E: E . AND E
+   18  | E . OR E
+
+    AND  shift, and go to state 44
+    OR   shift, and go to state 45
+    ')'  shift, and go to state 56
+
+
+state 38
+
+   14 I: VAR . '=' E
+   33 X: VAR .
+
+    '='  shift, and go to state 20
+
+    $default  reduce using rule 33 (X)
+
+
+state 39
+
+   11 I: FOR '(' J . ';' J ';' J ')' '{' L '}'
+
+    ';'  shift, and go to state 57
+
+
+state 40
+
+    7 J: I .
+
+    $default  reduce using rule 7 (J)
+
+
+state 41
+
+    8 J: E .
+   17 E: E . AND E
+   18  | E . OR E
+
+    AND  shift, and go to state 44
+    OR   shift, and go to state 45
+
+    $default  reduce using rule 8 (J)
+
+
+state 42
+
+   12 I: CIN VAR ';' .
+
+    $default  reduce using rule 12 (I)
+
+
+state 43
+
+   13 I: COUT X ';' .
+
+    $default  reduce using rule 13 (I)
+
+
+state 44
+
+   17 E: E AND . E
+
+    VAR    shift, and go to state 26
+    CONST  shift, and go to state 27
+
+    E  go to state 58
+    R  go to state 32
+    F  go to state 33
+    X  go to state 34
+
+
+state 45
+
+   18 E: E OR . E
+
+    VAR    shift, and go to state 26
+    CONST  shift, and go to state 27
+
+    E  go to state 59
+    R  go to state 32
+    F  go to state 33
+    X  go to state 34
+
+
+state 46
+
+   21 R: F GE . F
+
+    VAR    shift, and go to state 26
+    CONST  shift, and go to state 27
+
+    F  go to state 60
+    X  go to state 34
+
+
+state 47
+
+   22 R: F LE . F
+
+    VAR    shift, and go to state 26
+    CONST  shift, and go to state 27
+
+    F  go to state 61
+    X  go to state 34
+
+
+state 48
+
+   25 R: F EQUAL . F
+
+    VAR    shift, and go to state 26
+    CONST  shift, and go to state 27
+
+    F  go to state 62
+    X  go to state 34
+
+
+state 49
+
+   23 R: F '>' . F
+
+    VAR    shift, and go to state 26
+    CONST  shift, and go to state 27
+
+    F  go to state 63
+    X  go to state 34
+
+
+state 50
+
+   24 R: F '<' . F
+
+    VAR    shift, and go to state 26
+    CONST  shift, and go to state 27
+
+    F  go to state 64
+    X  go to state 34
+
+
+state 51
+
+   26 F: F '+' . F
+
+    VAR    shift, and go to state 26
+    CONST  shift, and go to state 27
+
+    F  go to state 65
+    X  go to state 34
+
+
+state 52
+
+   27 F: F '-' . F
+
+    VAR    shift, and go to state 26
+    CONST  shift, and go to state 27
+
+    F  go to state 66
+    X  go to state 34
+
+
+state 53
+
+   28 F: F '*' . F
+
+    VAR    shift, and go to state 26
+    CONST  shift, and go to state 27
+
+    F  go to state 67
+    X  go to state 34
+
+
+state 54
+
+   29 F: F '/' . F
+
+    VAR    shift, and go to state 26
+    CONST  shift, and go to state 27
+
+    F  go to state 68
+    X  go to state 34
+
+
+state 55
+
+   30 F: F '%' . F
+
+    VAR    shift, and go to state 26
+    CONST  shift, and go to state 27
+
+    F  go to state 69
+    X  go to state 34
+
+
+state 56
+
+    9 I: IF '(' E ')' . '{' L '}' ELSE '{' L '}'
+   10  | IF '(' E ')' . '{' L '}'
+
+    '{'  shift, and go to state 70
+
+
+state 57
+
+   11 I: FOR '(' J ';' . J ';' J ')' '{' L '}'
+
+    VAR    shift, and go to state 38
+    CONST  shift, and go to state 27
+    IF     shift, and go to state 12
+    FOR    shift, and go to state 13
+    CIN    shift, and go to state 14
+    COUT   shift, and go to state 15
+
+    J  go to state 71
+    I  go to state 40
+    E  go to state 41
+    R  go to state 32
+    F  go to state 33
+    X  go to state 34
+
+
+state 58
+
+   17 E: E . AND E
+   17  | E AND E .
+   18  | E . OR E
+
+    AND  shift, and go to state 44
+    OR   shift, and go to state 45
+
+    AND       [reduce using rule 17 (E)]
+    OR        [reduce using rule 17 (E)]
+    $default  reduce using rule 17 (E)
+
+
+state 59
+
+   17 E: E . AND E
+   18  | E . OR E
+   18  | E OR E .
+
+    AND  shift, and go to state 44
+    OR   shift, and go to state 45
+
+    AND       [reduce using rule 18 (E)]
+    OR        [reduce using rule 18 (E)]
+    $default  reduce using rule 18 (E)
+
+
+state 60
+
+   21 R: F GE F .
+   26 F: F . '+' F
+   27  | F . '-' F
+   28  | F . '*' F
+   29  | F . '/' F
+   30  | F . '%' F
+
+    '+'  shift, and go to state 51
+    '-'  shift, and go to state 52
+    '*'  shift, and go to state 53
+    '/'  shift, and go to state 54
+    '%'  shift, and go to state 55
+
+    $default  reduce using rule 21 (R)
+
+
+state 61
+
+   22 R: F LE F .
+   26 F: F . '+' F
+   27  | F . '-' F
+   28  | F . '*' F
+   29  | F . '/' F
+   30  | F . '%' F
+
+    '+'  shift, and go to state 51
+    '-'  shift, and go to state 52
+    '*'  shift, and go to state 53
+    '/'  shift, and go to state 54
+    '%'  shift, and go to state 55
+
+    $default  reduce using rule 22 (R)
+
+
+state 62
+
+   25 R: F EQUAL F .
+   26 F: F . '+' F
+   27  | F . '-' F
+   28  | F . '*' F
+   29  | F . '/' F
+   30  | F . '%' F
+
+    '+'  shift, and go to state 51
+    '-'  shift, and go to state 52
+    '*'  shift, and go to state 53
+    '/'  shift, and go to state 54
+    '%'  shift, and go to state 55
+
+    $default  reduce using rule 25 (R)
+
+
+state 63
+
+   23 R: F '>' F .
+   26 F: F . '+' F
+   27  | F . '-' F
+   28  | F . '*' F
+   29  | F . '/' F
+   30  | F . '%' F
+
+    '+'  shift, and go to state 51
+    '-'  shift, and go to state 52
+    '*'  shift, and go to state 53
+    '/'  shift, and go to state 54
+    '%'  shift, and go to state 55
+
+    $default  reduce using rule 23 (R)
+
+
+state 64
+
+   24 R: F '<' F .
+   26 F: F . '+' F
+   27  | F . '-' F
+   28  | F . '*' F
+   29  | F . '/' F
+   30  | F . '%' F
+
+    '+'  shift, and go to state 51
+    '-'  shift, and go to state 52
+    '*'  shift, and go to state 53
+    '/'  shift, and go to state 54
+    '%'  shift, and go to state 55
+
+    $default  reduce using rule 24 (R)
+
+
+state 65
+
+   26 F: F . '+' F
+   26  | F '+' F .
+   27  | F . '-' F
+   28  | F . '*' F
+   29  | F . '/' F
+   30  | F . '%' F
+
+    '+'  shift, and go to state 51
+    '-'  shift, and go to state 52
+    '*'  shift, and go to state 53
+    '/'  shift, and go to state 54
+    '%'  shift, and go to state 55
+
+    '+'       [reduce using rule 26 (F)]
+    '-'       [reduce using rule 26 (F)]
+    '*'       [reduce using rule 26 (F)]
+    '/'       [reduce using rule 26 (F)]
+    '%'       [reduce using rule 26 (F)]
+    $default  reduce using rule 26 (F)
+
+
+state 66
+
+   26 F: F . '+' F
+   27  | F . '-' F
+   27  | F '-' F .
+   28  | F . '*' F
+   29  | F . '/' F
+   30  | F . '%' F
+
+    '+'  shift, and go to state 51
+    '-'  shift, and go to state 52
+    '*'  shift, and go to state 53
+    '/'  shift, and go to state 54
+    '%'  shift, and go to state 55
+
+    '+'       [reduce using rule 27 (F)]
+    '-'       [reduce using rule 27 (F)]
+    '*'       [reduce using rule 27 (F)]
+    '/'       [reduce using rule 27 (F)]
+    '%'       [reduce using rule 27 (F)]
+    $default  reduce using rule 27 (F)
+
+
+state 67
+
+   26 F: F . '+' F
+   27  | F . '-' F
+   28  | F . '*' F
+   28  | F '*' F .
+   29  | F . '/' F
+   30  | F . '%' F
+
+    '+'  shift, and go to state 51
+    '-'  shift, and go to state 52
+    '*'  shift, and go to state 53
+    '/'  shift, and go to state 54
+    '%'  shift, and go to state 55
+
+    '+'       [reduce using rule 28 (F)]
+    '-'       [reduce using rule 28 (F)]
+    '*'       [reduce using rule 28 (F)]
+    '/'       [reduce using rule 28 (F)]
+    '%'       [reduce using rule 28 (F)]
+    $default  reduce using rule 28 (F)
+
+
+state 68
+
+   26 F: F . '+' F
+   27  | F . '-' F
+   28  | F . '*' F
+   29  | F . '/' F
+   29  | F '/' F .
+   30  | F . '%' F
+
+    '+'  shift, and go to state 51
+    '-'  shift, and go to state 52
+    '*'  shift, and go to state 53
+    '/'  shift, and go to state 54
+    '%'  shift, and go to state 55
+
+    '+'       [reduce using rule 29 (F)]
+    '-'       [reduce using rule 29 (F)]
+    '*'       [reduce using rule 29 (F)]
+    '/'       [reduce using rule 29 (F)]
+    '%'       [reduce using rule 29 (F)]
+    $default  reduce using rule 29 (F)
+
+
+state 69
+
+   26 F: F . '+' F
+   27  | F . '-' F
+   28  | F . '*' F
+   29  | F . '/' F
+   30  | F . '%' F
+   30  | F '%' F .
+
+    '+'  shift, and go to state 51
+    '-'  shift, and go to state 52
+    '*'  shift, and go to state 53
+    '/'  shift, and go to state 54
+    '%'  shift, and go to state 55
+
+    '+'       [reduce using rule 30 (F)]
+    '-'       [reduce using rule 30 (F)]
+    '*'       [reduce using rule 30 (F)]
+    '/'       [reduce using rule 30 (F)]
+    '%'       [reduce using rule 30 (F)]
+    $default  reduce using rule 30 (F)
+
+
+state 70
+
+    9 I: IF '(' E ')' '{' . L '}' ELSE '{' L '}'
+   10  | IF '(' E ')' '{' . L '}'
+
+    VAR     shift, and go to state 9
+    INT     shift, and go to state 10
+    DOUBLE  shift, and go to state 11
+    IF      shift, and go to state 12
+    FOR     shift, and go to state 13
+    CIN     shift, and go to state 14
+    COUT    shift, and go to state 15
+
+    L  go to state 72
+    G  go to state 17
+    I  go to state 18
+    D  go to state 19
+
+
+state 71
+
+   11 I: FOR '(' J ';' J . ';' J ')' '{' L '}'
+
+    ';'  shift, and go to state 73
+
+
+state 72
+
+    3 L: L . G
+    9 I: IF '(' E ')' '{' L . '}' ELSE '{' L '}'
+   10  | IF '(' E ')' '{' L . '}'
+
+    VAR     shift, and go to state 9
+    INT     shift, and go to state 10
+    DOUBLE  shift, and go to state 11
+    IF      shift, and go to state 12
+    FOR     shift, and go to state 13
+    CIN     shift, and go to state 14
+    COUT    shift, and go to state 15
+    '}'     shift, and go to state 74
+
+    G  go to state 30
+    I  go to state 18
+    D  go to state 19
+
+
+state 73
+
+   11 I: FOR '(' J ';' J ';' . J ')' '{' L '}'
+
+    VAR    shift, and go to state 38
+    CONST  shift, and go to state 27
+    IF     shift, and go to state 12
+    FOR    shift, and go to state 13
+    CIN    shift, and go to state 14
+    COUT   shift, and go to state 15
+
+    J  go to state 75
+    I  go to state 40
+    E  go to state 41
+    R  go to state 32
+    F  go to state 33
+    X  go to state 34
+
+
+state 74
+
+    9 I: IF '(' E ')' '{' L '}' . ELSE '{' L '}'
+   10  | IF '(' E ')' '{' L '}' .
+
+    ELSE  shift, and go to state 76
+
+    $default  reduce using rule 10 (I)
+
+
+state 75
+
+   11 I: FOR '(' J ';' J ';' J . ')' '{' L '}'
+
+    ')'  shift, and go to state 77
+
+
+state 76
+
+    9 I: IF '(' E ')' '{' L '}' ELSE . '{' L '}'
+
+    '{'  shift, and go to state 78
+
+
+state 77
+
+   11 I: FOR '(' J ';' J ';' J ')' . '{' L '}'
+
+    '{'  shift, and go to state 79
+
+
+state 78
+
+    9 I: IF '(' E ')' '{' L '}' ELSE '{' . L '}'
+
+    VAR     shift, and go to state 9
+    INT     shift, and go to state 10
+    DOUBLE  shift, and go to state 11
+    IF      shift, and go to state 12
+    FOR     shift, and go to state 13
+    CIN     shift, and go to state 14
+    COUT    shift, and go to state 15
+
+    L  go to state 80
+    G  go to state 17
+    I  go to state 18
+    D  go to state 19
+
+
+state 79
+
+   11 I: FOR '(' J ';' J ';' J ')' '{' . L '}'
+
+    VAR     shift, and go to state 9
+    INT     shift, and go to state 10
+    DOUBLE  shift, and go to state 11
+    IF      shift, and go to state 12
+    FOR     shift, and go to state 13
+    CIN     shift, and go to state 14
+    COUT    shift, and go to state 15
+
+    L  go to state 81
+    G  go to state 17
+    I  go to state 18
+    D  go to state 19
+
+
+state 80
+
+    3 L: L . G
+    9 I: IF '(' E ')' '{' L '}' ELSE '{' L . '}'
+
+    VAR     shift, and go to state 9
+    INT     shift, and go to state 10
+    DOUBLE  shift, and go to state 11
+    IF      shift, and go to state 12
+    FOR     shift, and go to state 13
+    CIN     shift, and go to state 14
+    COUT    shift, and go to state 15
+    '}'     shift, and go to state 82
+
+    G  go to state 30
+    I  go to state 18
+    D  go to state 19
+
+
+state 81
+
+    3 L: L . G
+   11 I: FOR '(' J ';' J ';' J ')' '{' L . '}'
+
+    VAR     shift, and go to state 9
+    INT     shift, and go to state 10
+    DOUBLE  shift, and go to state 11
+    IF      shift, and go to state 12
+    FOR     shift, and go to state 13
+    CIN     shift, and go to state 14
+    COUT    shift, and go to state 15
+    '}'     shift, and go to state 83
+
+    G  go to state 30
+    I  go to state 18
+    D  go to state 19
+
+
+state 82
+
+    9 I: IF '(' E ')' '{' L '}' ELSE '{' L '}' .
+
+    $default  reduce using rule 9 (I)
+
+
+state 83
+
+   11 I: FOR '(' J ';' J ';' J ')' '{' L '}' .
+
+    $default  reduce using rule 11 (I)

@@ -1,0 +1,1 @@
+"cmd /Q /c "".\asm_tools\nasm\nasm.exe" -fobj "output.asm" -l "output.lst" -I ".\asm_tools\nasm\\" && ".\asm_tools\nasm\ALINK.EXE" -oPE -subsys console -entry start "output.obj" && output.exe

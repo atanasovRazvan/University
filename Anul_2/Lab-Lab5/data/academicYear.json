@@ -1,0 +1,17 @@
+[
+  {
+    "name": "Semestrul 1",
+    "startDate" : "30-09-2019",
+    "endDate" : "17-01-2020",
+    "holidayStartDate" : "21-12-2019",
+    "holidayEndDate" : "05-01-2020"
+  },
+
+  {
+    "name": "Semestrul 2",
+    "startDate" : "24-02-2020",
+    "endDate" : "17-01-2020",
+    "holidayStartDate" : "21-12-2019",
+    "holidayEndDate" : "05-01-2020"
+  }
+]

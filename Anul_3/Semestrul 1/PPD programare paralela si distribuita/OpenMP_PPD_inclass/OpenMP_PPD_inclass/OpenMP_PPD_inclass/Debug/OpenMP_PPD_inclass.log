@@ -1,0 +1,3 @@
+﻿  Source.cpp
+C:\Users\Razvan\Desktop\Facultate\Anul_3\PPD programare paralela si distribuita\OpenMP_PPD_inclass\OpenMP_PPD_inclass\OpenMP_PPD_inclass\Source.cpp(15,14): warning C4101: 'nthreads': unreferenced local variable
+  OpenMP_PPD_inclass.vcxproj -> C:\Users\Razvan\Desktop\Facultate\Anul_3\PPD programare paralela si distribuita\OpenMP_PPD_inclass\OpenMP_PPD_inclass\Debug\OpenMP_PPD_inclass.exe

@@ -1,0 +1,3 @@
+﻿  Lab2.cpp
+Source.obj : error LNK2005: _main already defined in Lab2.obj
+C:\Users\Razvan\Desktop\Facultate\Anul_3\PPD programare paralela si distribuita\PPD_Lab1_CPP\Debug\PPD_Lab1_CPP.exe : fatal error LNK1169: one or more multiply defined symbols found

@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+
+    <class name="Entities.Game" table="Game">
+        <id name="gameid" column="gameid"/>
+        <property name="firstPlayerWord" column="firstPlayerWord"/>
+        <property name="secondPlayerWord" column="secondPlayerWord"/>
+        <property name="thirdPlayerWord" column="thirdPlayerWord"/>
+    </class>
+
+</hibernate-mapping>

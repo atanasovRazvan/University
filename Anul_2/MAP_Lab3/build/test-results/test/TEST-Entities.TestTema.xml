@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Entities.TestTema" tests="8" skipped="0" failures="0" errors="0" timestamp="2019-11-27T07:50:18" hostname="DESKTOP-HD16HCH" time="0.017">
+  <properties/>
+  <testcase name="getSaptPredare" classname="Entities.TestTema" time="0.001"/>
+  <testcase name="setDeadline" classname="Entities.TestTema" time="0.001"/>
+  <testcase name="getDeadline" classname="Entities.TestTema" time="0.002"/>
+  <testcase name="setDescriere" classname="Entities.TestTema" time="0.0"/>
+  <testcase name="tostring" classname="Entities.TestTema" time="0.005"/>
+  <testcase name="getID" classname="Entities.TestTema" time="0.0"/>
+  <testcase name="setID" classname="Entities.TestTema" time="0.001"/>
+  <testcase name="getDescriere" classname="Entities.TestTema" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

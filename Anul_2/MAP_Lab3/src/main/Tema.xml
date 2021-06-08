@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<inbox>
+    <tema nrTema="1">
+        <startWeek>2</startWeek>
+        <deadline>4</deadline>
+        <descriere>Stupid si Stalin Sort</descriere>
+    </tema>
+    <tema nrTema="2">
+        <startWeek>4</startWeek>
+        <deadline>5</deadline>
+        <descriere>La cate evenimente s-a inscris o persoana (DTO)</descriere>
+    </tema>
+    <tema nrTema="3">
+        <startWeek>5</startWeek>
+        <deadline>10</deadline>
+        <descriere>Inchiriere tractoare</descriere>
+    </tema>
+    <tema nrTema="4">
+        <startWeek>5</startWeek>
+        <deadline>9</deadline>
+        <descriere>Inchiriere tractoare</descriere>
+    </tema>
+    <tema nrTema="5">
+        <startWeek>5</startWeek>
+        <deadline>7</deadline>
+        <descriere>Inchiriere tractoare</descriere>
+    </tema>
+    <tema nrTema="6">
+        <startWeek>11</startWeek>
+        <deadline>12</deadline>
+        <descriere>Csf nai csf</descriere>
+    </tema>
+</inbox>

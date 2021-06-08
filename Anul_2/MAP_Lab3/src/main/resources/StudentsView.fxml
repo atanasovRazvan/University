@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controllers.StudentController">
+   <children>
+      <TableView fx:id="table" prefHeight="400.0" prefWidth="389.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="211.0" AnchorPane.topAnchor="0.0">
+        <columns>
+          <TableColumn fx:id="idCol" prefWidth="23.20001220703125" text="ID" />
+          <TableColumn fx:id="numeCol" prefWidth="111.20001220703125" text="Nume Prenume" />
+            <TableColumn fx:id="grupaCol" prefWidth="38.4000244140625" text="Grupa" />
+            <TableColumn fx:id="emailCol" prefWidth="132.79998779296875" text="Email" />
+            <TableColumn fx:id="profCol" prefWidth="83.20001220703125" text="Profesor" />
+        </columns>
+      </TableView>
+      <TextField fx:id="idTextField" layoutX="416.0" layoutY="43.0" prefHeight="26.0" prefWidth="56.0" />
+      <TextField fx:id="grupaTextField" layoutX="504.0" layoutY="43.0" prefHeight="26.0" prefWidth="56.0" />
+      <Label layoutX="438.0" layoutY="25.0" text="ID" />
+      <Label layoutX="515.0" layoutY="25.0" text="Grupa" />
+      <TextField fx:id="numeTextField" layoutX="416.0" layoutY="109.0" />
+      <TextField fx:id="emailTextField" layoutX="416.0" layoutY="175.0" />
+      <TextField fx:id="profTextField" layoutX="416.0" layoutY="244.0" />
+      <Label layoutX="448.0" layoutY="91.0" text="Nume Prenume" />
+      <Label layoutX="475.0" layoutY="157.0" text="Email" />
+      <Label layoutX="467.0" layoutY="226.0" text="Profesor" />
+      <Button fx:id="addButton" defaultButton="true" layoutX="412.0" layoutY="291.0" mnemonicParsing="false" onAction="#handleAddButton" prefHeight="26.0" prefWidth="69.0" text="Adauga" />
+      <Button fx:id="updateButton" defaultButton="true" layoutX="498.0" layoutY="291.0" mnemonicParsing="false" onAction="#handleUpdateButton" prefHeight="26.0" prefWidth="83.0" text="Modifica" />
+      <Button fx:id="deleteButton" defaultButton="true" layoutX="410.0" layoutY="336.0" mnemonicParsing="false" onAction="#handleDeleteButton" prefHeight="26.0" prefWidth="70.0" text="Sterge" />
+      <Button fx:id="cancelButton" cancelButton="true" layoutX="520.0" layoutY="349.0" mnemonicParsing="false" onAction="#handleCloseButton" prefHeight="26.0" prefWidth="56.0" text="Close" />
+   </children>
+</AnchorPane>

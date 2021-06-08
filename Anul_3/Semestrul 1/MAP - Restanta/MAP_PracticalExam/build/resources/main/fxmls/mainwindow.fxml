@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="400.0" prefWidth="867.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.MainWindowController">
+   <children>
+      <TableView fx:id="tableView" layoutX="132.0" layoutY="95.0" prefHeight="198.0" prefWidth="602.0">
+        <columns>
+          <TableColumn fx:id="idCol" prefWidth="75.0" text="Flight ID" />
+          <TableColumn fx:id="fromCol" prefWidth="75.0" text="From" />
+            <TableColumn fx:id="toCol" prefWidth="75.0" text="To" />
+            <TableColumn fx:id="departureTimeCol" prefWidth="103.20002746582031" text="Departure time" />
+            <TableColumn fx:id="landingTimeCol" prefWidth="103.20001220703125" text="Landing time" />
+            <TableColumn fx:id="noSeatsCol" prefWidth="75.0" text="No Seats" />
+            <TableColumn fx:id="boughtSeatsCol" prefWidth="91.199951171875" text="Free Seats" />
+        </columns>
+      </TableView>
+      <DatePicker fx:id="dateInput" layoutX="62.0" layoutY="52.0" />
+      <Label layoutX="115.0" layoutY="21.0" text="Select a date" />
+      <Label layoutX="351.0" layoutY="21.0" text="Departure city" />
+      <Label layoutX="542.0" layoutY="21.0" text="Landing city" />
+      <Button fx:id="previousBtn" layoutX="614.0" layoutY="295.0" mnemonicParsing="false" onAction="#handlePrevious" text="&lt;" />
+      <Button fx:id="nextBtn" layoutX="649.0" layoutY="295.0" mnemonicParsing="false" onAction="#handleNext" text="&gt;" />
+      <Label fx:id="pageLabel" layoutX="528.0" layoutY="299.0" text="page" />
+      <Button fx:id="buyButton" layoutX="407.0" layoutY="331.0" mnemonicParsing="false" onAction="#handleBuy" text="BUY" />
+      <Label layoutX="377.0" layoutY="308.0" text="Select a flight, and" />
+      <Button fx:id="searchBtn" layoutX="725.0" layoutY="52.0" mnemonicParsing="false" onAction="#handleSearch" text="Search" />
+      <ComboBox fx:id="fromInput" layoutX="314.0" layoutY="52.0" prefWidth="150.0" />
+      <ComboBox fx:id="toInput" layoutX="499.0" layoutY="52.0" prefWidth="150.0" />
+   </children>
+</AnchorPane>

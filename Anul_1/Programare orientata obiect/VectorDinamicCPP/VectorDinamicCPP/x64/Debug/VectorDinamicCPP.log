@@ -1,0 +1,40 @@
+﻿  main.cpp
+c:\users\razvan\desktop\programare orientata obiect\vectordinamiccpp\vectordinamiccpp\vectordinamictemplate.h(352): warning C4715: 'lista<Pet>::get': not all control paths return a value
+  VectorDinamicCPP.vcxproj -> C:\Users\Razvan\Desktop\Programare orientata obiect\VectorDinamicCPP\x64\Debug\VectorDinamicCPP.exe
+c:\users\razvan\desktop\programare orientata obiect\vectordinamiccpp\vectordinamiccpp\vectordinamictemplate.h(117): warning C26409: Avoid calling new and delete explicitly, use std::make_unique<T> instead (r.11).
+c:\users\razvan\desktop\programare orientata obiect\vectordinamiccpp\vectordinamiccpp\vectordinamictemplate.h(126): warning C26409: Avoid calling new and delete explicitly, use std::make_unique<T> instead (r.11).
+c:\users\razvan\desktop\programare orientata obiect\vectordinamiccpp\vectordinamiccpp\vectordinamictemplate.h(112): warning C26495: Variable 'lista<Pet>::ultim' is uninitialized. Always initialize a member variable (type.6).
+c:\users\razvan\desktop\programare orientata obiect\vectordinamiccpp\vectordinamiccpp\vectordinamictemplate.h(103): warning C26455: Default constructor may not throw. Declare it 'noexcept' (f.6).
+c:\users\razvan\desktop\programare orientata obiect\vectordinamiccpp\vectordinamiccpp\vectordinamictemplate.h(224): warning C26439: This kind of function may not throw. Declare it 'noexcept' (f.6).
+c:\users\razvan\desktop\programare orientata obiect\vectordinamiccpp\vectordinamiccpp\vectordinamictemplate.h(160): warning C26409: Avoid calling new and delete explicitly, use std::make_unique<T> instead (r.11).
+c:\users\razvan\desktop\programare orientata obiect\vectordinamiccpp\vectordinamiccpp\vectordinamictemplate.h(168): warning C26409: Avoid calling new and delete explicitly, use std::make_unique<T> instead (r.11).
+c:\users\razvan\desktop\programare orientata obiect\vectordinamiccpp\vectordinamiccpp\vectordinamictemplate.h(13): warning C26495: Variable 'nod<Pet>::urmator' is uninitialized. Always initialize a member variable (type.6).
+c:\users\razvan\desktop\programare orientata obiect\vectordinamiccpp\vectordinamiccpp\vectordinamictemplate.h(202): warning C26439: This kind of function may not throw. Declare it 'noexcept' (f.6).
+c:\users\razvan\desktop\programare orientata obiect\vectordinamiccpp\vectordinamiccpp\vectordinamictemplate.h(307): warning C26409: Avoid calling new and delete explicitly, use std::make_unique<T> instead (r.11).
+c:\users\razvan\desktop\programare orientata obiect\vectordinamiccpp\vectordinamiccpp\vectordinamictemplate.h(307): warning C26400: Do not assign the result of an allocation or a function call with an owner<T> return value to a raw pointer, use owner<T> instead (i.11).
+c:\users\razvan\desktop\programare orientata obiect\vectordinamiccpp\vectordinamiccpp\vectordinamictemplate.h(388): warning C26440: Function 'lista<Pet>::begin' can be declared 'noexcept' (f.6).
+c:\users\razvan\desktop\programare orientata obiect\vectordinamiccpp\vectordinamiccpp\vectordinamictemplate.h(394): warning C26440: Function 'lista<Pet>::end' can be declared 'noexcept' (f.6).
+c:\users\razvan\desktop\programare orientata obiect\vectordinamiccpp\vectordinamiccpp\vectordinamictemplate.h(429): warning C26440: Function 'iterator_lista<Pet>::valid' can be declared 'noexcept' (f.6).
+c:\users\razvan\desktop\programare orientata obiect\vectordinamiccpp\vectordinamiccpp\vectordinamictemplate.h(434): warning C26440: Function 'iterator_lista<Pet>::element' can be declared 'noexcept' (f.6).
+c:\users\razvan\desktop\programare orientata obiect\vectordinamiccpp\vectordinamiccpp\vectordinamictemplate.h(439): warning C26440: Function 'iterator_lista<Pet>::next' can be declared 'noexcept' (f.6).
+c:\users\razvan\desktop\programare orientata obiect\vectordinamiccpp\vectordinamiccpp\vectdinnewdelete.cpp(8): warning C26409: Avoid calling new and delete explicitly, use std::make_unique<T> instead (r.11).
+c:\users\razvan\desktop\programare orientata obiect\vectordinamiccpp\vectordinamiccpp\vectdinnewdelete.cpp(8): warning C26455: Default constructor may not throw. Declare it 'noexcept' (f.6).
+c:\users\razvan\desktop\programare orientata obiect\vectordinamiccpp\vectordinamiccpp\vectdinnewdelete.cpp(17): warning C26409: Avoid calling new and delete explicitly, use std::make_unique<T> instead (r.11).
+c:\users\razvan\desktop\programare orientata obiect\vectordinamiccpp\vectordinamiccpp\vectdinnewdelete.cpp(37): warning C26409: Avoid calling new and delete explicitly, use std::make_unique<T> instead (r.11).
+c:\users\razvan\desktop\programare orientata obiect\vectordinamiccpp\vectordinamiccpp\vectdinnewdelete.cpp(60): warning C26439: This kind of function may not throw. Declare it 'noexcept' (f.6).
+c:\users\razvan\desktop\programare orientata obiect\vectordinamiccpp\vectordinamiccpp\vectdinnewdelete.cpp(81): warning C26439: This kind of function may not throw. Declare it 'noexcept' (f.6).
+c:\users\razvan\desktop\programare orientata obiect\vectordinamiccpp\vectordinamiccpp\vectdinnewdelete.cpp(105): warning C26481: Don't use pointer arithmetic. Use span instead (bounds.1).
+c:\users\razvan\desktop\programare orientata obiect\vectordinamiccpp\vectordinamiccpp\vectdinnewdelete.cpp(104): warning C26440: Function 'VectDinNewDelete::get' can be declared 'noexcept' (f.6).
+c:\users\razvan\desktop\programare orientata obiect\vectordinamiccpp\vectordinamiccpp\vectdinnewdelete.cpp(121): warning C26409: Avoid calling new and delete explicitly, use std::make_unique<T> instead (r.11).
+c:\users\razvan\desktop\programare orientata obiect\vectordinamiccpp\vectordinamiccpp\vectdinnewdelete.cpp(121): warning C26429: Symbol 'aux' is never tested for nullness, it can be marked as not_null (f.23).
+c:\users\razvan\desktop\programare orientata obiect\vectordinamiccpp\vectordinamiccpp\vectdinnewdelete.cpp(130): warning C26440: Function 'VectDinNewDelete::begin' can be declared 'noexcept' (f.6).
+c:\users\razvan\desktop\programare orientata obiect\vectordinamiccpp\vectordinamiccpp\vectdinnewdelete.cpp(135): warning C26440: Function 'VectDinNewDelete::end' can be declared 'noexcept' (f.6).
+c:\users\razvan\desktop\programare orientata obiect\vectordinamiccpp\vectordinamiccpp\vectdinnewdelete.cpp(148): warning C26481: Don't use pointer arithmetic. Use span instead (bounds.1).
+c:\users\razvan\desktop\programare orientata obiect\vectordinamiccpp\vectordinamiccpp\vectdinnewdelete.cpp(153): warning C26440: Function 'IteratorVector::operator*' can be declared 'noexcept' (f.6).
+c:\users\razvan\desktop\programare orientata obiect\vectordinamiccpp\vectordinamiccpp\vectdinnewdelete.cpp(156): warning C26440: Function 'IteratorVector::operator++' can be declared 'noexcept' (f.6).
+c:\users\razvan\desktop\programare orientata obiect\vectordinamiccpp\vectordinamiccpp\vectdinsmartpointer.cpp(8): warning C26455: Default constructor may not throw. Declare it 'noexcept' (f.6).
+c:\users\razvan\desktop\programare orientata obiect\vectordinamiccpp\vectordinamiccpp\vectdinsmartpointer.cpp(61): warning C26440: Function 'VectDinSmartPointer::begin' can be declared 'noexcept' (f.6).
+c:\users\razvan\desktop\programare orientata obiect\vectordinamiccpp\vectordinamiccpp\vectdinsmartpointer.cpp(66): warning C26440: Function 'VectDinSmartPointer::end' can be declared 'noexcept' (f.6).
+c:\users\razvan\desktop\programare orientata obiect\vectordinamiccpp\vectordinamiccpp\vectdinsmartpointer.cpp(79): warning C26447: The function is declared 'noexcept' but calls function 'operator[]()' which may throw exceptions (f.6).
+c:\users\razvan\desktop\programare orientata obiect\vectordinamiccpp\vectordinamiccpp\vectdinsmartpointer.cpp(84): warning C26440: Function 'IteratorVectorSP::operator*' can be declared 'noexcept' (f.6).
+c:\users\razvan\desktop\programare orientata obiect\vectordinamiccpp\vectordinamiccpp\vectdinsmartpointer.cpp(87): warning C26440: Function 'IteratorVectorSP::operator++' can be declared 'noexcept' (f.6).

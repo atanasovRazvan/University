@@ -1,0 +1,32 @@
+[2018-03-30 14:25:25] [info] Start Program:
+Path:"D:\OOP\lab_2_4dinamic\Debug\lab_2_4dinamic.exe"
+Arguments:
+Working directory: "D:\OOP\lab_2_4dinamic\lab_2_4dinamic\"
+Modules: Selected: D:\OOP\lab_2_4dinamic\Debug\lab_2_4dinamic.exe Excluded: 
+Sources: Selected: D:\OOP\lab_2_4dinamic\lab_2_4dinamic Excluded: 
+Log Level: Normal
+Cover Children: 0
+Aggregate by file: 1
+Continue after C++ exception: 0
+Optimized build support: 0
+Export: Binary C:\Users\radum\AppData\Local\Temp\yrf4hnei.wvy 
+Input coverage: 
+Unified diff: 
+Excluded line regular expressions: 
+
+[2018-03-30 14:25:25] [info] Module: D:\OOP\lab_2_4dinamic\Debug\lab_2_4dinamic.exe is selected because it matches selected pattern: D:\OOP\lab_2_4dinamic\Debug\lab_2_4dinamic.exe
+[2018-03-30 14:25:25] [info] Module: C:\Windows\SysWOW64\ntdll.dll is skipped because it matches no selected patterns
+[2018-03-30 14:25:25] [info] Module: C:\Windows\SysWOW64\kernel32.dll is skipped because it matches no selected patterns
+[2018-03-30 14:25:25] [info] Module: C:\Windows\SysWOW64\KernelBase.dll is skipped because it matches no selected patterns
+[2018-03-30 14:25:25] [info] Module: C:\Windows\SysWOW64\ucrtbased.dll is skipped because it matches no selected patterns
+[2018-03-30 14:25:25] [info] Module: C:\Windows\SysWOW64\vcruntime140d.dll is skipped because it matches no selected patterns
+[2018-03-30 14:25:28] [info] Module: C:\Windows\SysWOW64\kernel.appcore.dll is skipped because it matches no selected patterns
+[2018-03-30 14:25:28] [info] Module: C:\Windows\SysWOW64\msvcrt.dll is skipped because it matches no selected patterns
+[2018-03-30 14:25:28] [info] Module: C:\Windows\SysWOW64\rpcrt4.dll is skipped because it matches no selected patterns
+[2018-03-30 14:25:28] [info] Module: C:\Windows\SysWOW64\sspicli.dll is skipped because it matches no selected patterns
+[2018-03-30 14:25:28] [info] Module: C:\Windows\SysWOW64\cryptbase.dll is skipped because it matches no selected patterns
+[2018-03-30 14:25:28] [info] Module: C:\Windows\SysWOW64\bcryptprimitives.dll is skipped because it matches no selected patterns
+[2018-03-30 14:25:28] [info] Module: C:\Windows\SysWOW64\sechost.dll is skipped because it matches no selected patterns
+[2018-03-30 14:25:28] [info] ----------------------------------------------------
+[2018-03-30 14:25:28] [info] Coverage binary generated in file: C:\Users\radum\AppData\Local\Temp\yrf4hnei.wvy
+[2018-03-30 14:25:28] [info] ----------------------------------------------------

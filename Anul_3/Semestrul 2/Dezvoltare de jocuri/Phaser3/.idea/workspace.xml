@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="5f92b7f8-d014-4e0f-986e-0bfdc932d165" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="package.json" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1qn0iidlIBPIJNmUSdFBSCFLnib" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="javascript.nodejs.core.library.configured.version" value="14.13.0" />
+    <property name="javascript.nodejs.core.library.typings.version" value="14.14.37" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Razvan\Desktop\Facultate\Anul_3\Semestrul 2\Dezvoltare de jocuri\Phaser3\public" />
+      <recent name="C:\Users\Razvan\Desktop\Facultate\Anul_3\Semestrul 2\Dezvoltare de jocuri\Phaser3\public\js" />
+      <recent name="C:\Users\Razvan\Desktop\Facultate\Anul_3\Semestrul 2\Dezvoltare de jocuri\Phaser3" />
+      <recent name="C:\Users\Razvan\Desktop\Facultate\Anul_3\Semestrul 2\Dezvoltare de jocuri\Phaser3\client" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5f92b7f8-d014-4e0f-986e-0bfdc932d165" name="Default Changelist" comment="" />
+      <created>1617700175808</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1617700175808</updated>
+      <workItem from="1617700176907" duration="17741000" />
+      <workItem from="1618052625431" duration="131000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="638" y="179" key="FileChooserDialogImpl" timestamp="1617734985479">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="638" y="179" key="FileChooserDialogImpl/0.0.1536.834@0.0.1536.834" timestamp="1617734985479" />
+  </component>
+</project>

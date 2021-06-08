@@ -1,0 +1,7 @@
+
+
+java:S1149"eReplace the synchronized class "Vector" by an unsynchronized one such as "ArrayList" or "LinkedList".(˜÷è98„§Š®.
+v
+java:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(ùĞ‰™8„§Š®.
+Z
+java:S1155$">Use isEmpty() to check whether the collection is empty or not.(ú˜İ18„§Š®.

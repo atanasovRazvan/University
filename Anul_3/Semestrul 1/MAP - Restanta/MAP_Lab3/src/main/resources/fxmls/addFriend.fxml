@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="socialnetwork.controllers.AddFriendController">
+   <children>
+      <TableView fx:id="table" layoutX="110.0" layoutY="83.0" prefHeight="200.0" prefWidth="378.0">
+        <columns>
+          <TableColumn fx:id="firstNameCol" prefWidth="75.0" text="First name" />
+          <TableColumn fx:id="lastNameCol" prefWidth="75.0" text="Last name" />
+            <TableColumn fx:id="sendBtn" prefWidth="75.0" />
+            <TableColumn fx:id="cancelBtn" prefWidth="75.0" />
+            <TableColumn fx:id="statusCol" prefWidth="75.0" text="Status" />
+        </columns>
+      </TableView>
+      <TextField fx:id="searchingInput" layoutX="246.0" layoutY="38.0" />
+      <Label layoutX="185.0" layoutY="40.0" text="Search">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

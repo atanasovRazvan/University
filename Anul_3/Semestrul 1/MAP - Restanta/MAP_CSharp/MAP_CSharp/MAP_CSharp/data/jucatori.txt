@@ -1,0 +1,420 @@
+﻿st1,Maximo Schroeder,Scoala Gimnaziala “Horea”,team1
+st2,Susan Montes,Scoala Gimnaziala “Horea”,team1
+st3,Ronin Roberson,Scoala Gimnaziala “Horea”,team1
+st4,Kaylee Kidd,Scoala Gimnaziala “Horea”,team1
+st5,Scarlett Schmitt,Scoala Gimnaziala “Horea”,team1
+st6,Nathaniel Blackwell,Scoala Gimnaziala “Horea”,team1
+st7,Ellis Payne,Scoala Gimnaziala “Horea”,team1
+st8,Ryland Ramos,Scoala Gimnaziala “Horea”,team1
+st9,Byron Burgess,Scoala Gimnaziala “Horea”,team1
+st10,Marin Kelley,Scoala Gimnaziala “Horea”,team1
+st11,Laylah Becker,Scoala Gimnaziala “Horea”,team1
+st12,Curtis Riggs,Scoala Gimnaziala “Horea”,team1
+st13,Jensen Higgins,Scoala Gimnaziala “Horea”,team1
+st14,Malachi Houston,Scoala Gimnaziala “Horea”,team1
+st15,Ashanti York,Scoala Gimnaziala “Horea”,team1
+st16,Ramiro Good,Scoala Gimnaziala "Octavian Goga",team2
+st17,Nasir Rivera,Scoala Gimnaziala "Octavian Goga",team2
+st18,Hector Olsen,Scoala Gimnaziala "Octavian Goga",team2
+st19,Walter Glover,Scoala Gimnaziala "Octavian Goga",team2
+st20,Curtis Day,Scoala Gimnaziala "Octavian Goga",team2
+st21,Daniella Petty,Scoala Gimnaziala "Octavian Goga",team2
+st22,Fisher Ashley,Scoala Gimnaziala "Octavian Goga",team2
+st23,Maribel Kerr,Scoala Gimnaziala "Octavian Goga",team2
+st24,Francisco Krause,Scoala Gimnaziala "Octavian Goga",team2
+st25,Andres Hamilton,Scoala Gimnaziala "Octavian Goga",team2
+st26,Jax Mendoza,Scoala Gimnaziala "Octavian Goga",team2
+st27,Mara Charles,Scoala Gimnaziala "Octavian Goga",team2
+st28,Adison Mcmahon,Scoala Gimnaziala "Octavian Goga",team2
+st29,Laurel Norman,Scoala Gimnaziala "Octavian Goga",team2
+st30,Cecilia Richmond,Scoala Gimnaziala "Octavian Goga",team2
+st31,Shawn Shepard,Liceul Teoretic "Lucian Blaga",team3
+st32,Arthur Arias,Liceul Teoretic "Lucian Blaga",team3
+st33,Faith Middleton,Liceul Teoretic "Lucian Blaga",team3
+st34,Barbara Mcneil,Liceul Teoretic "Lucian Blaga",team3
+st35,Leonard Mayer,Liceul Teoretic "Lucian Blaga",team3
+st36,Selena Diaz,Liceul Teoretic "Lucian Blaga",team3
+st37,Beckham Martin,Liceul Teoretic "Lucian Blaga",team3
+st38,Danielle Dickerson,Liceul Teoretic "Lucian Blaga",team3
+st39,Belen Wilcox,Liceul Teoretic "Lucian Blaga",team3
+st40,John Nash,Liceul Teoretic "Lucian Blaga",team3
+st41,Jamari Ellis,Liceul Teoretic "Lucian Blaga",team3
+st42,Philip Burgess,Liceul Teoretic "Lucian Blaga",team3
+st43,Tobias Castro,Liceul Teoretic "Lucian Blaga",team3
+st44,Payton Schaefer,Liceul Teoretic "Lucian Blaga",team3
+st45,Cristal Parks,Liceul Teoretic "Lucian Blaga",team3
+st46,Angie Case,Scoala Gimnaziala "Ioan Bob",team4
+st47,Reid Herring,Scoala Gimnaziala "Ioan Bob",team4
+st48,Emely Stephens,Scoala Gimnaziala "Ioan Bob",team4
+st49,Memphis Cochran,Scoala Gimnaziala "Ioan Bob",team4
+st50,Wesley English,Scoala Gimnaziala "Ioan Bob",team4
+st51,Renee Hurley,Scoala Gimnaziala "Ioan Bob",team4
+st52,Greta Potter,Scoala Gimnaziala "Ioan Bob",team4
+st53,Donavan Orozco,Scoala Gimnaziala "Ioan Bob",team4
+st54,Jaxson Casey,Scoala Gimnaziala "Ioan Bob",team4
+st55,Deja Freeman,Scoala Gimnaziala "Ioan Bob",team4
+st56,Krystal Sandoval,Scoala Gimnaziala "Ioan Bob",team4
+st57,Nina Manning,Scoala Gimnaziala "Ioan Bob",team4
+st58,Giselle Mccullough,Scoala Gimnaziala "Ioan Bob" ,team4
+st59,Howard Bauer,Scoala Gimnaziala "Ioan Bob" ,team4
+st60,Nylah Riggs,Scoala Gimnaziala "Ioan Bob" ,team4
+st61,Ariel Hanna,Scoala Gimnaziala "Ion Creanga" ,team5
+st62,Dean Gonzales,Scoala Gimnaziala "Ion Creanga" ,team5
+st63,Vance Shelton,Scoala Gimnaziala "Ion Creanga" ,team5
+st64,Coby Farrell,Scoala Gimnaziala "Ion Creanga" ,team5
+st65,Crystal Fry,Scoala Gimnaziala "Ion Creanga" ,team5
+st66,Larissa Pratt,Scoala Gimnaziala "Ion Creanga" ,team5
+st67,Blaine Aguirre,Scoala Gimnaziala "Ion Creanga" ,team5
+st68,Maia Bates,Scoala Gimnaziala "Ion Creanga" ,team5
+st69,Kiersten Zuniga,Scoala Gimnaziala "Ion Creanga" ,team5
+st70,Asia Stevenson,Scoala Gimnaziala "Ion Creanga" ,team5
+st71,Emmanuel Mathis,Scoala Gimnaziala "Ion Creanga" ,team5
+st72,Kenny Ramirez,Scoala Gimnaziala "Ion Creanga" ,team5
+st73,Eduardo Cordova,Scoala Gimnaziala "Ion Creanga" ,team5
+st74,Alicia Bullock,Scoala Gimnaziala "Ion Creanga" ,team5
+st75,Vicente Woodard,Scoala Gimnaziala "Ion Creanga" ,team5
+st76,Heidi Berger,Colegiul National Pedagogic "Gheorghe Lazar" ,team6
+st77,Sean Adkins,Colegiul National Pedagogic "Gheorghe Lazar" ,team6
+st78,Rigoberto Porter,Colegiul National Pedagogic "Gheorghe Lazar" ,team6
+st79,Natalee Glenn,Colegiul National Pedagogic "Gheorghe Lazar" ,team6
+st80,Jovany Zavala,Colegiul National Pedagogic "Gheorghe Lazar" ,team6
+st81,Shannon Schwartz,Colegiul National Pedagogic "Gheorghe Lazar" ,team6
+st82,Vaughn Gutierrez,Colegiul National Pedagogic "Gheorghe Lazar" ,team6
+st83,Emmanuel Lucas,Colegiul National Pedagogic "Gheorghe Lazar" ,team6
+st84,Rey Hopkins,Colegiul National Pedagogic "Gheorghe Lazar" ,team6
+st85,Rudy Hawkins,Colegiul National Pedagogic "Gheorghe Lazar" ,team6
+st86,Tony Rodgers,Colegiul National Pedagogic "Gheorghe Lazar" ,team6
+st87,Nikolas Shea,Colegiul National Pedagogic "Gheorghe Lazar" ,team6
+st88,Lennon Kaufman,Colegiul National Pedagogic "Gheorghe Lazar" ,team6
+st89,Marin Allen,Colegiul National Pedagogic "Gheorghe Lazar" ,team6
+st90,Nevaeh Wright,Colegiul National Pedagogic "Gheorghe Lazar" ,team6
+st91,Lennon Trujillo,Scoala Gimnaziala Internationala SPECTRUM ,team7
+st92,Dawson Weaver,Scoala Gimnaziala Internationala SPECTRUM ,team7
+st93,Dennis Mendez,Scoala Gimnaziala Internationala SPECTRUM ,team7
+st94,Willow Wise,Scoala Gimnaziala Internationala SPECTRUM ,team7
+st95,Brylee Nielsen,Scoala Gimnaziala Internationala SPECTRUM ,team7
+st96,Maurice Rivers,Scoala Gimnaziala Internationala SPECTRUM ,team7
+st97,Malcolm Herrera,Scoala Gimnaziala Internationala SPECTRUM ,team7
+st98,Monserrat Marks,Scoala Gimnaziala Internationala SPECTRUM ,team7
+st99,Rayne Christensen,Scoala Gimnaziala Internationala SPECTRUM ,team7
+st100,Hailie Moore,Scoala Gimnaziala Internationala SPECTRUM ,team7
+st101,Jaxson Sparks,Scoala Gimnaziala Internationala SPECTRUM ,team7
+st102,Nathaniel Odonnell,Scoala Gimnaziala Internationala SPECTRUM ,team7
+st103,Tania Kaufman,Scoala Gimnaziala Internationala SPECTRUM ,team7
+st104,Hanna Lloyd,Scoala Gimnaziala Internationala SPECTRUM ,team7
+st105,Ulises Oconnell,Scoala Gimnaziala Internationala SPECTRUM ,team7
+st106,Sidney Carlson,Colegiul National „Emil Racovita” ,team8
+st107,Uriel Cisneros,Colegiul National „Emil Racovita” ,team8
+st108,Naomi Graham,Colegiul National „Emil Racovita” ,team8
+st109,Hailie Mccarthy,Colegiul National „Emil Racovita” ,team8
+st110,Addison Berry,Colegiul National „Emil Racovita” ,team8
+st111,Brooks Mcconnell,Colegiul National „Emil Racovita” ,team8
+st112,Kassandra Clay,Colegiul National „Emil Racovita” ,team8
+st113,Drew Higgins,Colegiul National „Emil Racovita” ,team8
+st114,Alisa Pace,Colegiul National „Emil Racovita” ,team8
+st115,Amari Ware,Colegiul National „Emil Racovita” ,team8
+st116,Yair Mclean,Colegiul National „Emil Racovita” ,team8
+st117,Titus Padilla,Colegiul National „Emil Racovita” ,team8
+st118,Ada Livingston,Colegiul National „Emil Racovita” ,team8
+st119,Jade Fields,Colegiul National „Emil Racovita” ,team8
+st120,Bennett Austin,Colegiul National „Emil Racovita” ,team8
+st121,Kristina Mccann,Colegiul National "George Cosbuc" ,team9
+st122,Kasey Collier,Colegiul National "George Cosbuc" ,team9
+st123,Lucian Wheeler,Colegiul National "George Cosbuc" ,team9
+st124,Jaydan Graham,Colegiul National "George Cosbuc" ,team9
+st125,Braedon Lowe,Colegiul National "George Cosbuc" ,team9
+st126,Julien Carlson,Colegiul National "George Cosbuc" ,team9
+st127,Kristin Durham,Colegiul National "George Cosbuc" ,team9
+st128,Celia Friedman,Colegiul National "George Cosbuc" ,team9
+st129,Taniya Trujillo,Colegiul National "George Cosbuc" ,team9
+st130,Ezra Buck,Colegiul National "George Cosbuc" ,team9
+st131,Miah Barrera,Colegiul National "George Cosbuc" ,team9
+st132,Antonio Parsons,Colegiul National "George Cosbuc" ,team9
+st133,Mike Skinner,Colegiul National "George Cosbuc" ,team9
+st134,Kenyon Daniels,Colegiul National "George Cosbuc" ,team9
+st135,Piper Mcfarland,Colegiul National "George Cosbuc" ,team9
+st136,Alan Mcneil,Scoala Gimnaziala "Ion Agarbiceanu" ,team10
+st137,Haylie Rosales,Scoala Gimnaziala "Ion Agarbiceanu" ,team10
+st138,Conor Gordon,Scoala Gimnaziala "Ion Agarbiceanu" ,team10
+st139,Stacy Howell,Scoala Gimnaziala "Ion Agarbiceanu" ,team10
+st140,Julianna Park,Scoala Gimnaziala "Ion Agarbiceanu" ,team10
+st141,Kenneth Farrell,Scoala Gimnaziala "Ion Agarbiceanu" ,team10
+st142,Deborah Reid,Scoala Gimnaziala "Ion Agarbiceanu" ,team10
+st143,Alvaro Copeland,Scoala Gimnaziala "Ion Agarbiceanu" ,team10
+st144,Kayden Deleon,Scoala Gimnaziala "Ion Agarbiceanu" ,team10
+st145,Wilson Hicks,Scoala Gimnaziala "Ion Agarbiceanu" ,team10
+st146,Alden Davidson,Scoala Gimnaziala "Ion Agarbiceanu" ,team10
+st147,Ainsley Hines,Scoala Gimnaziala "Ion Agarbiceanu" ,team10
+st148,Octavio Sanders,Scoala Gimnaziala "Ion Agarbiceanu" ,team10
+st149,Alvaro Aguirre,Scoala Gimnaziala "Ion Agarbiceanu" ,team10
+st150,Kyson Davidson,Scoala Gimnaziala "Ion Agarbiceanu" ,team10
+st151,Elise Mccormick,Liceul Teoretic "Avram Iancu" ,team11
+st152,Paxton Summers,Liceul Teoretic "Avram Iancu" ,team11
+st153,Chasity Miller,Liceul Teoretic "Avram Iancu" ,team11
+st154,Giancarlo Ruiz,Liceul Teoretic "Avram Iancu" ,team11
+st155,Faith Frazier,Liceul Teoretic "Avram Iancu" ,team11
+st156,Amya West,Liceul Teoretic "Avram Iancu" ,team11
+st157,Sharon Villarreal,Liceul Teoretic "Avram Iancu" ,team11
+st158,Hazel Bass,Liceul Teoretic "Avram Iancu" ,team11
+st159,Dane Raymond,Liceul Teoretic "Avram Iancu" ,team11
+st160,Bernard Brooks,Liceul Teoretic "Avram Iancu" ,team11
+st161,Jax Pollard,Liceul Teoretic "Avram Iancu" ,team11
+st162,David Ferguson,Liceul Teoretic "Avram Iancu" ,team11
+st163,Darryl Mccormick,Liceul Teoretic "Avram Iancu" ,team11
+st164,Ray Sutton,Liceul Teoretic "Avram Iancu" ,team11
+st165,Lyric Mcfarland,Liceul Teoretic "Avram Iancu" ,team11
+st166,Elias Blevins,Scoala Gimnaziala "Constantin Brancusi" ,team12
+st167,Trent Mathis,Scoala Gimnaziala "Constantin Brancusi" ,team12
+st168,Kaiya Orozco,Scoala Gimnaziala "Constantin Brancusi" ,team12
+st169,Ahmad Tran,Scoala Gimnaziala "Constantin Brancusi" ,team12
+st170,Alia Cordova,Scoala Gimnaziala "Constantin Brancusi" ,team12
+st171,Augustus Jacobson,Scoala Gimnaziala "Constantin Brancusi" ,team12
+st172,Rey Bartlett,Scoala Gimnaziala "Constantin Brancusi" ,team12
+st173,Clarence Bauer,Scoala Gimnaziala "Constantin Brancusi" ,team12
+st174,Xavier Carson,Scoala Gimnaziala "Constantin Brancusi" ,team12
+st175,Kamari Downs,Scoala Gimnaziala "Constantin Brancusi" ,team12
+st176,Carlos Bean,Scoala Gimnaziala "Constantin Brancusi" ,team12
+st177,Rey Little,Scoala Gimnaziala "Constantin Brancusi" ,team12
+st178,Britney Chandler,Scoala Gimnaziala "Constantin Brancusi" ,team12
+st179,Leon Newman,Scoala Gimnaziala "Constantin Brancusi" ,team12
+st180,Erika Parsons,Scoala Gimnaziala "Constantin Brancusi" ,team12
+st181,Shannon Morales,Liceul Teoretic "Onisifor Ghibu" ,team13
+st182,Brooke Horn,Liceul Teoretic "Onisifor Ghibu" ,team13
+st183,Payton Boyd,Liceul Teoretic "Onisifor Ghibu" ,team13
+st184,Davian Archer,Liceul Teoretic "Onisifor Ghibu" ,team13
+st185,Zane Orr,Liceul Teoretic "Onisifor Ghibu" ,team13
+st186,Ellis Larsen,Liceul Teoretic "Onisifor Ghibu" ,team13
+st187,Marie Bradford,Liceul Teoretic "Onisifor Ghibu" ,team13
+st188,Kaylyn Keller,Liceul Teoretic "Onisifor Ghibu" ,team13
+st189,Dario Mejia,Liceul Teoretic "Onisifor Ghibu" ,team13
+st190,Everett Conley,Liceul Teoretic "Onisifor Ghibu" ,team13
+st191,Bria Campos,Liceul Teoretic "Onisifor Ghibu" ,team13
+st192,Sheldon Gentry,Liceul Teoretic "Onisifor Ghibu" ,team13
+st193,Maritza Bonilla,Liceul Teoretic "Onisifor Ghibu" ,team13
+st194,Kaylen Tapia,Liceul Teoretic "Onisifor Ghibu" ,team13
+st195,Tripp Petty,Liceul Teoretic "Onisifor Ghibu" ,team13
+st196,Spencer Glover,Liceul Teoretic "Onisifor Ghibu" ,team14
+st197,Sara Ibarra,Liceul Teoretic "Onisifor Ghibu" ,team14
+st198,Alvin Rice,Liceul Teoretic "Onisifor Ghibu" ,team14
+st199,Fabian Walters,Liceul Teoretic "Onisifor Ghibu" ,team14
+st200,Draven Holloway,Liceul Teoretic "Onisifor Ghibu" ,team14
+st201,Raquel Leonard,Liceul Teoretic "Onisifor Ghibu" ,team14
+st202,Titus Harmon,Liceul Teoretic "Onisifor Ghibu" ,team14
+st203,Alice Brady,Liceul Teoretic "Onisifor Ghibu" ,team14
+st204,Jewel Mora,Liceul Teoretic "Onisifor Ghibu" ,team14
+st205,Hope Ballard,Liceul Teoretic "Onisifor Ghibu" ,team14
+st206,Kylan Mclaughlin,Liceul Teoretic "Onisifor Ghibu" ,team14
+st207,Karma Dyer,Liceul Teoretic "Onisifor Ghibu" ,team14
+st208,Mekhi Hopkins,Liceul Teoretic "Onisifor Ghibu" ,team14
+st209,Roman Zhang,Liceul Teoretic "Onisifor Ghibu" ,team14
+st210,Mckenna Cox,Liceul Teoretic "Onisifor Ghibu" ,team14
+st211,Zion Mcbride,Liceul cu Program Sportiv Cluj,team15
+st212,Hayden Dickson,Liceul cu Program Sportiv Cluj,team15
+st213,Leo Hatfield,Liceul cu Program Sportiv Cluj,team15
+st214,Shelby Bender,Liceul cu Program Sportiv Cluj,team15
+st215,Savion Sloan,Liceul cu Program Sportiv Cluj,team15
+st216,Makayla Coffey,Liceul cu Program Sportiv Cluj,team15
+st217,Akira Andersen,Liceul cu Program Sportiv Cluj,team15
+st218,Adyson Goodman,Liceul cu Program Sportiv Cluj,team15
+st219,Emerson Conley,Liceul cu Program Sportiv Cluj,team15
+st220,Ignacio Nichols,Liceul cu Program Sportiv Cluj,team15
+st221,Belinda Irwin,Liceul cu Program Sportiv Cluj,team15
+st222,Fatima Estes,Liceul cu Program Sportiv Cluj,team15
+st223,Dante Pace,Liceul cu Program Sportiv Cluj,team15
+st224,Zack Woods,Liceul cu Program Sportiv Cluj,team15
+st225,Elias Buchanan,Liceul cu Program Sportiv Cluj,team15
+st226,Rex Torres,Liceul Teoretic "Nicolae Balcescu" ,team16
+st227,Lauryn Schwartz,Liceul Teoretic "Nicolae Balcescu" ,team16
+st228,Talan Allison,Liceul Teoretic "Nicolae Balcescu" ,team16
+st229,Sofia Waller,Liceul Teoretic "Nicolae Balcescu" ,team16
+st230,Elisha Daugherty,Liceul Teoretic "Nicolae Balcescu" ,team16
+st231,Andy Gregory,Liceul Teoretic "Nicolae Balcescu" ,team16
+st232,Grace Burch,Liceul Teoretic "Nicolae Balcescu" ,team16
+st233,Araceli Villa,Liceul Teoretic "Nicolae Balcescu" ,team16
+st234,Hugh Brown,Liceul Teoretic "Nicolae Balcescu" ,team16
+st235,Justine Collins,Liceul Teoretic "Nicolae Balcescu" ,team16
+st236,Darnell Valencia,Liceul Teoretic "Nicolae Balcescu" ,team16
+st237,Case Hunter,Liceul Teoretic "Nicolae Balcescu" ,team16
+st238,Marissa Dodson,Liceul Teoretic "Nicolae Balcescu" ,team16
+st239,Keira Knox,Liceul Teoretic "Nicolae Balcescu" ,team16
+st240,Parker Olson,Liceul Teoretic "Nicolae Balcescu" ,team16
+st241,Jayvion Zuniga,Liceul Teoretic "Gheorghe Sincai" ,team17
+st242,Carly Shepard,Liceul Teoretic "Gheorghe Sincai" ,team17
+st243,Raul Rangel,Liceul Teoretic "Gheorghe Sincai" ,team17
+st244,Ashton Williamson,Liceul Teoretic "Gheorghe Sincai" ,team17
+st245,Angie Mayer,Liceul Teoretic "Gheorghe Sincai" ,team17
+st246,Chance Deleon,Liceul Teoretic "Gheorghe Sincai" ,team17
+st247,Chaya Jacobson,Liceul Teoretic "Gheorghe Sincai" ,team17
+st248,Davis Pineda,Liceul Teoretic "Gheorghe Sincai" ,team17
+st249,Julissa Smith,Liceul Teoretic "Gheorghe Sincai" ,team17
+st250,Nora Flowers,Liceul Teoretic "Gheorghe Sincai" ,team17
+st251,Lilia Cummings,Liceul Teoretic "Gheorghe Sincai" ,team17
+st252,Adrianna Giles,Liceul Teoretic "Gheorghe Sincai" ,team17
+st253,Francesca Torres,Liceul Teoretic "Gheorghe Sincai" ,team17
+st254,Chasity Shaw,Liceul Teoretic "Gheorghe Sincai" ,team17
+st255,Madalyn Lowe,Liceul Teoretic "Gheorghe Sincai" ,team17
+st256,Roberto Nixon,Scoala "Nicolae Titulescu" ,team18
+st257,Dorian Kirk,Scoala "Nicolae Titulescu" ,team18
+st258,Keely Ortega,Scoala "Nicolae Titulescu" ,team18
+st259,Donte Ferguson,Scoala "Nicolae Titulescu" ,team18
+st260,Fernando Ochoa,Scoala "Nicolae Titulescu" ,team18
+st261,Jane Frederick,Scoala "Nicolae Titulescu" ,team18
+st262,Devin Stark,Scoala "Nicolae Titulescu" ,team18
+st263,Ann Velez,Scoala "Nicolae Titulescu" ,team18
+st264,Jaime Hunter,Scoala "Nicolae Titulescu" ,team18
+st265,Carter Schaefer,Scoala "Nicolae Titulescu" ,team18
+st266,Teagan Bryant,Scoala "Nicolae Titulescu" ,team18
+st267,Macie Hooper,Scoala "Nicolae Titulescu" ,team18
+st268,Scarlett Mckee,Scoala "Nicolae Titulescu" ,team18
+st269,Teresa Perkins,Scoala "Nicolae Titulescu" ,team18
+st270,Tucker Montoya,Scoala "Nicolae Titulescu" ,team18
+st271,Donald Curry,Scoala Gimnaziala "Liviu Rebreanu" ,team19
+st272,Myles Carroll,Scoala Gimnaziala "Liviu Rebreanu" ,team19
+st273,Jaycee Stafford,Scoala Gimnaziala "Liviu Rebreanu" ,team19
+st274,Iyana Wright,Scoala Gimnaziala "Liviu Rebreanu" ,team19
+st275,Brenden Chang,Scoala Gimnaziala "Liviu Rebreanu" ,team19
+st276,Kinley Burgess,Scoala Gimnaziala "Liviu Rebreanu" ,team19
+st277,Sebastian White,Scoala Gimnaziala "Liviu Rebreanu" ,team19
+st278,Alyssa Juarez,Scoala Gimnaziala "Liviu Rebreanu" ,team19
+st279,Steven Meza,Scoala Gimnaziala "Liviu Rebreanu" ,team19
+st280,Anton Wade,Scoala Gimnaziala "Liviu Rebreanu" ,team19
+st281,Taylor Chapman,Scoala Gimnaziala "Liviu Rebreanu" ,team19
+st282,Kiara Hunter,Scoala Gimnaziala "Liviu Rebreanu" ,team19
+st283,Kenny Waters,Scoala Gimnaziala "Liviu Rebreanu" ,team19
+st284,Aimee Boyd,Scoala Gimnaziala "Liviu Rebreanu" ,team19
+st285,Nikolas Rojas,Scoala Gimnaziala "Liviu Rebreanu" ,team19
+st286,Kenyon Nielsen,Scoala Gimnaziala "Iuliu Hatieganu" ,team20
+st287,Maya Sexton,Scoala Gimnaziala "Iuliu Hatieganu" ,team20
+st288,Annie Holder,Scoala Gimnaziala "Iuliu Hatieganu" ,team20
+st289,Mohammed Perry,Scoala Gimnaziala "Iuliu Hatieganu" ,team20
+st290,Emanuel Ingram,Scoala Gimnaziala "Iuliu Hatieganu" ,team20
+st291,Quinten Burton,Scoala Gimnaziala "Iuliu Hatieganu" ,team20
+st292,Karli Brown,Scoala Gimnaziala "Iuliu Hatieganu" ,team20
+st293,Jenny Osborne,Scoala Gimnaziala "Iuliu Hatieganu" ,team20
+st294,Madisyn Gilmore,Scoala Gimnaziala "Iuliu Hatieganu" ,team20
+st295,Carlo Harvey,Scoala Gimnaziala "Iuliu Hatieganu" ,team20
+st296,Hadley Logan,Scoala Gimnaziala "Iuliu Hatieganu" ,team20
+st297,Natalee Sullivan,Scoala Gimnaziala "Iuliu Hatieganu" ,team20
+st298,Donavan Morris,Scoala Gimnaziala "Iuliu Hatieganu" ,team20
+st299,Clay Nelson,Scoala Gimnaziala "Iuliu Hatieganu" ,team20
+st300,Crystal Morris,Scoala Gimnaziala "Iuliu Hatieganu" ,team20
+st301,Ryker Ferguson,Liceul Teoretic "Bathory Istvan" ,team21
+st302,Yoselin Patton,Liceul Teoretic "Bathory Istvan" ,team21
+st303,Jensen Harper,Liceul Teoretic "Bathory Istvan" ,team21
+st304,Maren Byrd,Liceul Teoretic "Bathory Istvan" ,team21
+st305,Lena Peterson,Liceul Teoretic "Bathory Istvan" ,team21
+st306,Asher Wolf,Liceul Teoretic "Bathory Istvan" ,team21
+st307,Seamus Proctor,Liceul Teoretic "Bathory Istvan" ,team21
+st308,Shelby Finley,Liceul Teoretic "Bathory Istvan" ,team21
+st309,Elise Tyler,Liceul Teoretic "Bathory Istvan" ,team21
+st310,Joe Middleton,Liceul Teoretic "Bathory Istvan" ,team21
+st311,Yahir Moss,Liceul Teoretic "Bathory Istvan" ,team21
+st312,Gabrielle Floyd,Liceul Teoretic "Bathory Istvan" ,team21
+st313,Erica Flowers,Liceul Teoretic "Bathory Istvan" ,team21
+st314,Kaylynn Davies,Liceul Teoretic "Bathory Istvan" ,team21
+st315,Tomas Duncan,Liceul Teoretic "Bathory Istvan" ,team21
+st316,Vincent Ruiz,Colegiul National "George Baritiu" ,team22
+st317,Jesus Ray,Colegiul National "George Baritiu" ,team22
+st318,Belinda Owen,Colegiul National "George Baritiu" ,team22
+st319,Hezekiah Fischer,Colegiul National "George Baritiu" ,team22
+st320,Kaeden Bruce,Colegiul National "George Baritiu" ,team22
+st321,Chelsea Horton,Colegiul National "George Baritiu" ,team22
+st322,Wayne Cobb,Colegiul National "George Baritiu" ,team22
+st323,Joyce Horton,Colegiul National "George Baritiu" ,team22
+st324,Tyrese Mclaughlin,Colegiul National "George Baritiu" ,team22
+st325,Emily Short,Colegiul National "George Baritiu" ,team22
+st326,Cade Knight,Colegiul National "George Baritiu" ,team22
+st327,Armando Henderson,Colegiul National "George Baritiu" ,team22
+st328,Dalton Hudson,Colegiul National "George Baritiu" ,team22
+st329,Elliana Crosby,Colegiul National "George Baritiu" ,team22
+st330,Alonzo Arnold,Colegiul National "George Baritiu" ,team22
+st331,Darrell Love,Liceul Teoretic "Apaczai Csere Janos" ,team23
+st332,Chanel Moyer,Liceul Teoretic "Apaczai Csere Janos" ,team23
+st333,Angel Owen,Liceul Teoretic "Apaczai Csere Janos" ,team23
+st334,Dominick Meyers,Liceul Teoretic "Apaczai Csere Janos" ,team23
+st335,Kianna Bass,Liceul Teoretic "Apaczai Csere Janos" ,team23
+st336,Ruth Rodgers,Liceul Teoretic "Apaczai Csere Janos" ,team23
+st337,Braydon Pierce,Liceul Teoretic "Apaczai Csere Janos" ,team23
+st338,Salvador Butler,Liceul Teoretic "Apaczai Csere Janos" ,team23
+st339,Lewis Morris,Liceul Teoretic "Apaczai Csere Janos" ,team23
+st340,Brielle Dennis,Liceul Teoretic "Apaczai Csere Janos" ,team23
+st341,Aiyana Le,Liceul Teoretic "Apaczai Csere Janos" ,team23
+st342,Damari Lin,Liceul Teoretic "Apaczai Csere Janos" ,team23
+st343,Winston Barron,Liceul Teoretic "Apaczai Csere Janos" ,team23
+st344,America Vasquez,Liceul Teoretic "Apaczai Csere Janos" ,team23
+st345,Kylee Clarke,Liceul Teoretic "Apaczai Csere Janos" ,team23
+st346,Davian Gonzalez,Seminarul Teologic Ortodox ,team24
+st347,Jaycee Downs,Seminarul Teologic Ortodox ,team24
+st348,Azaria Santiago,Seminarul Teologic Ortodox ,team24
+st349,Clayton Woodward,Seminarul Teologic Ortodox ,team24
+st350,Jorden Nicholson,Seminarul Teologic Ortodox ,team24
+st351,Kelton Bean,Seminarul Teologic Ortodox ,team24
+st352,Alonzo Pittman,Seminarul Teologic Ortodox ,team24
+st353,Haylie Carney,Seminarul Teologic Ortodox ,team24
+st354,Tony Kirk,Seminarul Teologic Ortodox ,team24
+st355,Uriah Orr,Seminarul Teologic Ortodox ,team24
+st356,Lillian Browning,Seminarul Teologic Ortodox ,team24
+st357,Rory Villa,Seminarul Teologic Ortodox ,team24
+st358,Rylee Sellers,Seminarul Teologic Ortodox ,team24
+st359,Carter Fernandez,Seminarul Teologic Ortodox ,team24
+st360,Raquel Pace,Seminarul Teologic Ortodox ,team24
+st361,Brooke Shea,Liceul de Informatica "Tiberiu Popoviciu" ,team25
+st362,Karter Maddox,Liceul de Informatica "Tiberiu Popoviciu" ,team25
+st363,Abdullah Lam,Liceul de Informatica "Tiberiu Popoviciu" ,team25
+st364,Brynn Hancock,Liceul de Informatica "Tiberiu Popoviciu" ,team25
+st365,Sidney Brennan,Liceul de Informatica "Tiberiu Popoviciu" ,team25
+st366,Lamar Haas,Liceul de Informatica "Tiberiu Popoviciu" ,team25
+st367,Cadence Cole,Liceul de Informatica "Tiberiu Popoviciu" ,team25
+st368,Shiloh Walter,Liceul de Informatica "Tiberiu Popoviciu" ,team25
+st369,Dalia Arroyo,Liceul de Informatica "Tiberiu Popoviciu" ,team25
+st370,Austin Bullock,Liceul de Informatica "Tiberiu Popoviciu" ,team25
+st371,Julianne Kline,Liceul de Informatica "Tiberiu Popoviciu" ,team25
+st372,Noel Price,Liceul de Informatica "Tiberiu Popoviciu" ,team25
+st373,Gaven White,Liceul de Informatica "Tiberiu Popoviciu" ,team25
+st374,Elianna Branch,Liceul de Informatica "Tiberiu Popoviciu" ,team25
+st375,Ricardo Maxwell,Liceul de Informatica "Tiberiu Popoviciu" ,team25
+st376,Zechariah Noble,Scoala Gimnaziala „Alexandru Vaida – Voevod" ,team26
+st377,Breanna Dunlap,Scoala Gimnaziala „Alexandru Vaida – Voevod" ,team26
+st378,Darien Steele,Scoala Gimnaziala „Alexandru Vaida – Voevod" ,team26
+st379,Rylee Browning,Scoala Gimnaziala „Alexandru Vaida – Voevod" ,team26
+st380,Sage Woods,Scoala Gimnaziala „Alexandru Vaida – Voevod" ,team26
+st381,Zariah Burns,Scoala Gimnaziala „Alexandru Vaida – Voevod" ,team26
+st382,Fisher Johnston,Scoala Gimnaziala „Alexandru Vaida – Voevod" ,team26
+st383,Landen Sloan,Scoala Gimnaziala „Alexandru Vaida – Voevod" ,team26
+st384,Phoebe Oneal,Scoala Gimnaziala „Alexandru Vaida – Voevod" ,team26
+st385,Damarion Grimes,Scoala Gimnaziala „Alexandru Vaida – Voevod" ,team26
+st386,Chaz Peters,Scoala Gimnaziala „Alexandru Vaida – Voevod" ,team26
+st387,Marlon Navarro,Scoala Gimnaziala „Alexandru Vaida – Voevod" ,team26
+st388,Sidney Stephens,Scoala Gimnaziala „Alexandru Vaida – Voevod" ,team26
+st389,Mira Gates,Scoala Gimnaziala „Alexandru Vaida – Voevod" ,team26
+st390,Heaven Phelps,Scoala Gimnaziala „Alexandru Vaida – Voevod" ,team26
+st391,Alivia Mullins,Liceul Teoretic ELF ,team27
+st392,Emiliano Ellis,Liceul Teoretic ELF ,team27
+st393,Savannah Conrad,Liceul Teoretic ELF ,team27
+st394,Brenden Gardner,Liceul Teoretic ELF ,team27
+st395,Asa Ballard,Liceul Teoretic ELF ,team27
+st396,Anton Kennedy,Liceul Teoretic ELF ,team27
+st397,Alicia Torres,Liceul Teoretic ELF ,team27
+st398,Steven Oneill,Liceul Teoretic ELF ,team27
+st399,Jamarcus Boyle,Liceul Teoretic ELF ,team27
+st400,Rayan Day,Liceul Teoretic ELF ,team27
+st401,Trent Hicks,Liceul Teoretic ELF ,team27
+st402,Clare Ayala,Liceul Teoretic ELF ,team27
+st403,Martha Hester,Liceul Teoretic ELF ,team27
+st404,Gloria Rowe,Liceul Teoretic ELF ,team27
+st405,Nathan Cole,Liceul Teoretic ELF ,team27
+st406,Jeremiah Hodge,Scoala Gimnaziala "Gheorghe Sincai" Floresti ,team28
+st407,Darion Aguilar,Scoala Gimnaziala "Gheorghe Sincai" Floresti ,team28
+st408,Jennifer Malone,Scoala Gimnaziala "Gheorghe Sincai" Floresti ,team28
+st409,Aleena Molina,Scoala Gimnaziala "Gheorghe Sincai" Floresti ,team28
+st410,Sloane Michael,Scoala Gimnaziala "Gheorghe Sincai" Floresti ,team28
+st411,Claire Mcknight,Scoala Gimnaziala "Gheorghe Sincai" Floresti ,team28
+st412,Bella Bryant,Scoala Gimnaziala "Gheorghe Sincai" Floresti ,team28
+st413,Devyn Holmes,Scoala Gimnaziala "Gheorghe Sincai" Floresti ,team28
+st414,Ashlee Bradford,Scoala Gimnaziala "Gheorghe Sincai" Floresti ,team28
+st415,Memphis Pena,Scoala Gimnaziala "Gheorghe Sincai" Floresti ,team28
+st416,Antwan Holloway,Scoala Gimnaziala "Gheorghe Sincai" Floresti ,team28
+st417,Noe Dunlap,Scoala Gimnaziala "Gheorghe Sincai" Floresti ,team28
+st418,Andy Monroe,Scoala Gimnaziala "Gheorghe Sincai" Floresti ,team28
+st419,Gloria Estes,Scoala Gimnaziala "Gheorghe Sincai" Floresti ,team28
+st420,Maximus Hicks,Scoala Gimnaziala "Gheorghe Sincai" Floresti ,team28

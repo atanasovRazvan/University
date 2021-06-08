@@ -1,0 +1,7 @@
+1;Nicu;Siret;Emai;222
+2;Nume;Prenume;Mail;122
+3;Alexandru;Pasca;Email;223
+4;Oci;Andrei;Gmail;223
+5;Octav;Marian;Mai;224
+6;Emanuel;Rusinel;Rusi;225
+7;Alina;Negru;Negreu;223

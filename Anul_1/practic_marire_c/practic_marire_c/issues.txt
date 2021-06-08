@@ -1,0 +1,6 @@
+﻿aaa:aaa:Bug:raz:vlad:Open:12/02/2020
+bbb:aaa:Bug:raz:vlad:Closed:12/06/2020
+ccc:aaa:Bug:alex:vlad:Closed:12/02/2020
+ddd:aaa:Task:alex:vlad:Closed:12/05/2020
+eee:aaa:Task:raz:vlad:Open:12/03/2020
+fff:aaa:Task:raz:vlad:Open:12/03/2020

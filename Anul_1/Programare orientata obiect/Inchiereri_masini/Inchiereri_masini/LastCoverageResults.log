@@ -1,0 +1,21 @@
+[2019-04-15 10:57:54] [info] Start Program:
+Path:"C:\Users\Razvan\Desktop\Programare orientata obiect\Inchiereri_masini\Debug\Inchiereri_masini.exe"
+Arguments:
+Working directory: "C:\Users\Razvan\Desktop\Programare orientata obiect\Inchiereri_masini\Inchiereri_masini\"
+Modules: Selected: C:\Users\Razvan\Desktop\Programare orientata obiect\Inchiereri_masini\Debug\Inchiereri_masini.exe Excluded: 
+Sources: Selected: C:\Users\Razvan\Desktop\Programare orientata obiect\Inchiereri_masini\Inchiereri_masini Excluded: Console.cpp 
+Log Level: Normal
+Cover Children: 0
+Aggregate by file: 1
+Continue after C++ exception: 0
+Optimized build support: 0
+Export: Binary C:\Users\Razvan\AppData\Local\Temp\biwhmm0q.d2d 
+Input coverage: 
+Unified diff: 
+Excluded line regular expressions: 
+Substitute pdb source paths: 
+
+[2019-04-15 10:57:54] [info] Module: C:\Users\Razvan\Desktop\Programare orientata obiect\Inchiereri_masini\Debug\Inchiereri_masini.exe is selected because it matches selected pattern: C:\Users\Razvan\Desktop\Programare orientata obiect\Inchiereri_masini\Debug\Inchiereri_masini.exe
+[2019-04-15 10:57:54] [info] ----------------------------------------------------
+[2019-04-15 10:57:54] [info] Coverage binary generated in file: C:\Users\Razvan\AppData\Local\Temp\biwhmm0q.d2d
+[2019-04-15 10:57:54] [info] ----------------------------------------------------

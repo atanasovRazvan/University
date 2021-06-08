@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1553462614 source:c:\users\razvan\desktop\algoritmica grafurilor\lab2_pb3\main.cpp
+	<fstream>
+	<cstring>
+	<string>
+	<deque>
+	<vector>
+

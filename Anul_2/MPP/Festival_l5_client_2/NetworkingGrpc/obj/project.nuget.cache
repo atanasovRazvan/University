@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "d/Aeez/vQl75CoF1QFZ89i8m4u+WSMbNgRei+pwdYL+1bNuAhzrTVX3W/hGJSi0HVv+ARQQVQyjuVCmj4aqJ2Q==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Razvan\\Desktop\\Facultate\\Anul_2\\MPP\\Festival_l5_client_2\\NetworkingGrpc\\NetworkingGrpc.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Razvan\\.nuget\\packages\\google.protobuf\\3.11.4\\google.protobuf.3.11.4.nupkg.sha512",
+    "C:\\Users\\Razvan\\.nuget\\packages\\grpc\\2.28.1\\grpc.2.28.1.nupkg.sha512",
+    "C:\\Users\\Razvan\\.nuget\\packages\\grpc.core\\2.28.1\\grpc.core.2.28.1.nupkg.sha512",
+    "C:\\Users\\Razvan\\.nuget\\packages\\grpc.core.api\\2.28.1\\grpc.core.api.2.28.1.nupkg.sha512",
+    "C:\\Users\\Razvan\\.nuget\\packages\\grpc.tools\\2.28.1\\grpc.tools.2.28.1.nupkg.sha512",
+    "C:\\Users\\Razvan\\.nuget\\packages\\system.memory\\4.5.3\\system.memory.4.5.3.nupkg.sha512"
+  ],
+  "logs": []
+}

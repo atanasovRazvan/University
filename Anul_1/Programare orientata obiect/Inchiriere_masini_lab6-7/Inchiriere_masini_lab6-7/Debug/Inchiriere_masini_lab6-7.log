@@ -1,0 +1,3 @@
+﻿  User Interface.cpp
+  Inchiriere_masini_lab6-7.vcxproj -> C:\Users\Razvan\Desktop\Facultate\Anul_1\Programare orientata obiect\Inchiriere_masini_lab6-7\Debug\Inchiriere_masini_lab6-7.exe
+c:\users\razvan\desktop\facultate\anul_1\programare orientata obiect\inchiriere_masini_lab6-7\inchiriere_masini_lab6-7\domain.cpp(22): warning C26432: If you define or delete any default operation in the type 'class Masina', define or delete them all (c.21).

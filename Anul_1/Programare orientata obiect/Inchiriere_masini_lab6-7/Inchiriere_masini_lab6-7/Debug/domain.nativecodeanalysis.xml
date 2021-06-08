@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\razvan\desktop\facultate\anul_1\programare orientata obiect\inchiriere_masini_lab6-7\inchiriere_masini_lab6-7</FILEPATH>
+      <FILENAME>domain.cpp</FILENAME>
+      <LINE>22</LINE>
+      <COLUMN>8</COLUMN>
+    </SFA>
+    <DEFECTCODE>26432</DEFECTCODE>
+    <DESCRIPTION>If you define or delete any default operation in the type 'class Masina', define or delete them all (c.21).</DESCRIPTION>
+    <FUNCTION>Masina::{ctor}</FUNCTION>
+    <DECORATED>??0Masina@@QAE@ABV0@@Z</DECORATED>
+    <FUNCLINE>22</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+</DEFECTS>

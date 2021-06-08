@@ -1,0 +1,20 @@
+C:\Users\George\source\repos\SGBDlab2\SGBDlab2\bin\Debug\SGBDlab2.exe.config
+C:\Users\George\source\repos\SGBDlab2\SGBDlab2\bin\Debug\SGBDlab2.exe
+C:\Users\George\source\repos\SGBDlab2\SGBDlab2\bin\Debug\SGBDlab2.pdb
+C:\Users\George\source\repos\SGBDlab2\SGBDlab2\obj\Debug\SGBDlab2.csprojAssemblyReference.cache
+C:\Users\George\source\repos\SGBDlab2\SGBDlab2\obj\Debug\SGBDlab2.Properties.Resources.resources
+C:\Users\George\source\repos\SGBDlab2\SGBDlab2\obj\Debug\SGBDlab2.csproj.GenerateResource.cache
+C:\Users\George\source\repos\SGBDlab2\SGBDlab2\obj\Debug\SGBDlab2.csproj.CoreCompileInputs.cache
+C:\Users\George\source\repos\SGBDlab2\SGBDlab2\obj\Debug\SGBDlab2.exe
+C:\Users\George\source\repos\SGBDlab2\SGBDlab2\obj\Debug\SGBDlab2.pdb
+C:\Users\George\source\repos\SGBDlab2\SGBDlab2\obj\Debug\SGBDlab2.Form1.resources
+C:\Users\Razvan\Desktop\Facultate\Anul_2\SGBD\SGBD Lab 2 EXAMPLE\C-DBMS-ORM-master\SGBDlab2\bin\Debug\SGBDlab2.exe.config
+C:\Users\Razvan\Desktop\Facultate\Anul_2\SGBD\SGBD Lab 2 EXAMPLE\C-DBMS-ORM-master\SGBDlab2\bin\Debug\SGBDlab2.exe
+C:\Users\Razvan\Desktop\Facultate\Anul_2\SGBD\SGBD Lab 2 EXAMPLE\C-DBMS-ORM-master\SGBDlab2\bin\Debug\SGBDlab2.pdb
+C:\Users\Razvan\Desktop\Facultate\Anul_2\SGBD\SGBD Lab 2 EXAMPLE\C-DBMS-ORM-master\SGBDlab2\obj\Debug\SGBDlab2.csprojAssemblyReference.cache
+C:\Users\Razvan\Desktop\Facultate\Anul_2\SGBD\SGBD Lab 2 EXAMPLE\C-DBMS-ORM-master\SGBDlab2\obj\Debug\SGBDlab2.Form1.resources
+C:\Users\Razvan\Desktop\Facultate\Anul_2\SGBD\SGBD Lab 2 EXAMPLE\C-DBMS-ORM-master\SGBDlab2\obj\Debug\SGBDlab2.Properties.Resources.resources
+C:\Users\Razvan\Desktop\Facultate\Anul_2\SGBD\SGBD Lab 2 EXAMPLE\C-DBMS-ORM-master\SGBDlab2\obj\Debug\SGBDlab2.csproj.GenerateResource.cache
+C:\Users\Razvan\Desktop\Facultate\Anul_2\SGBD\SGBD Lab 2 EXAMPLE\C-DBMS-ORM-master\SGBDlab2\obj\Debug\SGBDlab2.csproj.CoreCompileInputs.cache
+C:\Users\Razvan\Desktop\Facultate\Anul_2\SGBD\SGBD Lab 2 EXAMPLE\C-DBMS-ORM-master\SGBDlab2\obj\Debug\SGBDlab2.exe
+C:\Users\Razvan\Desktop\Facultate\Anul_2\SGBD\SGBD Lab 2 EXAMPLE\C-DBMS-ORM-master\SGBDlab2\obj\Debug\SGBDlab2.pdb

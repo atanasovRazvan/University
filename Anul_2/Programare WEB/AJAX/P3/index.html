@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+
+  <body onload="load()">
+    <div id="selection"> </div>
+    <div id="container"> </div>
+  </body>
+
+
+  <script>
+
+    function load(){
+
+      var xhttp;
+      xhttp = new XMLHttpRequest();
+      xhttp.onreadystatechange = function() {
+        if (this.readyState == 4 && this.status == 200) {
+          document.getElementById("selection").innerHTML = this.responseText;
+        }
+      };
+      xhttp.open("GET", "http://localhost/AJAX_p3php/script1.php", true);
+      xhttp.send(null);
+
+    }
+
+    function fillform(val){
+
+      var xhttp;
+      xhttp = new XMLHttpRequest();
+      xhttp.onreadystatechange = function() {
+        if (this.readyState == 4 && this.status == 200) {
+          document.getElementById("container").innerHTML = this.responseText;
+        }
+      };
+      xhttp.open("GET", "http://localhost/AJAX_p3php/script2.php?id="+val, true);
+      xhttp.send(null);
+
+    }
+
+    function save(){
+
+      if(true == confirm("Are you sure you want to update this field?")){
+
+        var theSelect = document.getElementById("select");
+        var nrMatricol = theSelect.options[theSelect.selectedIndex].value;
+        var nume = document.getElementById("lname").value;
+        var prenume = document.getElementById("fname").value;
+        var nrTel = document.getElementById("pnum").value;
+
+        var xhttp;
+        xhttp = new XMLHttpRequest();
+        xhttp.onreadystatechange=function(){
+          if(this.readyState == 4 && this.status == 200){
+            confirm("Update completed");
+          }
+        };
+        xhttp.open("GET", "http://localhost/AJAX_p3php/script3.php?id="+nrMatricol+"&fname="+prenume+"&lname="+nume+"&pnum="+nrTel, true);
+        xhttp.send(null);
+
+      }
+
+    }
+
+  </script>
+
+
+</html>

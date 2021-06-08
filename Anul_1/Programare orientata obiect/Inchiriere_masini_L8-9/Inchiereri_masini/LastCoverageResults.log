@@ -1,0 +1,21 @@
+[2019-04-19 10:32:19] [info] Start Program:
+Path:"C:\Users\Gogozan Daniel\source\repos\Inchiriere_masini_L8-9\x64\Debug\Inchiereri_masini.exe"
+Arguments:
+Working directory: "C:\Users\Gogozan Daniel\source\repos\Inchiriere_masini_L8-9\Inchiereri_masini\"
+Modules: Selected: C:\Users\Gogozan Daniel\source\repos\Inchiriere_masini_L8-9\x64\Debug\Inchiereri_masini.exe Excluded: 
+Sources: Selected: C:\Users\Gogozan Daniel\source\repos\Inchiriere_masini_L8-9\Inchiereri_masini Excluded: main.cpp Console.cpp Validate.cpp 
+Log Level: Normal
+Cover Children: 0
+Aggregate by file: 1
+Continue after C++ exception: 0
+Optimized build support: 0
+Export: Binary C:\Users\Gogozan Daniel\AppData\Local\Temp\f153mzgh.4gh 
+Input coverage: 
+Unified diff: 
+Excluded line regular expressions: 
+Substitute pdb source paths: 
+
+[2019-04-19 10:32:19] [info] Module: C:\Users\Gogozan Daniel\source\repos\Inchiriere_masini_L8-9\x64\Debug\Inchiereri_masini.exe is selected because it matches selected pattern: C:\Users\Gogozan Daniel\source\repos\Inchiriere_masini_L8-9\x64\Debug\Inchiereri_masini.exe
+[2019-04-19 10:32:21] [info] ----------------------------------------------------
+[2019-04-19 10:32:21] [info] Coverage binary generated in file: C:\Users\Gogozan Daniel\AppData\Local\Temp\f153mzgh.4gh
+[2019-04-19 10:32:21] [info] ----------------------------------------------------

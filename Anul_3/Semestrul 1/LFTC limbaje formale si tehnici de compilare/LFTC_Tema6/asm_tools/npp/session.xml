@@ -1,0 +1,11 @@
+<NotepadPlus>
+    <Session activeView="0">
+        <mainView activeIndex="3">
+            <File firstVisibleLine="0" xOffset="0" scrollWidth="1105" startPos="439" endPos="439" selMode="0" lang="LISP" encoding="-1" filename="C:\Users\Razvan\Desktop\PLF - Lisp\L3.lisp" backupFilePath="" originalFileLastModifTimestamp="1578308356" mapFirstVisibleDisplayLine="-1" mapFirstVisibleDocLine="-1" mapLastVisibleDocLine="-1" mapNbLine="-1" mapHigherPos="-1" mapWidth="-1" mapHeight="-1" mapKByteInDoc="512" mapWrapIndentMode="-1" mapIsWrap="no" />
+            <File firstVisibleLine="22" xOffset="0" scrollWidth="1079" startPos="375" endPos="375" selMode="0" lang="LISP" encoding="-1" filename="C:\Users\Razvan\Desktop\PLF - Lisp\L2.lisp" backupFilePath="" originalFileLastModifTimestamp="1575891319" mapFirstVisibleDisplayLine="-1" mapFirstVisibleDocLine="-1" mapLastVisibleDocLine="-1" mapNbLine="-1" mapHigherPos="-1" mapWidth="-1" mapHeight="-1" mapKByteInDoc="512" mapWrapIndentMode="-1" mapIsWrap="no" />
+            <File firstVisibleLine="0" xOffset="0" scrollWidth="1105" startPos="213" endPos="213" selMode="0" lang="LISP" encoding="-1" filename="C:\Users\Razvan\Desktop\PLF - Lisp\test.lisp" backupFilePath="" originalFileLastModifTimestamp="1578344905" mapFirstVisibleDisplayLine="-1" mapFirstVisibleDocLine="-1" mapLastVisibleDocLine="-1" mapNbLine="-1" mapHigherPos="-1" mapWidth="-1" mapHeight="-1" mapKByteInDoc="724050020" mapWrapIndentMode="-1" mapIsWrap="no" />
+            <File firstVisibleLine="0" xOffset="0" scrollWidth="1105" startPos="160" endPos="160" selMode="0" lang="LISP" encoding="-1" filename="C:\Users\Razvan\Desktop\PLF - Lisp\benchea.lisp" backupFilePath="" originalFileLastModifTimestamp="1581875507" mapFirstVisibleDisplayLine="-1" mapFirstVisibleDocLine="-1" mapLastVisibleDocLine="-1" mapNbLine="-1" mapHigherPos="-1" mapWidth="-1" mapHeight="-1" mapKByteInDoc="52720189" mapWrapIndentMode="-1" mapIsWrap="no" />
+        </mainView>
+        <subView activeIndex="0" />
+    </Session>
+</NotepadPlus>

@@ -1,0 +1,8 @@
+Pasul 1. Se copiaza clasele din model si servicii intr-un director  (CommonCode)
+Pasul 2. Se porneste rmiregistry din acel director cu urmatoarea comanda
+
+rmiregistry -J-Djava.rmi.server.useCodebaseOnly=false
+
+Pasul 3. Se porneste serverul (clasa StartRMIServer)
+Pasul 4,5,6, Se pornesc clientii (clasa StartRMIClient)
+

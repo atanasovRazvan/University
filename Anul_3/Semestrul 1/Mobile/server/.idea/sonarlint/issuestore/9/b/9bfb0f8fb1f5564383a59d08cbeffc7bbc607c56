@@ -1,0 +1,20 @@
+
+‚
+java:S4087"bRemove this "close" call; closing the resource is handled automatically by the try-with-resources.(ËÇÇÓûÿÿÿÿ8­ß­„†/
+‚
+java:S4087"bRemove this "close" call; closing the resource is handled automatically by the try-with-resources.(ËÇÇÓûÿÿÿÿ8­ß­„†/
+‚
+java:S4087"bRemove this "close" call; closing the resource is handled automatically by the try-with-resources.(ËÇÇÓûÿÿÿÿ8­ß­„†/
+‚
+java:S4087"bRemove this "close" call; closing the resource is handled automatically by the try-with-resources.(ËÇÇÓûÿÿÿÿ8­ß­„†/
+p	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ş˜¢§ÿÿÿÿÿ8­ß­„†/
+‚
+java:S4087"bRemove this "close" call; closing the resource is handled automatically by the try-with-resources.(ËÇÇÓûÿÿÿÿ8­ß­„†/
+G
+java:S1905"'Remove this unnecessary cast to "List".(¾®ëïøÿÿÿÿ8­ß­„†/
+‚
+java:S4087"bRemove this "close" call; closing the resource is handled automatically by the try-with-resources.(ËÇÇÓûÿÿÿÿ8­ß­„†/
+X
+java:S1155">Use isEmpty() to check whether the collection is empty or not.( ¤n8­ß­„†/
+O
+java:S3740"/Provide the parametrized type for this generic.(í¾­ıÿÿÿÿ8­ß­„†/

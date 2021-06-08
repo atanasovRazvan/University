@@ -1,0 +1,17 @@
+quiz_1;10;Easy;4
+quiz_2;15;Hard;8
+quiz_3;7;Medium;3
+quiz_4;13;Easy;8
+quiz_5;9;Medium;0
+quiz_6;20;Hard;2
+new_quiz;5;Medium;1
+quiz;11;Hard;3
+quiz;11;Hard;3
+quiz;11;Hard;3
+quiz;11;Hard;3
+quiz;11;Hard;3
+quiz;11;Hard;3
+quiz;11;Hard;3
+quiz;11;Hard;3
+quiz;11;Hard;3
+quiz;11;Hard;3

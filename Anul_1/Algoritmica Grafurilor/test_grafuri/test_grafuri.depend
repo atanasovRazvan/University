@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1554720567 source:c:\users\razvan\desktop\algoritmica grafurilor\test_grafuri\main.cpp
+	<fstream>
+	<iostream>
+	<vector>
+	<climits>
+	<queue>
+

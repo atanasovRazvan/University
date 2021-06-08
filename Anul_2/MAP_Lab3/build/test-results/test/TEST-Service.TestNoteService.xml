@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Service.TestNoteService" tests="4" skipped="0" failures="0" errors="0" timestamp="2019-11-27T07:50:18" hostname="DESKTOP-HD16HCH" time="0.019">
+  <properties/>
+  <testcase name="filterByGroup" classname="Service.TestNoteService" time="0.003"/>
+  <testcase name="filterByHomeworkByTeacher" classname="Service.TestNoteService" time="0.001"/>
+  <testcase name="filterByHomework" classname="Service.TestNoteService" time="0.009"/>
+  <testcase name="filterByHomeworkByDate" classname="Service.TestNoteService" time="0.003"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

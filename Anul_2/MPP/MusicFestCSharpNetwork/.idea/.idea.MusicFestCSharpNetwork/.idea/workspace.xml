@@ -1,0 +1,372 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="8b91bf69-d4f1-4d24-8e4d-f9adfe766bc7" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="MusicFest.db" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="MusicFest.db" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="MusicFest.db" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="main: schema" type="981a47c2:SqliteImplModel$Schema" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Server/ServerImplementation.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Model/Ticket.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Model/User.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Model/Show.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Services/IObserver.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Services/IServices.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Persistence/App.config" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/B578912F-3153-49E0-AAC2-0C1DCFA268EF/83/e9767c4e/Monitor.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../MusicFest/MusicFest/App.config" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/B578912F-3153-49E0-AAC2-0C1DCFA268EF/73/e87a56cb/BinaryFormatter.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/6FF151C8-A24F-45E5-B6E3-6BC715719162/76/a0522801/Control.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Networking/ServerProxy.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Networking/ClientWorker.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Networking/Request.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Networking/Response.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/77B2BFDB-11D0-4457-AD05-D320FA2095FC/bf/115eebf0/ConfigurationManager.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/B578912F-3153-49E0-AAC2-0C1DCFA268EF/fd/2d28c45f/TaskScheduler.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/B578912F-3153-49E0-AAC2-0C1DCFA268EF/0e/4e02f903/String.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Networking/ServerUtils.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Services/ChatException.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/B578912F-3153-49E0-AAC2-0C1DCFA268EF/e2/dca57f1d/Task.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Client/TicketingEventArgs.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Networking/TicketDTO.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Server/StartServer.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/B578912F-3153-49E0-AAC2-0C1DCFA268EF/1a/483f7d47/Dictionary`2.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Persistence/packages.config" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Client/Form1.Designer.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Client/Form1.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/6FF151C8-A24F-45E5-B6E3-6BC715719162/4c/88a93ec6/Button.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Persistence/Properties/AssemblyInfo.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/B578912F-3153-49E0-AAC2-0C1DCFA268EF/c5/388c1908/Stream.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/B578912F-3153-49E0-AAC2-0C1DCFA268EF/36/125075e1/Thread.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Client/Program.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Persistence/bin/Debug/log4net.config" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/B578912F-3153-49E0-AAC2-0C1DCFA268EF/b5/482b0dbe/WaitHandle.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Client/TicketingCtrl.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Persistence/UserDBRepository.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Client/Ticketing.Designer.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Persistence/ITicketRepository.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Persistence/IUserRepository.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Persistence/TicketDBRepository.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Client/SearchResult.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Persistence/ShowDBRepository.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Persistence/DBUtils.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Client/SearchResult.Designer.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Persistence/IShowRepository.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Client/Ticketing.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Model/Program.cs" />
+        <option value="$PROJECT_DIR$/Networking/Program.cs" />
+        <option value="$PROJECT_DIR$/Persistence/Program.cs" />
+        <option value="$PROJECT_DIR$/Services/Program.cs" />
+        <option value="$PROJECT_DIR$/Model/User.cs" />
+        <option value="$PROJECT_DIR$/Model/Show.cs" />
+        <option value="$PROJECT_DIR$/Server/Program.cs" />
+        <option value="$PROJECT_DIR$/Persistence/IShowRepository.cs" />
+        <option value="$PROJECT_DIR$/Persistence/ITicketRepository.cs" />
+        <option value="$PROJECT_DIR$/Persistence/IUserRepository.cs" />
+        <option value="$PROJECT_DIR$/Persistence/ShowDBRepository.cs" />
+        <option value="$PROJECT_DIR$/Persistence/TicketDBRepository.cs" />
+        <option value="$PROJECT_DIR$/Persistence/UserDBRepository.cs" />
+        <option value="$PROJECT_DIR$/Persistence/Properties/AssemblyInfo.cs" />
+        <option value="$PROJECT_DIR$/Persistence/bin/Debug/log4net.config" />
+        <option value="$PROJECT_DIR$/Services/ChatException.cs" />
+        <option value="$PROJECT_DIR$/Networking/ServerUtils.cs" />
+        <option value="$PROJECT_DIR$/Networking/ObjectRequestProtocol.cs" />
+        <option value="$PROJECT_DIR$/Networking/ObjectResponseProtocole.cs" />
+        <option value="$PROJECT_DIR$/Client/Form1.Designer.cs" />
+        <option value="$PROJECT_DIR$/Client/StartClient.cs" />
+        <option value="$PROJECT_DIR$/Persistence/App.config" />
+        <option value="$PROJECT_DIR$/Persistence/DBUtils.cs" />
+        <option value="$PROJECT_DIR$/Client/SearchResult.cs" />
+        <option value="$PROJECT_DIR$/Services/IServices.cs" />
+        <option value="$PROJECT_DIR$/Server/StartServer.cs" />
+        <option value="$PROJECT_DIR$/Model/Ticket.cs" />
+        <option value="$PROJECT_DIR$/Networking/DTOUtils.cs" />
+        <option value="$PROJECT_DIR$/Networking/TicketDTO.cs" />
+        <option value="$PROJECT_DIR$/Networking/Request.cs" />
+        <option value="$PROJECT_DIR$/Networking/ClientWorker.cs" />
+        <option value="$PROJECT_DIR$/Client/TicketingEventArgs.cs" />
+        <option value="$PROJECT_DIR$/Networking/Response.cs" />
+        <option value="$PROJECT_DIR$/Networking/ServerProxy.cs" />
+        <option value="$PROJECT_DIR$/Client/Form1.cs" />
+        <option value="$PROJECT_DIR$/Client/Program.cs" />
+        <option value="$PROJECT_DIR$/Services/IObserver.cs" />
+        <option value="$PROJECT_DIR$/Client/Ticketing.Designer.cs" />
+        <option value="$PROJECT_DIR$/Client/TicketingCtrl.cs" />
+        <option value="$PROJECT_DIR$/Client/Ticketing.cs" />
+        <option value="$PROJECT_DIR$/Server/ServerImplementation.cs" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1a7MExWhKUOPnacoJvTnCQjhgI4" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="sqlite" />
+    <property name="Rider.SolutionExplorerActivator" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="settings.editor.selected.configurable" value="DockerRegistry" />
+  </component>
+  <component name="RunManager" selected=".NET Project.MusicFestCSharpNetwork">
+    <configuration name="MusicFestCSharpNetwork" type="DotNetProject" factoryName=".NET Project" singleton="false">
+      <option name="EXE_PATH" value="$PROJECT_DIR$/Client/bin/Debug/Client.exe" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Client/bin/Debug" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="PROJECT_PATH" value="$PROJECT_DIR$/Client/Client.csproj" />
+      <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
+      <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
+      <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
+      <option name="PROJECT_KIND" value="Console" />
+      <option name="PROJECT_TFM" value=".NETFramework,Version=v4.8" />
+      <method v="2">
+        <option name="Build" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Server" type="DotNetProject" factoryName=".NET Project" temporary="true">
+      <option name="EXE_PATH" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="PROJECT_PATH" value="$PROJECT_DIR$/Server/Server.csproj" />
+      <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
+      <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
+      <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
+      <option name="PROJECT_KIND" value="Console" />
+      <option name="PROJECT_TFM" value=".NETFramework,Version=v4.8" />
+      <method v="2">
+        <option name="Build" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue=".NET Project.MusicFestCSharpNetwork" />
+      <item itemvalue=".NET Project.Server" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue=".NET Project.Server" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8b91bf69-d4f1-4d24-8e4d-f9adfe766bc7" name="Default Changelist" comment="" />
+      <created>1586082070102</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1586082070102</updated>
+      <workItem from="1586082071838" duration="9710000" />
+      <workItem from="1586107435347" duration="9631000" />
+      <workItem from="1586120305851" duration="5811000" />
+      <workItem from="1586171100533" duration="3394000" />
+      <workItem from="1586179806978" duration="2800000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
+  <component name="WindowStateProjectService">
+    <state x="361" y="71" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1586110252906">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="361" y="71" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1586110252906" />
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1586186490590">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1586186490590" />
+    <state width="1493" height="210" key="GridCell.Tab.0.center" timestamp="1586186490590">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1586186490590" />
+    <state width="1493" height="210" key="GridCell.Tab.0.left" timestamp="1586186490589">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1586186490589" />
+    <state width="1493" height="210" key="GridCell.Tab.0.right" timestamp="1586186490590">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1586186490590" />
+    <state width="1493" height="262" key="GridCell.Tab.1.bottom" timestamp="1586181394747">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="262" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1586181394747" />
+    <state width="1493" height="262" key="GridCell.Tab.1.center" timestamp="1586181394747">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="262" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1586181394747" />
+    <state width="1493" height="262" key="GridCell.Tab.1.left" timestamp="1586181394747">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="262" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1586181394747" />
+    <state width="1493" height="262" key="GridCell.Tab.1.right" timestamp="1586181394747">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="262" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1586181394747" />
+    <state width="1493" height="262" key="GridCell.Tab.2.bottom" timestamp="1586181394748">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="262" key="GridCell.Tab.2.bottom/0.0.1536.824@0.0.1536.824" timestamp="1586181394748" />
+    <state width="1493" height="262" key="GridCell.Tab.2.center" timestamp="1586181394747">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="262" key="GridCell.Tab.2.center/0.0.1536.824@0.0.1536.824" timestamp="1586181394747" />
+    <state width="1493" height="262" key="GridCell.Tab.2.left" timestamp="1586181394747">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="262" key="GridCell.Tab.2.left/0.0.1536.824@0.0.1536.824" timestamp="1586181394747" />
+    <state width="1493" height="262" key="GridCell.Tab.2.right" timestamp="1586181394747">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="262" key="GridCell.Tab.2.right/0.0.1536.824@0.0.1536.824" timestamp="1586181394747" />
+    <state width="1493" height="262" key="GridCell.Tab.3.bottom" timestamp="1586181394748">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="262" key="GridCell.Tab.3.bottom/0.0.1536.824@0.0.1536.824" timestamp="1586181394748" />
+    <state width="1493" height="262" key="GridCell.Tab.3.center" timestamp="1586181394748">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="262" key="GridCell.Tab.3.center/0.0.1536.824@0.0.1536.824" timestamp="1586181394748" />
+    <state width="1493" height="262" key="GridCell.Tab.3.left" timestamp="1586181394748">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="262" key="GridCell.Tab.3.left/0.0.1536.824@0.0.1536.824" timestamp="1586181394748" />
+    <state width="1493" height="262" key="GridCell.Tab.3.right" timestamp="1586181394748">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="262" key="GridCell.Tab.3.right/0.0.1536.824@0.0.1536.824" timestamp="1586181394748" />
+    <state width="1493" height="262" key="GridCell.Tab.4.bottom" timestamp="1586181394748">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="262" key="GridCell.Tab.4.bottom/0.0.1536.824@0.0.1536.824" timestamp="1586181394748" />
+    <state width="1493" height="262" key="GridCell.Tab.4.center" timestamp="1586181394748">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="262" key="GridCell.Tab.4.center/0.0.1536.824@0.0.1536.824" timestamp="1586181394748" />
+    <state width="1493" height="262" key="GridCell.Tab.4.left" timestamp="1586181394748">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="262" key="GridCell.Tab.4.left/0.0.1536.824@0.0.1536.824" timestamp="1586181394748" />
+    <state width="1493" height="262" key="GridCell.Tab.4.right" timestamp="1586181394748">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="262" key="GridCell.Tab.4.right/0.0.1536.824@0.0.1536.824" timestamp="1586181394748" />
+    <state x="361" y="144" key="Rider.ProjectTemplateDialog.Size" timestamp="1586082245015">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="361" y="144" key="Rider.ProjectTemplateDialog.Size/0.0.1536.824@0.0.1536.824" timestamp="1586082245015" />
+    <state x="479" y="93" key="RiderGenerateDialog" timestamp="1586121235227">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="479" y="93" key="RiderGenerateDialog/0.0.1536.824@0.0.1536.824" timestamp="1586121235227" />
+    <state x="277" y="55" key="SettingsEditor" timestamp="1586120549352">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="277" y="55" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1586120549352" />
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1586120542571">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1586120542571" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Client/TicketingCtrl.cs</url>
+          <line>50</line>
+          <properties documentPath="$PROJECT_DIR$/Client/TicketingCtrl.cs" initialLine="48">
+            <startOffsets>
+              <option value="1444" />
+            </startOffsets>
+            <endOffsets>
+              <option value="1488" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Client/TicketingCtrl.cs</url>
+          <line>56</line>
+          <properties documentPath="$PROJECT_DIR$/Client/TicketingCtrl.cs" initialLine="55">
+            <startOffsets>
+              <option value="1630" />
+            </startOffsets>
+            <endOffsets>
+              <option value="1690" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Client/Ticketing.cs</url>
+          <line>147</line>
+          <properties documentPath="$PROJECT_DIR$/Client/Ticketing.cs" initialLine="146">
+            <startOffsets>
+              <option value="5813" />
+            </startOffsets>
+            <endOffsets>
+              <option value="5914" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="DotNetProject">
+        <watch expression="stream" language="C#" custom="RiderImportsList:" />
+        <watch expression="e.Data" />
+      </configuration>
+    </watches-manager>
+  </component>
+</project>

@@ -1,0 +1,482 @@
+﻿<?xml version="1.0" encoding="utf-8"?><DEFECTS><DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\razvan\desktop\programare orientata obiect\vectordinamiccpp\vectordinamiccpp</FILEPATH>
+      <FILENAME>vectordinamictemplate.h</FILENAME>
+      <LINE>117</LINE>
+      <COLUMN>9</COLUMN>
+    </SFA>
+    <DEFECTCODE>26409</DEFECTCODE>
+    <DESCRIPTION>Avoid calling new and delete explicitly, use std::make_unique&lt;T&gt; instead (r.11).</DESCRIPTION>
+    <FUNCTION>lista&lt;Pet&gt;::{ctor}</FUNCTION>
+    <DECORATED>??0?$lista@VPet@@@@QEAA@AEBV0@@Z</DECORATED>
+    <FUNCLINE>112</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\razvan\desktop\programare orientata obiect\vectordinamiccpp\vectordinamiccpp</FILEPATH>
+      <FILENAME>vectordinamictemplate.h</FILENAME>
+      <LINE>126</LINE>
+      <COLUMN>19</COLUMN>
+    </SFA>
+    <DEFECTCODE>26409</DEFECTCODE>
+    <DESCRIPTION>Avoid calling new and delete explicitly, use std::make_unique&lt;T&gt; instead (r.11).</DESCRIPTION>
+    <FUNCTION>lista&lt;Pet&gt;::{ctor}</FUNCTION>
+    <DECORATED>??0?$lista@VPet@@@@QEAA@AEBV0@@Z</DECORATED>
+    <FUNCLINE>112</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\razvan\desktop\programare orientata obiect\vectordinamiccpp\vectordinamiccpp</FILEPATH>
+      <FILENAME>vectordinamictemplate.h</FILENAME>
+      <LINE>112</LINE>
+      <COLUMN>17</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'lista&lt;Pet&gt;::ultim' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>lista&lt;Pet&gt;::{ctor}</FUNCTION>
+    <DECORATED>??0?$lista@VPet@@@@QEAA@AEBV0@@Z</DECORATED>
+    <FUNCLINE>112</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\razvan\desktop\programare orientata obiect\vectordinamiccpp\vectordinamiccpp</FILEPATH>
+      <FILENAME>vectordinamictemplate.h</FILENAME>
+      <LINE>103</LINE>
+      <COLUMN>17</COLUMN>
+    </SFA>
+    <DEFECTCODE>26455</DEFECTCODE>
+    <DESCRIPTION>Default constructor may not throw. Declare it 'noexcept' (f.6).</DESCRIPTION>
+    <FUNCTION>lista&lt;Pet&gt;::{ctor}</FUNCTION>
+    <DECORATED>??0?$lista@VPet@@@@QEAA@XZ</DECORATED>
+    <FUNCLINE>103</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\razvan\desktop\programare orientata obiect\vectordinamiccpp\vectordinamiccpp</FILEPATH>
+      <FILENAME>vectordinamictemplate.h</FILENAME>
+      <LINE>224</LINE>
+      <COLUMN>34</COLUMN>
+    </SFA>
+    <DEFECTCODE>26439</DEFECTCODE>
+    <DESCRIPTION>This kind of function may not throw. Declare it 'noexcept' (f.6).</DESCRIPTION>
+    <FUNCTION>lista&lt;Pet&gt;::=</FUNCTION>
+    <DECORATED>??4?$lista@VPet@@@@QEAAAEAV0@$$QEAV0@@Z</DECORATED>
+    <FUNCLINE>224</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\razvan\desktop\programare orientata obiect\vectordinamiccpp\vectordinamiccpp</FILEPATH>
+      <FILENAME>vectordinamictemplate.h</FILENAME>
+      <LINE>160</LINE>
+      <COLUMN>9</COLUMN>
+    </SFA>
+    <DEFECTCODE>26409</DEFECTCODE>
+    <DESCRIPTION>Avoid calling new and delete explicitly, use std::make_unique&lt;T&gt; instead (r.11).</DESCRIPTION>
+    <FUNCTION>lista&lt;Pet&gt;::=</FUNCTION>
+    <DECORATED>??4?$lista@VPet@@@@QEAAAEAV0@AEBV0@@Z</DECORATED>
+    <FUNCLINE>147</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\razvan\desktop\programare orientata obiect\vectordinamiccpp\vectordinamiccpp</FILEPATH>
+      <FILENAME>vectordinamictemplate.h</FILENAME>
+      <LINE>168</LINE>
+      <COLUMN>19</COLUMN>
+    </SFA>
+    <DEFECTCODE>26409</DEFECTCODE>
+    <DESCRIPTION>Avoid calling new and delete explicitly, use std::make_unique&lt;T&gt; instead (r.11).</DESCRIPTION>
+    <FUNCTION>lista&lt;Pet&gt;::=</FUNCTION>
+    <DECORATED>??4?$lista@VPet@@@@QEAAAEAV0@AEBV0@@Z</DECORATED>
+    <FUNCLINE>147</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\razvan\desktop\programare orientata obiect\vectordinamiccpp\vectordinamiccpp</FILEPATH>
+      <FILENAME>vectordinamictemplate.h</FILENAME>
+      <LINE>13</LINE>
+      <COLUMN>0</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'nod&lt;Pet&gt;::urmator' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>nod&lt;Pet&gt;::{ctor}</FUNCTION>
+    <DECORATED>??0?$nod@VPet@@@@QEAA@XZ</DECORATED>
+    <FUNCLINE>13</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\razvan\desktop\programare orientata obiect\vectordinamiccpp\vectordinamiccpp</FILEPATH>
+      <FILENAME>vectordinamictemplate.h</FILENAME>
+      <LINE>202</LINE>
+      <COLUMN>17</COLUMN>
+    </SFA>
+    <DEFECTCODE>26439</DEFECTCODE>
+    <DESCRIPTION>This kind of function may not throw. Declare it 'noexcept' (f.6).</DESCRIPTION>
+    <FUNCTION>lista&lt;Pet&gt;::{ctor}</FUNCTION>
+    <DECORATED>??0?$lista@VPet@@@@QEAA@$$QEAV0@@Z</DECORATED>
+    <FUNCLINE>202</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\razvan\desktop\programare orientata obiect\vectordinamiccpp\vectordinamiccpp</FILEPATH>
+      <FILENAME>vectordinamictemplate.h</FILENAME>
+      <LINE>307</LINE>
+      <COLUMN>20</COLUMN>
+    </SFA>
+    <DEFECTCODE>26409</DEFECTCODE>
+    <DESCRIPTION>Avoid calling new and delete explicitly, use std::make_unique&lt;T&gt; instead (r.11).</DESCRIPTION>
+    <FUNCTION>lista&lt;Pet&gt;::add</FUNCTION>
+    <DECORATED>?add@?$lista@VPet@@@@QEAAXAEBVPet@@@Z</DECORATED>
+    <FUNCLINE>306</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\razvan\desktop\programare orientata obiect\vectordinamiccpp\vectordinamiccpp</FILEPATH>
+      <FILENAME>vectordinamictemplate.h</FILENAME>
+      <LINE>307</LINE>
+      <COLUMN>20</COLUMN>
+    </SFA>
+    <DEFECTCODE>26400</DEFECTCODE>
+    <DESCRIPTION>Do not assign the result of an allocation or a function call with an owner&lt;T&gt; return value to a raw pointer, use owner&lt;T&gt; instead (i.11).</DESCRIPTION>
+    <FUNCTION>lista&lt;Pet&gt;::add</FUNCTION>
+    <DECORATED>?add@?$lista@VPet@@@@QEAAXAEBVPet@@@Z</DECORATED>
+    <FUNCLINE>306</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\razvan\desktop\programare orientata obiect\vectordinamiccpp\vectordinamiccpp</FILEPATH>
+      <FILENAME>vectordinamictemplate.h</FILENAME>
+      <LINE>388</LINE>
+      <COLUMN>42</COLUMN>
+    </SFA>
+    <DEFECTCODE>26440</DEFECTCODE>
+    <DESCRIPTION>Function 'lista&lt;Pet&gt;::begin' can be declared 'noexcept' (f.6).</DESCRIPTION>
+    <FUNCTION>lista&lt;Pet&gt;::begin</FUNCTION>
+    <DECORATED>?begin@?$lista@VPet@@@@QEBA?AV?$iterator_lista@VPet@@@@XZ</DECORATED>
+    <FUNCLINE>388</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\razvan\desktop\programare orientata obiect\vectordinamiccpp\vectordinamiccpp</FILEPATH>
+      <FILENAME>vectordinamictemplate.h</FILENAME>
+      <LINE>394</LINE>
+      <COLUMN>42</COLUMN>
+    </SFA>
+    <DEFECTCODE>26440</DEFECTCODE>
+    <DESCRIPTION>Function 'lista&lt;Pet&gt;::end' can be declared 'noexcept' (f.6).</DESCRIPTION>
+    <FUNCTION>lista&lt;Pet&gt;::end</FUNCTION>
+    <DECORATED>?end@?$lista@VPet@@@@QEBA?AV?$iterator_lista@VPet@@@@XZ</DECORATED>
+    <FUNCLINE>394</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\razvan\desktop\programare orientata obiect\vectordinamiccpp\vectordinamiccpp</FILEPATH>
+      <FILENAME>vectordinamictemplate.h</FILENAME>
+      <LINE>429</LINE>
+      <COLUMN>31</COLUMN>
+    </SFA>
+    <DEFECTCODE>26440</DEFECTCODE>
+    <DESCRIPTION>Function 'iterator_lista&lt;Pet&gt;::valid' can be declared 'noexcept' (f.6).</DESCRIPTION>
+    <FUNCTION>iterator_lista&lt;Pet&gt;::valid</FUNCTION>
+    <DECORATED>?valid@?$iterator_lista@VPet@@@@QEBA_NXZ</DECORATED>
+    <FUNCLINE>429</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\razvan\desktop\programare orientata obiect\vectordinamiccpp\vectordinamiccpp</FILEPATH>
+      <FILENAME>vectordinamictemplate.h</FILENAME>
+      <LINE>434</LINE>
+      <COLUMN>36</COLUMN>
+    </SFA>
+    <DEFECTCODE>26440</DEFECTCODE>
+    <DESCRIPTION>Function 'iterator_lista&lt;Pet&gt;::element' can be declared 'noexcept' (f.6).</DESCRIPTION>
+    <FUNCTION>iterator_lista&lt;Pet&gt;::element</FUNCTION>
+    <DECORATED>?element@?$iterator_lista@VPet@@@@QEBAAEAVPet@@XZ</DECORATED>
+    <FUNCLINE>434</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\razvan\desktop\programare orientata obiect\vectordinamiccpp\vectordinamiccpp</FILEPATH>
+      <FILENAME>vectordinamictemplate.h</FILENAME>
+      <LINE>439</LINE>
+      <COLUMN>31</COLUMN>
+    </SFA>
+    <DEFECTCODE>26440</DEFECTCODE>
+    <DESCRIPTION>Function 'iterator_lista&lt;Pet&gt;::next' can be declared 'noexcept' (f.6).</DESCRIPTION>
+    <FUNCTION>iterator_lista&lt;Pet&gt;::next</FUNCTION>
+    <DECORATED>?next@?$iterator_lista@VPet@@@@QEAAXXZ</DECORATED>
+    <FUNCLINE>439</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\razvan\desktop\programare orientata obiect\vectordinamiccpp\vectordinamiccpp</FILEPATH>
+      <FILENAME>vectdinnewdelete.cpp</FILENAME>
+      <LINE>8</LINE>
+      <COLUMN>45</COLUMN>
+    </SFA>
+    <DEFECTCODE>26409</DEFECTCODE>
+    <DESCRIPTION>Avoid calling new and delete explicitly, use std::make_unique&lt;T&gt; instead (r.11).</DESCRIPTION>
+    <FUNCTION>VectDinNewDelete::{ctor}</FUNCTION>
+    <DECORATED>??0VectDinNewDelete@@QEAA@XZ</DECORATED>
+    <FUNCLINE>8</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\razvan\desktop\programare orientata obiect\vectordinamiccpp\vectordinamiccpp</FILEPATH>
+      <FILENAME>vectdinnewdelete.cpp</FILENAME>
+      <LINE>8</LINE>
+      <COLUMN>18</COLUMN>
+    </SFA>
+    <DEFECTCODE>26455</DEFECTCODE>
+    <DESCRIPTION>Default constructor may not throw. Declare it 'noexcept' (f.6).</DESCRIPTION>
+    <FUNCTION>VectDinNewDelete::{ctor}</FUNCTION>
+    <DECORATED>??0VectDinNewDelete@@QEAA@XZ</DECORATED>
+    <FUNCLINE>8</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\razvan\desktop\programare orientata obiect\vectordinamiccpp\vectordinamiccpp</FILEPATH>
+      <FILENAME>vectdinnewdelete.cpp</FILENAME>
+      <LINE>17</LINE>
+      <COLUMN>9</COLUMN>
+    </SFA>
+    <DEFECTCODE>26409</DEFECTCODE>
+    <DESCRIPTION>Avoid calling new and delete explicitly, use std::make_unique&lt;T&gt; instead (r.11).</DESCRIPTION>
+    <FUNCTION>VectDinNewDelete::{ctor}</FUNCTION>
+    <DECORATED>??0VectDinNewDelete@@QEAA@AEBV0@@Z</DECORATED>
+    <FUNCLINE>16</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\razvan\desktop\programare orientata obiect\vectordinamiccpp\vectordinamiccpp</FILEPATH>
+      <FILENAME>vectdinnewdelete.cpp</FILENAME>
+      <LINE>37</LINE>
+      <COLUMN>9</COLUMN>
+    </SFA>
+    <DEFECTCODE>26409</DEFECTCODE>
+    <DESCRIPTION>Avoid calling new and delete explicitly, use std::make_unique&lt;T&gt; instead (r.11).</DESCRIPTION>
+    <FUNCTION>VectDinNewDelete::=</FUNCTION>
+    <DECORATED>??4VectDinNewDelete@@QEAAAEAV0@AEBV0@@Z</DECORATED>
+    <FUNCLINE>32</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\razvan\desktop\programare orientata obiect\vectordinamiccpp\vectordinamiccpp</FILEPATH>
+      <FILENAME>vectdinnewdelete.cpp</FILENAME>
+      <LINE>60</LINE>
+      <COLUMN>18</COLUMN>
+    </SFA>
+    <DEFECTCODE>26439</DEFECTCODE>
+    <DESCRIPTION>This kind of function may not throw. Declare it 'noexcept' (f.6).</DESCRIPTION>
+    <FUNCTION>VectDinNewDelete::{ctor}</FUNCTION>
+    <DECORATED>??0VectDinNewDelete@@QEAA@$$QEAV0@@Z</DECORATED>
+    <FUNCLINE>60</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\razvan\desktop\programare orientata obiect\vectordinamiccpp\vectordinamiccpp</FILEPATH>
+      <FILENAME>vectdinnewdelete.cpp</FILENAME>
+      <LINE>81</LINE>
+      <COLUMN>36</COLUMN>
+    </SFA>
+    <DEFECTCODE>26439</DEFECTCODE>
+    <DESCRIPTION>This kind of function may not throw. Declare it 'noexcept' (f.6).</DESCRIPTION>
+    <FUNCTION>VectDinNewDelete::=</FUNCTION>
+    <DECORATED>??4VectDinNewDelete@@QEAAAEAV0@$$QEAV0@@Z</DECORATED>
+    <FUNCLINE>81</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\razvan\desktop\programare orientata obiect\vectordinamiccpp\vectordinamiccpp</FILEPATH>
+      <FILENAME>vectdinnewdelete.cpp</FILENAME>
+      <LINE>105</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26481</DEFECTCODE>
+    <DESCRIPTION>Don't use pointer arithmetic. Use span instead (bounds.1).</DESCRIPTION>
+    <FUNCTION>VectDinNewDelete::get</FUNCTION>
+    <DECORATED>?get@VectDinNewDelete@@QEBAAEAVPet@@H@Z</DECORATED>
+    <FUNCLINE>104</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\razvan\desktop\programare orientata obiect\vectordinamiccpp\vectordinamiccpp</FILEPATH>
+      <FILENAME>vectdinnewdelete.cpp</FILENAME>
+      <LINE>104</LINE>
+      <COLUMN>27</COLUMN>
+    </SFA>
+    <DEFECTCODE>26440</DEFECTCODE>
+    <DESCRIPTION>Function 'VectDinNewDelete::get' can be declared 'noexcept' (f.6).</DESCRIPTION>
+    <FUNCTION>VectDinNewDelete::get</FUNCTION>
+    <DECORATED>?get@VectDinNewDelete@@QEBAAEAVPet@@H@Z</DECORATED>
+    <FUNCLINE>104</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\razvan\desktop\programare orientata obiect\vectordinamiccpp\vectordinamiccpp</FILEPATH>
+      <FILENAME>vectdinnewdelete.cpp</FILENAME>
+      <LINE>121</LINE>
+      <COLUMN>16</COLUMN>
+    </SFA>
+    <DEFECTCODE>26409</DEFECTCODE>
+    <DESCRIPTION>Avoid calling new and delete explicitly, use std::make_unique&lt;T&gt; instead (r.11).</DESCRIPTION>
+    <FUNCTION>VectDinNewDelete::ensureCapacity</FUNCTION>
+    <DECORATED>?ensureCapacity@VectDinNewDelete@@AEAAXXZ</DECORATED>
+    <FUNCLINE>116</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\razvan\desktop\programare orientata obiect\vectordinamiccpp\vectordinamiccpp</FILEPATH>
+      <FILENAME>vectdinnewdelete.cpp</FILENAME>
+      <LINE>121</LINE>
+      <COLUMN>8</COLUMN>
+    </SFA>
+    <DEFECTCODE>26429</DEFECTCODE>
+    <DESCRIPTION>Symbol 'aux' is never tested for nullness, it can be marked as not_null (f.23).</DESCRIPTION>
+    <FUNCTION>VectDinNewDelete::ensureCapacity</FUNCTION>
+    <DECORATED>?ensureCapacity@VectDinNewDelete@@AEAAXXZ</DECORATED>
+    <FUNCLINE>116</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\razvan\desktop\programare orientata obiect\vectordinamiccpp\vectordinamiccpp</FILEPATH>
+      <FILENAME>vectdinnewdelete.cpp</FILENAME>
+      <LINE>130</LINE>
+      <COLUMN>33</COLUMN>
+    </SFA>
+    <DEFECTCODE>26440</DEFECTCODE>
+    <DESCRIPTION>Function 'VectDinNewDelete::begin' can be declared 'noexcept' (f.6).</DESCRIPTION>
+    <FUNCTION>VectDinNewDelete::begin</FUNCTION>
+    <DECORATED>?begin@VectDinNewDelete@@QEAA?AVIteratorVector@@XZ</DECORATED>
+    <FUNCLINE>130</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\razvan\desktop\programare orientata obiect\vectordinamiccpp\vectordinamiccpp</FILEPATH>
+      <FILENAME>vectdinnewdelete.cpp</FILENAME>
+      <LINE>135</LINE>
+      <COLUMN>33</COLUMN>
+    </SFA>
+    <DEFECTCODE>26440</DEFECTCODE>
+    <DESCRIPTION>Function 'VectDinNewDelete::end' can be declared 'noexcept' (f.6).</DESCRIPTION>
+    <FUNCTION>VectDinNewDelete::end</FUNCTION>
+    <DECORATED>?end@VectDinNewDelete@@QEAA?AVIteratorVector@@XZ</DECORATED>
+    <FUNCLINE>135</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\razvan\desktop\programare orientata obiect\vectordinamiccpp\vectordinamiccpp</FILEPATH>
+      <FILENAME>vectdinnewdelete.cpp</FILENAME>
+      <LINE>148</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26481</DEFECTCODE>
+    <DESCRIPTION>Don't use pointer arithmetic. Use span instead (bounds.1).</DESCRIPTION>
+    <FUNCTION>IteratorVector::element</FUNCTION>
+    <DECORATED>?element@IteratorVector@@QEBAAEAVPet@@XZ</DECORATED>
+    <FUNCLINE>147</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\razvan\desktop\programare orientata obiect\vectordinamiccpp\vectordinamiccpp</FILEPATH>
+      <FILENAME>vectdinnewdelete.cpp</FILENAME>
+      <LINE>153</LINE>
+      <COLUMN>25</COLUMN>
+    </SFA>
+    <DEFECTCODE>26440</DEFECTCODE>
+    <DESCRIPTION>Function 'IteratorVector::operator*' can be declared 'noexcept' (f.6).</DESCRIPTION>
+    <FUNCTION>IteratorVector::*</FUNCTION>
+    <DECORATED>??DIteratorVector@@QEAAAEAVPet@@XZ</DECORATED>
+    <FUNCLINE>153</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\razvan\desktop\programare orientata obiect\vectordinamiccpp\vectordinamiccpp</FILEPATH>
+      <FILENAME>vectdinnewdelete.cpp</FILENAME>
+      <LINE>156</LINE>
+      <COLUMN>32</COLUMN>
+    </SFA>
+    <DEFECTCODE>26440</DEFECTCODE>
+    <DESCRIPTION>Function 'IteratorVector::operator++' can be declared 'noexcept' (f.6).</DESCRIPTION>
+    <FUNCTION>IteratorVector::++</FUNCTION>
+    <DECORATED>??EIteratorVector@@QEAAAEAV0@XZ</DECORATED>
+    <FUNCLINE>156</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\razvan\desktop\programare orientata obiect\vectordinamiccpp\vectordinamiccpp</FILEPATH>
+      <FILENAME>vectdinsmartpointer.cpp</FILENAME>
+      <LINE>8</LINE>
+      <COLUMN>21</COLUMN>
+    </SFA>
+    <DEFECTCODE>26455</DEFECTCODE>
+    <DESCRIPTION>Default constructor may not throw. Declare it 'noexcept' (f.6).</DESCRIPTION>
+    <FUNCTION>VectDinSmartPointer::{ctor}</FUNCTION>
+    <DECORATED>??0VectDinSmartPointer@@QEAA@XZ</DECORATED>
+    <FUNCLINE>8</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\razvan\desktop\programare orientata obiect\vectordinamiccpp\vectordinamiccpp</FILEPATH>
+      <FILENAME>vectdinsmartpointer.cpp</FILENAME>
+      <LINE>61</LINE>
+      <COLUMN>38</COLUMN>
+    </SFA>
+    <DEFECTCODE>26440</DEFECTCODE>
+    <DESCRIPTION>Function 'VectDinSmartPointer::begin' can be declared 'noexcept' (f.6).</DESCRIPTION>
+    <FUNCTION>VectDinSmartPointer::begin</FUNCTION>
+    <DECORATED>?begin@VectDinSmartPointer@@QEAA?AVIteratorVectorSP@@XZ</DECORATED>
+    <FUNCLINE>61</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\razvan\desktop\programare orientata obiect\vectordinamiccpp\vectordinamiccpp</FILEPATH>
+      <FILENAME>vectdinsmartpointer.cpp</FILENAME>
+      <LINE>66</LINE>
+      <COLUMN>38</COLUMN>
+    </SFA>
+    <DEFECTCODE>26440</DEFECTCODE>
+    <DESCRIPTION>Function 'VectDinSmartPointer::end' can be declared 'noexcept' (f.6).</DESCRIPTION>
+    <FUNCTION>VectDinSmartPointer::end</FUNCTION>
+    <DECORATED>?end@VectDinSmartPointer@@QEAA?AVIteratorVectorSP@@XZ</DECORATED>
+    <FUNCLINE>66</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\razvan\desktop\programare orientata obiect\vectordinamiccpp\vectordinamiccpp</FILEPATH>
+      <FILENAME>vectdinsmartpointer.cpp</FILENAME>
+      <LINE>79</LINE>
+      <COLUMN>19</COLUMN>
+    </SFA>
+    <DEFECTCODE>26447</DEFECTCODE>
+    <DESCRIPTION>The function is declared 'noexcept' but calls function 'operator[]()' which may throw exceptions (f.6).</DESCRIPTION>
+    <FUNCTION>IteratorVectorSP::element</FUNCTION>
+    <DECORATED>?element@IteratorVectorSP@@QEBAAEAVPet@@XZ</DECORATED>
+    <FUNCLINE>78</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\razvan\desktop\programare orientata obiect\vectordinamiccpp\vectordinamiccpp</FILEPATH>
+      <FILENAME>vectdinsmartpointer.cpp</FILENAME>
+      <LINE>84</LINE>
+      <COLUMN>27</COLUMN>
+    </SFA>
+    <DEFECTCODE>26440</DEFECTCODE>
+    <DESCRIPTION>Function 'IteratorVectorSP::operator*' can be declared 'noexcept' (f.6).</DESCRIPTION>
+    <FUNCTION>IteratorVectorSP::*</FUNCTION>
+    <DECORATED>??DIteratorVectorSP@@QEAAAEAVPet@@XZ</DECORATED>
+    <FUNCLINE>84</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\razvan\desktop\programare orientata obiect\vectordinamiccpp\vectordinamiccpp</FILEPATH>
+      <FILENAME>vectdinsmartpointer.cpp</FILENAME>
+      <LINE>87</LINE>
+      <COLUMN>36</COLUMN>
+    </SFA>
+    <DEFECTCODE>26440</DEFECTCODE>
+    <DESCRIPTION>Function 'IteratorVectorSP::operator++' can be declared 'noexcept' (f.6).</DESCRIPTION>
+    <FUNCTION>IteratorVectorSP::++</FUNCTION>
+    <DECORATED>??EIteratorVectorSP@@QEAAAEAV0@XZ</DECORATED>
+    <FUNCLINE>87</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT></DEFECTS>

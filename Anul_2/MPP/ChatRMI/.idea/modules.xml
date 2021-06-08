@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ChatClient/ChatClient.iml" filepath="$PROJECT_DIR$/.idea/modules/ChatClient/ChatClient.iml" group="ChatRMI/ChatClient" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ChatClient/ChatClient_main.iml" filepath="$PROJECT_DIR$/.idea/modules/ChatClient/ChatClient_main.iml" group="ChatRMI/ChatClient" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ChatClient/ChatClient_test.iml" filepath="$PROJECT_DIR$/.idea/modules/ChatClient/ChatClient_test.iml" group="ChatRMI/ChatClient" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ChatModel/ChatModel.iml" filepath="$PROJECT_DIR$/.idea/modules/ChatModel/ChatModel.iml" group="ChatRMI/ChatModel" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ChatModel/ChatModel_main.iml" filepath="$PROJECT_DIR$/.idea/modules/ChatModel/ChatModel_main.iml" group="ChatRMI/ChatModel" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ChatModel/ChatModel_test.iml" filepath="$PROJECT_DIR$/.idea/modules/ChatModel/ChatModel_test.iml" group="ChatRMI/ChatModel" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ChatPersistence/ChatPersistence.iml" filepath="$PROJECT_DIR$/.idea/modules/ChatPersistence/ChatPersistence.iml" group="ChatRMI/ChatPersistence" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ChatPersistence/ChatPersistence_main.iml" filepath="$PROJECT_DIR$/.idea/modules/ChatPersistence/ChatPersistence_main.iml" group="ChatRMI/ChatPersistence" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ChatPersistence/ChatPersistence_test.iml" filepath="$PROJECT_DIR$/.idea/modules/ChatPersistence/ChatPersistence_test.iml" group="ChatRMI/ChatPersistence" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ChatRMI.iml" filepath="$PROJECT_DIR$/.idea/modules/ChatRMI.iml" group="ChatRMI" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ChatRMI_main.iml" filepath="$PROJECT_DIR$/.idea/modules/ChatRMI_main.iml" group="ChatRMI" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ChatRMI_test.iml" filepath="$PROJECT_DIR$/.idea/modules/ChatRMI_test.iml" group="ChatRMI" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ChatServer/ChatServer.iml" filepath="$PROJECT_DIR$/.idea/modules/ChatServer/ChatServer.iml" group="ChatRMI/ChatServer" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ChatServer/ChatServer_main.iml" filepath="$PROJECT_DIR$/.idea/modules/ChatServer/ChatServer_main.iml" group="ChatRMI/ChatServer" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ChatServer/ChatServer_test.iml" filepath="$PROJECT_DIR$/.idea/modules/ChatServer/ChatServer_test.iml" group="ChatRMI/ChatServer" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ChatServices/ChatServices.iml" filepath="$PROJECT_DIR$/.idea/modules/ChatServices/ChatServices.iml" group="ChatRMI/ChatServices" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ChatServices/ChatServices_main.iml" filepath="$PROJECT_DIR$/.idea/modules/ChatServices/ChatServices_main.iml" group="ChatRMI/ChatServices" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ChatServices/ChatServices_test.iml" filepath="$PROJECT_DIR$/.idea/modules/ChatServices/ChatServices_test.iml" group="ChatRMI/ChatServices" />
+    </modules>
+  </component>
+</project>

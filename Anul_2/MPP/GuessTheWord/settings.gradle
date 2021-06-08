@@ -1,0 +1,12 @@
+rootProject.name = 'GuessTheWord'
+include 'Mode'
+include 'Persistance'
+include 'Service'
+include 'Model'
+include 'Model'
+include 'Persistance'
+include 'Service'
+include 'Client'
+include 'Server'
+include 'RestServices'
+

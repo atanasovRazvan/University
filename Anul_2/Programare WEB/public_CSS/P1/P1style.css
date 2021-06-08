@@ -1,0 +1,22 @@
+.div {
+  border-style: solid;
+  border-width: 1px;
+  margin: auto;
+  overflow: auto;
+  width: max-content;
+  display: table;
+}
+
+.div1 {
+  width: 200px;
+  display: table-cell;
+  vertical-align: middle;
+  align-content: center;
+}
+
+.div2 {
+  width: 200px;
+  display: table-cell;
+  vertical-align: middle;
+  align-content: center;
+}

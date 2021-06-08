@@ -1,0 +1,19 @@
+group 'ChatRMI'
+version '1.0'
+
+apply plugin: 'java'
+apply plugin:'application'
+
+sourceCompatibility = 1.8
+mainClassName='StartRMIServer'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile project (':ChatModel')
+    compile project (':ChatPersistence')
+    compile project (':ChatServices')
+    testCompile group: 'junit', name: 'junit', version: '4.11'
+}

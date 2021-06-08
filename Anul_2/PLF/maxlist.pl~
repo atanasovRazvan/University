@@ -1,0 +1,10 @@
+maxList([M], M):-!.
+maxList([H1, H2|T], M):-
+    H1 >= H2,
+    !,
+    maxList([H1|T], M),
+    !.
+maxList([_, H2|T], M):-
+    maxList([H2|T], M),
+    !.
+

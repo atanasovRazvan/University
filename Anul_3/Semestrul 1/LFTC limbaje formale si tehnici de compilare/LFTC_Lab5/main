@@ -1,0 +1,24 @@
+
+from firstPartLogic import firstPart
+from secondPartLogic import secondPart
+from getGrammar import obtainGrammar
+
+while True:
+
+    print("1. Partea intai (meniu afisare)")
+    print("2. Partea a doua (analiza sintactica a secventei)")
+    print("3. EXIT")
+
+    grammar = obtainGrammar()
+
+    cmd = input("\nAlegeti varianta dorita: ")
+
+    if cmd == "1":
+        grammar = firstPart(grammar)
+    elif cmd == "2":
+        secondPart(grammar)
+    elif cmd == "3":
+        break
+    else:
+        print("\nComanda invalida!\n")
+

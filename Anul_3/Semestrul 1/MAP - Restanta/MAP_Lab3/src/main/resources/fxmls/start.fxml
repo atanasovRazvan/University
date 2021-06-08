@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane style="-fx-background-color: cyan;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="socialnetwork.controllers.StartWindowController">
+   <children>
+      <Button onAction="#buttonClicked" alignment="CENTER" layoutX="102.0" layoutY="87.0" mnemonicParsing="false" text="Open a window for a specific user" AnchorPane.bottomAnchor="87.4" AnchorPane.leftAnchor="102.0" AnchorPane.rightAnchor="102.80000000000001" AnchorPane.topAnchor="87.0" />
+   </children>
+</AnchorPane>

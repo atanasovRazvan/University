@@ -1,0 +1,14 @@
+
+7
+java:S1116O"Remove this empty statement.(Ì†¡ùÿÿÿÿ
+t
+java:S2293O"YReplace the type specification in this constructor call with the diamond operator ("<>").(Ì†¡ùÿÿÿÿ
+^
+java:S1128
+"CRemove this unused import 'quizzes.repository.file.FileRepository'.(Ø´àÍøÿÿÿÿ
+5
+java:S1659."Declare "i" on a separate line.(ƒê×É
+5
+java:S1659."Declare "p" on a separate line.(ƒê×É
+T
+java:S1155>">Use isEmpty() to check whether the collection is empty or not.(µìŞş

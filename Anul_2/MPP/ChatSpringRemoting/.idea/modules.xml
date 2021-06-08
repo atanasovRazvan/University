@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ChatClient.iml" filepath="$PROJECT_DIR$/.idea/modules/ChatClient.iml" group="ChatSpringRemoting/ChatClient" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ChatClient/ChatClient_main.iml" filepath="$PROJECT_DIR$/.idea/modules/ChatClient/ChatClient_main.iml" group="ChatSpringRemoting/ChatClient" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ChatClient/ChatClient_test.iml" filepath="$PROJECT_DIR$/.idea/modules/ChatClient/ChatClient_test.iml" group="ChatSpringRemoting/ChatClient" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ChatModel.iml" filepath="$PROJECT_DIR$/.idea/modules/ChatModel.iml" group="ChatSpringRemoting/ChatModel" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ChatModel/ChatModel_main.iml" filepath="$PROJECT_DIR$/.idea/modules/ChatModel/ChatModel_main.iml" group="ChatSpringRemoting/ChatModel" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ChatModel/ChatModel_test.iml" filepath="$PROJECT_DIR$/.idea/modules/ChatModel/ChatModel_test.iml" group="ChatSpringRemoting/ChatModel" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ChatPersistence.iml" filepath="$PROJECT_DIR$/.idea/modules/ChatPersistence.iml" group="ChatSpringRemoting/ChatPersistence" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ChatPersistence/ChatPersistence_main.iml" filepath="$PROJECT_DIR$/.idea/modules/ChatPersistence/ChatPersistence_main.iml" group="ChatSpringRemoting/ChatPersistence" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ChatPersistence/ChatPersistence_test.iml" filepath="$PROJECT_DIR$/.idea/modules/ChatPersistence/ChatPersistence_test.iml" group="ChatSpringRemoting/ChatPersistence" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ChatServer.iml" filepath="$PROJECT_DIR$/.idea/modules/ChatServer.iml" group="ChatSpringRemoting/ChatServer" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ChatServer/ChatServer_main.iml" filepath="$PROJECT_DIR$/.idea/modules/ChatServer/ChatServer_main.iml" group="ChatSpringRemoting/ChatServer" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ChatServer/ChatServer_test.iml" filepath="$PROJECT_DIR$/.idea/modules/ChatServer/ChatServer_test.iml" group="ChatSpringRemoting/ChatServer" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ChatServices.iml" filepath="$PROJECT_DIR$/.idea/modules/ChatServices.iml" group="ChatSpringRemoting/ChatServices" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ChatServices/ChatServices_main.iml" filepath="$PROJECT_DIR$/.idea/modules/ChatServices/ChatServices_main.iml" group="ChatSpringRemoting/ChatServices" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ChatServices/ChatServices_test.iml" filepath="$PROJECT_DIR$/.idea/modules/ChatServices/ChatServices_test.iml" group="ChatSpringRemoting/ChatServices" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ChatSpringRemoting.iml" filepath="$PROJECT_DIR$/.idea/modules/ChatSpringRemoting.iml" group="ChatSpringRemoting" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ChatSpringRemoting_main.iml" filepath="$PROJECT_DIR$/.idea/modules/ChatSpringRemoting_main.iml" group="ChatSpringRemoting" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ChatSpringRemoting_test.iml" filepath="$PROJECT_DIR$/.idea/modules/ChatSpringRemoting_test.iml" group="ChatSpringRemoting" />
+    </modules>
+  </component>
+</project>

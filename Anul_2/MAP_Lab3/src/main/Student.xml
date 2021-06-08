@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<inbox>
+    <student id="1">
+        <grupa>221</grupa>
+        <nume>Atanasov Razvan</nume>
+        <email>amir2451@scs.ubbcluj.com</email>
+        <profesor>Modoi</profesor>
+    </student>
+    <student id="2">
+        <grupa>213</grupa>
+        <nume>Dinu Inocentiu</nume>
+        <email>dinu@gmail.com</email>
+        <profesor>Ijvan</profesor>
+    </student>
+    <student id="7">
+        <grupa>217</grupa>
+        <nume>Madalina Zele</nume>
+        <email>buna@buna.com</email>
+        <profesor>Adriana</profesor>
+    </student>
+    <student id="999">
+        <grupa>666</grupa>
+        <nume>Ploaie Ioana-Alexandra</nume>
+        <email>ally.pisi@ceva.com</email>
+        <profesor>Atanasov</profesor>
+    </student>
+</inbox>

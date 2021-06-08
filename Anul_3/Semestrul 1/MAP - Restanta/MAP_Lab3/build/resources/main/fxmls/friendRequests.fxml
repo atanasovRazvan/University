@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="socialnetwork.controllers.FriendReuqestsController">
+   <children>
+      <TableView fx:id="table" layoutX="12.0" layoutY="89.0" prefHeight="200.0" prefWidth="578.0">
+        <columns>
+          <TableColumn fx:id="firstName" prefWidth="98.4000244140625" text="First Name" />
+          <TableColumn fx:id="lastName" prefWidth="104.800048828125" text="Last name" />
+            <TableColumn fx:id="dateTime" prefWidth="145.60003662109375" text="Date &amp; Time" />
+            <TableColumn fx:id="acceptBtns" minWidth="5.5999755859375" prefWidth="74.39996337890625" />
+            <TableColumn fx:id="refuseBtns" minWidth="0.0" prefWidth="74.40008544921875" />
+            <TableColumn fx:id="status" prefWidth="75.0" text="Status" />
+        </columns>
+      </TableView>
+      <Label layoutX="237.0" layoutY="39.0" text="Friend Requests">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

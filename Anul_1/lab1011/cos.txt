@@ -1,0 +1,3 @@
+12,dorel1,2 camere,46
+16,dorel2,2 camere,40
+11,dorel4,3 camere,60

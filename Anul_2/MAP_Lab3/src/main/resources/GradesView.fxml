@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controllers.GradeController">
+   <children>
+      <TableView fx:id="table" prefHeight="400.0" prefWidth="243.0">
+        <columns>
+          <TableColumn fx:id="nrTemaCol" prefWidth="36.0" text="Tema" />
+          <TableColumn fx:id="numeCol" prefWidth="93.5999755859375" text="Nume Prenume" />
+            <TableColumn fx:id="profCol" prefWidth="75.0" text="Profesor" />
+            <TableColumn fx:id="notaCol" prefWidth="37.5999755859375" text="Nota" />
+        </columns>
+      </TableView>
+      <ComboBox fx:id="comboBox" layoutX="404.0" layoutY="31.0" prefWidth="150.0" />
+      <Label layoutX="300.0" layoutY="35.0" text="Selectati tema:" />
+      <TextField fx:id="numeTextField" layoutX="405.0" layoutY="79.0" />
+      <Label layoutX="285.0" layoutY="83.0" text="Numele studentului:" />
+      <TextField fx:id="notaTextField" layoutX="321.0" layoutY="123.0" prefHeight="26.0" prefWidth="34.0" />
+      <Label layoutX="286.0" layoutY="127.0" text="Nota:" />
+      <TextField fx:id="profTextField" layoutX="434.0" layoutY="124.0" prefHeight="26.0" prefWidth="120.0" />
+      <Label layoutX="381.0" layoutY="128.0" text="Profesor" />
+      <Label layoutX="393.0" layoutY="168.0" text="FEEDBACK" />
+      <TextArea fx:id="feedbackTextField" layoutX="264.0" layoutY="192.0" prefHeight="65.0" prefWidth="314.0" />
+      <CheckBox fx:id="motivareCheckBox" layoutX="264.0" layoutY="282.0" mnemonicParsing="false" text="Motivare" />
+      <Button onAction="#handlePreviewButton" fx:id="previewButton" defaultButton="true" layoutX="528.0" layoutY="269.0" mnemonicParsing="false" text="Preview" />
+      <Button onAction="#handleDeleteButton" fx:id="deleteButton" defaultButton="true" layoutX="531.0" layoutY="300.0" mnemonicParsing="false" text="Sterge" />
+      <Button fx:id="closeButton" cancelButton="true" layoutX="534.0" layoutY="349.0" mnemonicParsing="false" onAction="#handleCloseButton" text="Close" />
+      <CheckBox fx:id="checkBox" layoutX="263.0" layoutY="313.0" mnemonicParsing="false" onAction="#handleCheckBox" text="Intarziere" />
+      <TextField fx:id="saptIntarziereTextField" layoutX="375.0" layoutY="336.0" prefHeight="26.0" prefWidth="34.0" />
+      <Label layoutX="259.0" layoutY="340.0" text="Saptamani intarziere:" />
+   </children>
+</AnchorPane>

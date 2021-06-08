@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd">
+
+
+    <bean id="userRepo" class="chat.persistence.repository.mock.UserRepositoryMock"/>
+
+    <bean id="chatService" class="chat.server.ChatServerImpl">
+        <constructor-arg ref="userRepo"/>
+    </bean>
+
+    <bean class="org.springframework.remoting.rmi.RmiServiceExporter">
+
+        <property name="serviceName" value="Chat"/>
+        <property name="service" ref="chatService"/>
+        <property name="serviceInterface" value="chat.services.IChatServices"/>
+        <property name="servicePort" value="1099"/>
+    </bean>
+
+
+
+</beans>

@@ -1,0 +1,372 @@
+Grammar
+
+    0 $accept: program $end
+
+    1 program: HEADER '{' lista_instructiuni '}'
+
+    2 lista_instructiuni: instructiune_declarare lista_instructiuni
+    3                   | instructiune_declarare
+
+    4 instructiune_declarare: instructiune
+    5                       | declarare
+
+    6 declarare: INT IDENTIFIER ';'
+
+    7 instructiune: citire
+    8             | scriere
+    9             | atribuire
+
+   10 citire: CIN CIN_OPERATOR IDENTIFIER ';'
+
+   11 scriere: COUT COUT_OPERATOR var ';'
+
+   12 atribuire: IDENTIFIER '=' expresie ';'
+
+   13 expresie: expresie '+' var
+   14         | expresie '-' var
+   15         | var
+
+   16 var: IDENTIFIER
+   17    | CONSTANT
+
+
+Terminals, with rules where they appear
+
+$end (0) 0
+'+' (43) 13
+'-' (45) 14
+';' (59) 6 10 11 12
+'=' (61) 12
+'{' (123) 1
+'}' (125) 1
+error (256)
+HEADER (258) 1
+INT (259) 6
+CONSTANT (260) 17
+IDENTIFIER (261) 6 10 12 16
+CIN (262) 10
+COUT (263) 11
+CIN_OPERATOR (264) 10
+COUT_OPERATOR (265) 11
+
+
+Nonterminals, with rules where they appear
+
+$accept (17)
+    on left: 0
+program (18)
+    on left: 1, on right: 0
+lista_instructiuni (19)
+    on left: 2 3, on right: 1 2
+instructiune_declarare (20)
+    on left: 4 5, on right: 2 3
+declarare (21)
+    on left: 6, on right: 5
+instructiune (22)
+    on left: 7 8 9, on right: 4
+citire (23)
+    on left: 10, on right: 7
+scriere (24)
+    on left: 11, on right: 8
+atribuire (25)
+    on left: 12, on right: 9
+expresie (26)
+    on left: 13 14 15, on right: 12 13 14
+var (27)
+    on left: 16 17, on right: 11 13 14 15
+
+
+state 0
+
+    0 $accept: . program $end
+
+    HEADER  shift, and go to state 1
+
+    program  go to state 2
+
+
+state 1
+
+    1 program: HEADER . '{' lista_instructiuni '}'
+
+    '{'  shift, and go to state 3
+
+
+state 2
+
+    0 $accept: program . $end
+
+    $end  shift, and go to state 4
+
+
+state 3
+
+    1 program: HEADER '{' . lista_instructiuni '}'
+
+    INT         shift, and go to state 5
+    IDENTIFIER  shift, and go to state 6
+    CIN         shift, and go to state 7
+    COUT        shift, and go to state 8
+
+    lista_instructiuni      go to state 9
+    instructiune_declarare  go to state 10
+    declarare               go to state 11
+    instructiune            go to state 12
+    citire                  go to state 13
+    scriere                 go to state 14
+    atribuire               go to state 15
+
+
+state 4
+
+    0 $accept: program $end .
+
+    $default  accept
+
+
+state 5
+
+    6 declarare: INT . IDENTIFIER ';'
+
+    IDENTIFIER  shift, and go to state 16
+
+
+state 6
+
+   12 atribuire: IDENTIFIER . '=' expresie ';'
+
+    '='  shift, and go to state 17
+
+
+state 7
+
+   10 citire: CIN . CIN_OPERATOR IDENTIFIER ';'
+
+    CIN_OPERATOR  shift, and go to state 18
+
+
+state 8
+
+   11 scriere: COUT . COUT_OPERATOR var ';'
+
+    COUT_OPERATOR  shift, and go to state 19
+
+
+state 9
+
+    1 program: HEADER '{' lista_instructiuni . '}'
+
+    '}'  shift, and go to state 20
+
+
+state 10
+
+    2 lista_instructiuni: instructiune_declarare . lista_instructiuni
+    3                   | instructiune_declarare .
+
+    INT         shift, and go to state 5
+    IDENTIFIER  shift, and go to state 6
+    CIN         shift, and go to state 7
+    COUT        shift, and go to state 8
+
+    $default  reduce using rule 3 (lista_instructiuni)
+
+    lista_instructiuni      go to state 21
+    instructiune_declarare  go to state 10
+    declarare               go to state 11
+    instructiune            go to state 12
+    citire                  go to state 13
+    scriere                 go to state 14
+    atribuire               go to state 15
+
+
+state 11
+
+    5 instructiune_declarare: declarare .
+
+    $default  reduce using rule 5 (instructiune_declarare)
+
+
+state 12
+
+    4 instructiune_declarare: instructiune .
+
+    $default  reduce using rule 4 (instructiune_declarare)
+
+
+state 13
+
+    7 instructiune: citire .
+
+    $default  reduce using rule 7 (instructiune)
+
+
+state 14
+
+    8 instructiune: scriere .
+
+    $default  reduce using rule 8 (instructiune)
+
+
+state 15
+
+    9 instructiune: atribuire .
+
+    $default  reduce using rule 9 (instructiune)
+
+
+state 16
+
+    6 declarare: INT IDENTIFIER . ';'
+
+    ';'  shift, and go to state 22
+
+
+state 17
+
+   12 atribuire: IDENTIFIER '=' . expresie ';'
+
+    CONSTANT    shift, and go to state 23
+    IDENTIFIER  shift, and go to state 24
+
+    expresie  go to state 25
+    var       go to state 26
+
+
+state 18
+
+   10 citire: CIN CIN_OPERATOR . IDENTIFIER ';'
+
+    IDENTIFIER  shift, and go to state 27
+
+
+state 19
+
+   11 scriere: COUT COUT_OPERATOR . var ';'
+
+    CONSTANT    shift, and go to state 23
+    IDENTIFIER  shift, and go to state 24
+
+    var  go to state 28
+
+
+state 20
+
+    1 program: HEADER '{' lista_instructiuni '}' .
+
+    $default  reduce using rule 1 (program)
+
+
+state 21
+
+    2 lista_instructiuni: instructiune_declarare lista_instructiuni .
+
+    $default  reduce using rule 2 (lista_instructiuni)
+
+
+state 22
+
+    6 declarare: INT IDENTIFIER ';' .
+
+    $default  reduce using rule 6 (declarare)
+
+
+state 23
+
+   17 var: CONSTANT .
+
+    $default  reduce using rule 17 (var)
+
+
+state 24
+
+   16 var: IDENTIFIER .
+
+    $default  reduce using rule 16 (var)
+
+
+state 25
+
+   12 atribuire: IDENTIFIER '=' expresie . ';'
+   13 expresie: expresie . '+' var
+   14         | expresie . '-' var
+
+    ';'  shift, and go to state 29
+    '+'  shift, and go to state 30
+    '-'  shift, and go to state 31
+
+
+state 26
+
+   15 expresie: var .
+
+    $default  reduce using rule 15 (expresie)
+
+
+state 27
+
+   10 citire: CIN CIN_OPERATOR IDENTIFIER . ';'
+
+    ';'  shift, and go to state 32
+
+
+state 28
+
+   11 scriere: COUT COUT_OPERATOR var . ';'
+
+    ';'  shift, and go to state 33
+
+
+state 29
+
+   12 atribuire: IDENTIFIER '=' expresie ';' .
+
+    $default  reduce using rule 12 (atribuire)
+
+
+state 30
+
+   13 expresie: expresie '+' . var
+
+    CONSTANT    shift, and go to state 23
+    IDENTIFIER  shift, and go to state 24
+
+    var  go to state 34
+
+
+state 31
+
+   14 expresie: expresie '-' . var
+
+    CONSTANT    shift, and go to state 23
+    IDENTIFIER  shift, and go to state 24
+
+    var  go to state 35
+
+
+state 32
+
+   10 citire: CIN CIN_OPERATOR IDENTIFIER ';' .
+
+    $default  reduce using rule 10 (citire)
+
+
+state 33
+
+   11 scriere: COUT COUT_OPERATOR var ';' .
+
+    $default  reduce using rule 11 (scriere)
+
+
+state 34
+
+   13 expresie: expresie '+' var .
+
+    $default  reduce using rule 13 (expresie)
+
+
+state 35
+
+   14 expresie: expresie '-' var .
+
+    $default  reduce using rule 14 (expresie)

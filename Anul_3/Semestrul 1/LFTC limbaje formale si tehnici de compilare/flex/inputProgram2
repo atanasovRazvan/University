@@ -1,0 +1,16 @@
+int main(){
+    double a; double b; double c;
+    cin>>a; cin>>b; cin>>c;
+    if(a>b and a>c)
+         {1cout<<"Maxim:"; cout<<a;}
+    if(b>a and b>c)
+         {cout<<"Maxim:"; cout<<b;}
+    if(c>a and c>b)
+         {cout<<"Maxim:"; cout<<c;}
+    if(a<b and a<c)
+         {cout<<"Minim:"; cout<<a;}
+    if(b<a and b<c)
+         {cout<<"Minim:"; cout<<b;}
+    if(c<a and c<b)
+         {cout<<"Minim:"; cout<<c;}
+}

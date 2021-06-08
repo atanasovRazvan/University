@@ -1,0 +1,13 @@
+
+s
+java:S1104["QMake token a static final constant or non-public and provide accessors if needed.(œ½Ë„ıÿÿÿÿ8İªÓØ†/
+B
+java:S1452"&Remove usage of generic wildcard type.(Íõ†E8İªÓØ†/
+U	java:S106"9Replace this use of System.out or System.err by a logger.(£ÆÏÁ8İªÓØ†/
+U	java:S106"9Replace this use of System.out or System.err by a logger.(ñšÔ8İªÓØ†/
+H
+java:S14525"&Remove usage of generic wildcard type.(½®Õûÿÿÿÿÿ8İªÓØ†/
+Z	java:S106I"9Replace this use of System.out or System.err by a logger.(¤Äû…ûÿÿÿÿ8İªÓØ†/
+C
+java:S1452N"&Remove usage of generic wildcard type.(µú¯é8İªÓØ†/
+]	java:S125V"<This block of commented-out lines of code should be removed.(—¿øüÿÿÿÿ8İªÓØ†/

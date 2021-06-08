@@ -1,0 +1,1 @@
+call bison -d -v analizor.y && call flex analizor.l && call gcc lex.yy.c analizor.tab.c && call a.exe < example2.txt

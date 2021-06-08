@@ -1,0 +1,21 @@
+[2019-04-01 13:47:06] [info] Start Program:
+Path:"C:\Users\Razvan\Desktop\Programare orientata obiect\Aplicatie_cofetarie\x64\Debug\Aplicatie_cofetarie.exe"
+Arguments:
+Working directory: "C:\Users\Razvan\Desktop\Programare orientata obiect\Aplicatie_cofetarie\Aplicatie_cofetarie\"
+Modules: Selected: C:\Users\Razvan\Desktop\Programare orientata obiect\Aplicatie_cofetarie\x64\Debug\Aplicatie_cofetarie.exe Excluded: 
+Sources: Selected: C:\Users\Razvan\Desktop\Programare orientata obiect\Aplicatie_cofetarie\Aplicatie_cofetarie Excluded: ui.c 
+Log Level: Normal
+Cover Children: 0
+Aggregate by file: 1
+Continue after C++ exception: 0
+Optimized build support: 0
+Export: Binary C:\Users\Razvan\AppData\Local\Temp\t41c3pou.hvu 
+Input coverage: 
+Unified diff: 
+Excluded line regular expressions: 
+Substitute pdb source paths: 
+
+[2019-04-01 13:47:06] [info] Module: C:\Users\Razvan\Desktop\Programare orientata obiect\Aplicatie_cofetarie\x64\Debug\Aplicatie_cofetarie.exe is selected because it matches selected pattern: C:\Users\Razvan\Desktop\Programare orientata obiect\Aplicatie_cofetarie\x64\Debug\Aplicatie_cofetarie.exe
+[2019-04-01 13:47:06] [info] ----------------------------------------------------
+[2019-04-01 13:47:06] [info] Coverage binary generated in file: C:\Users\Razvan\AppData\Local\Temp\t41c3pou.hvu
+[2019-04-01 13:47:06] [info] ----------------------------------------------------

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+
+    <meta charset="utf-8">
+    <title></title>
+
+    <style>
+
+      table, td{
+        border: 1px solid black;
+      }
+
+    </style>
+
+  </head>
+
+  <body onload = "sendToServer(0)">
+
+    <div id="container"> </div>
+
+  </body>
+
+  <script>
+
+    let nr = 0;
+
+    function next(){
+
+      nr++;
+      sendToServer(nr);
+
+    }
+
+    function prev(){
+
+      if(nr == 0)
+        return;
+
+      nr--;
+      sendToServer(nr);
+
+    }
+
+    function sendToServer(number){
+
+      var xhttp;
+      xhttp = new XMLHttpRequest();
+      xhttp.onreadystatechange = function() {
+        if (this.readyState == 4 && this.status == 200) {
+          document.getElementById("container").innerHTML = this.responseText;
+        }
+      };
+      xhttp.open("GET", "http://localhost/AJAX_p2php/script.php?id="+number, true);
+      xhttp.send(null);
+
+    }
+
+
+  </script>
+
+</html>

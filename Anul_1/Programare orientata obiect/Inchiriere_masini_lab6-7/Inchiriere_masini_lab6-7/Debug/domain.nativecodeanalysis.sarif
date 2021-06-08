@@ -1,0 +1,967 @@
+{
+  "version": "2.0.0",
+  "$schema": "http://json.schemastore.org/sarif-2.0.0",
+  "runs": [
+    {
+      "results": [
+        {
+          "ruleId": "26432",
+          "message": {
+            "text": "If you define or delete any default operation in the type 'class Masina', define or delete them all (c.21)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "fileLocation": {
+                  "uri": "file:///c:/users/razvan/desktop/facultate/anul_1/programare orientata obiect/inchiriere_masini_lab6-7/inchiriere_masini_lab6-7/domain.cpp"
+                },
+                "region": {
+                  "startLine": 22,
+                  "startColumn": 8
+                }
+              },
+              "fullyQualifiedLogicalName": "public: __thiscall Masina::Masina(class Masina const &)"
+            }
+          ]
+        }
+      ],
+      "tool": {
+        "name": "PREfast",
+        "fullName": "PREfast Code Analysis",
+        "version": "14.16.27043.0",
+        "fileVersion": "14.00.27043.00"
+      },
+      "invocations": [
+        {
+          "commandLine": "\"C:\\Program Files (x86)\\Microsoft Visual Studio\\2017\\BuildTools\\VC\\Tools\\MSVC\\14.16.27023\\bin\\HostX86\\x86\\c1xx.dll\" -ACf{1F7B090C-16DB-4822-966A-A93D26ED4681} -ACpmspft140.dll -Alint -D_PREFAST_ -D_AST_FE_ -Analyze -zm0x00F92080 -il C:\\Users\\Razvan\\AppData\\Local\\Temp\\_CL_6cd86ddbast -typedil -f Domain.cpp -Ze -D_MSC_EXTENSIONS -Zp8 -ZB64 -D_INTEGRAL_MAX_BITS=64 -Gs -pc \\:/ -D_MSC_VER=1916 -D_MSC_FULL_VER=191627043 -D_MSC_BUILD=0 -D_WIN32 -D_M_IX86=600 -D_M_IX86_FP=2 -GR -D_CPPRTTI -nologo -W 4 -WX -diagnostics:column- -diagnostics:caret- -Ot -DCODE_ANALYSIS -D_MBCS -EHs -D_CPPUNWIND -EHc -D__MSVC_RUNTIME_CHECKS -RTCs -RTCu -D_DEBUG -D_MT -D_DLL -GS -D_M_FP_PRECISE -permissive- -Zc:wchar_t -Zc:forScope -FoDebug\\Domain.obj -FdDebug\\vc141.pdb -Gd -analyze:quiet -analyze:ruleset C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\Team Tools\\Static Analysis Tools\\Rule Sets\\CppCoreCheckRules.ruleset -analyze:plugin C:\\Program Files (x86)\\Microsoft Visual Studio\\2017\\BuildTools\\VC\\Tools\\MSVC\\14.16.27023\\bin\\HostX86\\x86\\EspXEngine.dll -analyze:plugin C:\\Program Files (x86)\\Microsoft Visual Studio\\2017\\BuildTools\\VC\\Tools\\MSVC\\14.16.27023\\bin\\HostX86\\x86\\localespc.dll -FC -errorreport:prompt -I C:\\Program Files (x86)\\Microsoft Visual Studio\\2017\\BuildTools\\VC\\Tools\\MSVC\\14.16.27023\\include -I C:\\Program Files (x86)\\Microsoft Visual Studio\\2017\\BuildTools\\VC\\Tools\\MSVC\\14.16.27023\\atlmfc\\include -I C:\\Program Files (x86)\\Microsoft Visual Studio\\2017\\BuildTools\\VC\\Auxiliary\\VS\\include -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.17763.0\\ucrt -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.17763.0\\um -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.17763.0\\shared -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.17763.0\\winrt -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.17763.0\\cppwinrt -I C:\\Users\\Razvan\\Desktop\\Facultate\\Anul_1\\Programare orientata obiect\\Inchiriere_masini_lab6-7\\Inchiriere_masini_lab6-7\\Include\\um"
+        }
+      ],
+      "files": {
+        "file:///c:/users/razvan/desktop/facultate/anul_1/programare orientata obiect/inchiriere_masini_lab6-7/inchiriere_masini_lab6-7/user interface.cpp": {
+          "roles": [
+            "analysisTarget",
+            "resultFile"
+          ]
+        },
+        "file:///c:/users/razvan/desktop/facultate/anul_1/programare orientata obiect/inchiriere_masini_lab6-7/inchiriere_masini_lab6-7/domainh.h": {
+          "roles": [
+            "resultFile"
+          ]
+        },
+        "file:///c:/users/razvan/desktop/facultate/anul_1/programare orientata obiect/inchiriere_masini_lab6-7/inchiriere_masini_lab6-7/testsh.h": {
+          "roles": [
+            "resultFile"
+          ]
+        },
+        "file:///c:/users/razvan/desktop/facultate/anul_1/programare orientata obiect/inchiriere_masini_lab6-7/inchiriere_masini_lab6-7/serviceh.h": {
+          "roles": [
+            "resultFile"
+          ]
+        },
+        "file:///c:/users/razvan/desktop/facultate/anul_1/programare orientata obiect/inchiriere_masini_lab6-7/inchiriere_masini_lab6-7/repositoryh.h": {
+          "roles": [
+            "resultFile"
+          ]
+        },
+        "file:///c:/users/razvan/desktop/facultate/anul_1/programare orientata obiect/inchiriere_masini_lab6-7/inchiriere_masini_lab6-7/userinterfaceh.h": {
+          "roles": [
+            "resultFile"
+          ]
+        },
+        "file:///c:/users/razvan/desktop/facultate/anul_1/programare orientata obiect/inchiriere_masini_lab6-7/inchiriere_masini_lab6-7/service.cpp": {
+          "roles": [
+            "analysisTarget",
+            "resultFile"
+          ]
+        },
+        "file:///c:/users/razvan/desktop/facultate/anul_1/programare orientata obiect/inchiriere_masini_lab6-7/inchiriere_masini_lab6-7/tests.cpp": {
+          "roles": [
+            "analysisTarget",
+            "resultFile"
+          ]
+        },
+        "file:///c:/users/razvan/desktop/facultate/anul_1/programare orientata obiect/inchiriere_masini_lab6-7/inchiriere_masini_lab6-7/repository.cpp": {
+          "roles": [
+            "analysisTarget",
+            "resultFile"
+          ]
+        },
+        "file:///c:/users/razvan/desktop/facultate/anul_1/programare orientata obiect/inchiriere_masini_lab6-7/inchiriere_masini_lab6-7/main.cpp": {
+          "roles": [
+            "analysisTarget",
+            "resultFile"
+          ]
+        },
+        "file:///c:/users/razvan/desktop/facultate/anul_1/programare orientata obiect/inchiriere_masini_lab6-7/inchiriere_masini_lab6-7/domain.cpp": {
+          "roles": [
+            "analysisTarget",
+            "resultFile"
+          ]
+        }
+      },
+      "logicalLocations": {},
+      "resources": {
+        "rules": {
+          "26477": {
+            "id": "26477",
+            "name": "",
+            "shortDescription": "",
+            "fullDescription": "",
+            "configuration": {
+              "enabled": true,
+              "defaultLevel": "warning"
+            },
+            "helpUri": ""
+          },
+          "26408": {
+            "id": "26408",
+            "name": "",
+            "shortDescription": "",
+            "fullDescription": "",
+            "configuration": {
+              "enabled": true,
+              "defaultLevel": "warning"
+            },
+            "helpUri": ""
+          },
+          "26400": {
+            "id": "26400",
+            "name": "",
+            "shortDescription": "",
+            "fullDescription": "",
+            "configuration": {
+              "enabled": true,
+              "defaultLevel": "warning"
+            },
+            "helpUri": ""
+          },
+          "26401": {
+            "id": "26401",
+            "name": "",
+            "shortDescription": "",
+            "fullDescription": "",
+            "configuration": {
+              "enabled": true,
+              "defaultLevel": "warning"
+            },
+            "helpUri": ""
+          },
+          "26402": {
+            "id": "26402",
+            "name": "",
+            "shortDescription": "",
+            "fullDescription": "",
+            "configuration": {
+              "enabled": true,
+              "defaultLevel": "warning"
+            },
+            "helpUri": ""
+          },
+          "26403": {
+            "id": "26403",
+            "name": "",
+            "shortDescription": "",
+            "fullDescription": "",
+            "configuration": {
+              "enabled": true,
+              "defaultLevel": "warning"
+            },
+            "helpUri": ""
+          },
+          "26404": {
+            "id": "26404",
+            "name": "",
+            "shortDescription": "",
+            "fullDescription": "",
+            "configuration": {
+              "enabled": true,
+              "defaultLevel": "warning"
+            },
+            "helpUri": ""
+          },
+          "26405": {
+            "id": "26405",
+            "name": "",
+            "shortDescription": "",
+            "fullDescription": "",
+            "configuration": {
+              "enabled": true,
+              "defaultLevel": "warning"
+            },
+            "helpUri": ""
+          },
+          "26406": {
+            "id": "26406",
+            "name": "",
+            "shortDescription": "",
+            "fullDescription": "",
+            "configuration": {
+              "enabled": true,
+              "defaultLevel": "warning"
+            },
+            "helpUri": ""
+          },
+          "26478": {
+            "id": "26478",
+            "name": "",
+            "shortDescription": "",
+            "fullDescription": "",
+            "configuration": {
+              "enabled": true,
+              "defaultLevel": "warning"
+            },
+            "helpUri": ""
+          },
+          "26407": {
+            "id": "26407",
+            "name": "",
+            "shortDescription": "",
+            "fullDescription": "",
+            "configuration": {
+              "enabled": true,
+              "defaultLevel": "warning"
+            },
+            "helpUri": ""
+          },
+          "26476": {
+            "id": "26476",
+            "name": "",
+            "shortDescription": "",
+            "fullDescription": "",
+            "configuration": {
+              "enabled": true,
+              "defaultLevel": "warning"
+            },
+            "helpUri": ""
+          },
+          "26409": {
+            "id": "26409",
+            "name": "",
+            "shortDescription": "",
+            "fullDescription": "",
+            "configuration": {
+              "enabled": true,
+              "defaultLevel": "warning"
+            },
+            "helpUri": ""
+          },
+          "26410": {
+            "id": "26410",
+            "name": "",
+            "shortDescription": "",
+            "fullDescription": "",
+            "configuration": {
+              "enabled": true,
+              "defaultLevel": "warning"
+            },
+            "helpUri": ""
+          },
+          "26411": {
+            "id": "26411",
+            "name": "",
+            "shortDescription": "",
+            "fullDescription": "",
+            "configuration": {
+              "enabled": true,
+              "defaultLevel": "warning"
+            },
+            "helpUri": ""
+          },
+          "26414": {
+            "id": "26414",
+            "name": "",
+            "shortDescription": "",
+            "fullDescription": "",
+            "configuration": {
+              "enabled": true,
+              "defaultLevel": "warning"
+            },
+            "helpUri": ""
+          },
+          "26415": {
+            "id": "26415",
+            "name": "",
+            "shortDescription": "",
+            "fullDescription": "",
+            "configuration": {
+              "enabled": true,
+              "defaultLevel": "warning"
+            },
+            "helpUri": ""
+          },
+          "26416": {
+            "id": "26416",
+            "name": "",
+            "shortDescription": "",
+            "fullDescription": "",
+            "configuration": {
+              "enabled": true,
+              "defaultLevel": "warning"
+            },
+            "helpUri": ""
+          },
+          "26417": {
+            "id": "26417",
+            "name": "",
+            "shortDescription": "",
+            "fullDescription": "",
+            "configuration": {
+              "enabled": true,
+              "defaultLevel": "warning"
+            },
+            "helpUri": ""
+          },
+          "26418": {
+            "id": "26418",
+            "name": "",
+            "shortDescription": "",
+            "fullDescription": "",
+            "configuration": {
+              "enabled": true,
+              "defaultLevel": "warning"
+            },
+            "helpUri": ""
+          },
+          "26426": {
+            "id": "26426",
+            "name": "",
+            "shortDescription": "",
+            "fullDescription": "",
+            "configuration": {
+              "enabled": true,
+              "defaultLevel": "warning"
+            },
+            "helpUri": ""
+          },
+          "26427": {
+            "id": "26427",
+            "name": "",
+            "shortDescription": "",
+            "fullDescription": "",
+            "configuration": {
+              "enabled": true,
+              "defaultLevel": "warning"
+            },
+            "helpUri": ""
+          },
+          "26429": {
+            "id": "26429",
+            "name": "",
+            "shortDescription": "",
+            "fullDescription": "",
+            "configuration": {
+              "enabled": true,
+              "defaultLevel": "warning"
+            },
+            "helpUri": ""
+          },
+          "26430": {
+            "id": "26430",
+            "name": "",
+            "shortDescription": "",
+            "fullDescription": "",
+            "configuration": {
+              "enabled": true,
+              "defaultLevel": "warning"
+            },
+            "helpUri": ""
+          },
+          "26431": {
+            "id": "26431",
+            "name": "",
+            "shortDescription": "",
+            "fullDescription": "",
+            "configuration": {
+              "enabled": true,
+              "defaultLevel": "warning"
+            },
+            "helpUri": ""
+          },
+          "26432": {
+            "id": "26432",
+            "name": "",
+            "shortDescription": "",
+            "fullDescription": "",
+            "configuration": {
+              "enabled": true,
+              "defaultLevel": "warning"
+            },
+            "helpUri": ""
+          },
+          "26433": {
+            "id": "26433",
+            "name": "",
+            "shortDescription": "",
+            "fullDescription": "",
+            "configuration": {
+              "enabled": true,
+              "defaultLevel": "warning"
+            },
+            "helpUri": ""
+          },
+          "26434": {
+            "id": "26434",
+            "name": "",
+            "shortDescription": "",
+            "fullDescription": "",
+            "configuration": {
+              "enabled": true,
+              "defaultLevel": "warning"
+            },
+            "helpUri": ""
+          },
+          "26435": {
+            "id": "26435",
+            "name": "",
+            "shortDescription": "",
+            "fullDescription": "",
+            "configuration": {
+              "enabled": true,
+              "defaultLevel": "warning"
+            },
+            "helpUri": ""
+          },
+          "26436": {
+            "id": "26436",
+            "name": "",
+            "shortDescription": "",
+            "fullDescription": "",
+            "configuration": {
+              "enabled": true,
+              "defaultLevel": "warning"
+            },
+            "helpUri": ""
+          },
+          "26449": {
+            "id": "26449",
+            "name": "",
+            "shortDescription": "",
+            "fullDescription": "",
+            "configuration": {
+              "enabled": true,
+              "defaultLevel": "warning"
+            },
+            "helpUri": ""
+          },
+          "26437": {
+            "id": "26437",
+            "name": "",
+            "shortDescription": "",
+            "fullDescription": "",
+            "configuration": {
+              "enabled": true,
+              "defaultLevel": "warning"
+            },
+            "helpUri": ""
+          },
+          "26448": {
+            "id": "26448",
+            "name": "",
+            "shortDescription": "",
+            "fullDescription": "",
+            "configuration": {
+              "enabled": true,
+              "defaultLevel": "warning"
+            },
+            "helpUri": ""
+          },
+          "26438": {
+            "id": "26438",
+            "name": "",
+            "shortDescription": "",
+            "fullDescription": "",
+            "configuration": {
+              "enabled": true,
+              "defaultLevel": "warning"
+            },
+            "helpUri": ""
+          },
+          "26447": {
+            "id": "26447",
+            "name": "",
+            "shortDescription": "",
+            "fullDescription": "",
+            "configuration": {
+              "enabled": true,
+              "defaultLevel": "warning"
+            },
+            "helpUri": ""
+          },
+          "26439": {
+            "id": "26439",
+            "name": "",
+            "shortDescription": "",
+            "fullDescription": "",
+            "configuration": {
+              "enabled": true,
+              "defaultLevel": "warning"
+            },
+            "helpUri": ""
+          },
+          "26446": {
+            "id": "26446",
+            "name": "",
+            "shortDescription": "",
+            "fullDescription": "",
+            "configuration": {
+              "enabled": true,
+              "defaultLevel": "warning"
+            },
+            "helpUri": ""
+          },
+          "26440": {
+            "id": "26440",
+            "name": "",
+            "shortDescription": "",
+            "fullDescription": "",
+            "configuration": {
+              "enabled": true,
+              "defaultLevel": "warning"
+            },
+            "helpUri": ""
+          },
+          "26441": {
+            "id": "26441",
+            "name": "",
+            "shortDescription": "",
+            "fullDescription": "",
+            "configuration": {
+              "enabled": true,
+              "defaultLevel": "warning"
+            },
+            "helpUri": ""
+          },
+          "26443": {
+            "id": "26443",
+            "name": "",
+            "shortDescription": "",
+            "fullDescription": "",
+            "configuration": {
+              "enabled": true,
+              "defaultLevel": "warning"
+            },
+            "helpUri": ""
+          },
+          "26444": {
+            "id": "26444",
+            "name": "",
+            "shortDescription": "",
+            "fullDescription": "",
+            "configuration": {
+              "enabled": true,
+              "defaultLevel": "warning"
+            },
+            "helpUri": ""
+          },
+          "26445": {
+            "id": "26445",
+            "name": "",
+            "shortDescription": "",
+            "fullDescription": "",
+            "configuration": {
+              "enabled": true,
+              "defaultLevel": "warning"
+            },
+            "helpUri": ""
+          },
+          "26450": {
+            "id": "26450",
+            "name": "",
+            "shortDescription": "",
+            "fullDescription": "",
+            "configuration": {
+              "enabled": true,
+              "defaultLevel": "warning"
+            },
+            "helpUri": ""
+          },
+          "26451": {
+            "id": "26451",
+            "name": "",
+            "shortDescription": "",
+            "fullDescription": "",
+            "configuration": {
+              "enabled": true,
+              "defaultLevel": "warning"
+            },
+            "helpUri": ""
+          },
+          "26452": {
+            "id": "26452",
+            "name": "",
+            "shortDescription": "",
+            "fullDescription": "",
+            "configuration": {
+              "enabled": true,
+              "defaultLevel": "warning"
+            },
+            "helpUri": ""
+          },
+          "26453": {
+            "id": "26453",
+            "name": "",
+            "shortDescription": "",
+            "fullDescription": "",
+            "configuration": {
+              "enabled": true,
+              "defaultLevel": "warning"
+            },
+            "helpUri": ""
+          },
+          "26481": {
+            "id": "26481",
+            "name": "",
+            "shortDescription": "",
+            "fullDescription": "",
+            "configuration": {
+              "enabled": true,
+              "defaultLevel": "warning"
+            },
+            "helpUri": ""
+          },
+          "26454": {
+            "id": "26454",
+            "name": "",
+            "shortDescription": "",
+            "fullDescription": "",
+            "configuration": {
+              "enabled": true,
+              "defaultLevel": "warning"
+            },
+            "helpUri": ""
+          },
+          "26455": {
+            "id": "26455",
+            "name": "",
+            "shortDescription": "",
+            "fullDescription": "",
+            "configuration": {
+              "enabled": true,
+              "defaultLevel": "warning"
+            },
+            "helpUri": ""
+          },
+          "26483": {
+            "id": "26483",
+            "name": "",
+            "shortDescription": "",
+            "fullDescription": "",
+            "configuration": {
+              "enabled": true,
+              "defaultLevel": "warning"
+            },
+            "helpUri": ""
+          },
+          "26456": {
+            "id": "26456",
+            "name": "",
+            "shortDescription": "",
+            "fullDescription": "",
+            "configuration": {
+              "enabled": true,
+              "defaultLevel": "warning"
+            },
+            "helpUri": ""
+          },
+          "26462": {
+            "id": "26462",
+            "name": "",
+            "shortDescription": "",
+            "fullDescription": "",
+            "configuration": {
+              "enabled": true,
+              "defaultLevel": "warning"
+            },
+            "helpUri": ""
+          },
+          "26459": {
+            "id": "26459",
+            "name": "",
+            "shortDescription": "",
+            "fullDescription": "",
+            "configuration": {
+              "enabled": true,
+              "defaultLevel": "warning"
+            },
+            "helpUri": ""
+          },
+          "26460": {
+            "id": "26460",
+            "name": "",
+            "shortDescription": "",
+            "fullDescription": "",
+            "configuration": {
+              "enabled": true,
+              "defaultLevel": "warning"
+            },
+            "helpUri": ""
+          },
+          "26461": {
+            "id": "26461",
+            "name": "",
+            "shortDescription": "",
+            "fullDescription": "",
+            "configuration": {
+              "enabled": true,
+              "defaultLevel": "warning"
+            },
+            "helpUri": ""
+          },
+          "26463": {
+            "id": "26463",
+            "name": "",
+            "shortDescription": "",
+            "fullDescription": "",
+            "configuration": {
+              "enabled": true,
+              "defaultLevel": "warning"
+            },
+            "helpUri": ""
+          },
+          "26464": {
+            "id": "26464",
+            "name": "",
+            "shortDescription": "",
+            "fullDescription": "",
+            "configuration": {
+              "enabled": true,
+              "defaultLevel": "warning"
+            },
+            "helpUri": ""
+          },
+          "26465": {
+            "id": "26465",
+            "name": "",
+            "shortDescription": "",
+            "fullDescription": "",
+            "configuration": {
+              "enabled": true,
+              "defaultLevel": "warning"
+            },
+            "helpUri": ""
+          },
+          "26466": {
+            "id": "26466",
+            "name": "",
+            "shortDescription": "",
+            "fullDescription": "",
+            "configuration": {
+              "enabled": true,
+              "defaultLevel": "warning"
+            },
+            "helpUri": ""
+          },
+          "26471": {
+            "id": "26471",
+            "name": "",
+            "shortDescription": "",
+            "fullDescription": "",
+            "configuration": {
+              "enabled": true,
+              "defaultLevel": "warning"
+            },
+            "helpUri": ""
+          },
+          "26472": {
+            "id": "26472",
+            "name": "",
+            "shortDescription": "",
+            "fullDescription": "",
+            "configuration": {
+              "enabled": true,
+              "defaultLevel": "warning"
+            },
+            "helpUri": ""
+          },
+          "26473": {
+            "id": "26473",
+            "name": "",
+            "shortDescription": "",
+            "fullDescription": "",
+            "configuration": {
+              "enabled": true,
+              "defaultLevel": "warning"
+            },
+            "helpUri": ""
+          },
+          "26474": {
+            "id": "26474",
+            "name": "",
+            "shortDescription": "",
+            "fullDescription": "",
+            "configuration": {
+              "enabled": true,
+              "defaultLevel": "warning"
+            },
+            "helpUri": ""
+          },
+          "26475": {
+            "id": "26475",
+            "name": "",
+            "shortDescription": "",
+            "fullDescription": "",
+            "configuration": {
+              "enabled": true,
+              "defaultLevel": "warning"
+            },
+            "helpUri": ""
+          },
+          "26482": {
+            "id": "26482",
+            "name": "",
+            "shortDescription": "",
+            "fullDescription": "",
+            "configuration": {
+              "enabled": true,
+              "defaultLevel": "warning"
+            },
+            "helpUri": ""
+          },
+          "26485": {
+            "id": "26485",
+            "name": "",
+            "shortDescription": "",
+            "fullDescription": "",
+            "configuration": {
+              "enabled": true,
+              "defaultLevel": "warning"
+            },
+            "helpUri": ""
+          },
+          "26490": {
+            "id": "26490",
+            "name": "",
+            "shortDescription": "",
+            "fullDescription": "",
+            "configuration": {
+              "enabled": true,
+              "defaultLevel": "warning"
+            },
+            "helpUri": ""
+          },
+          "26491": {
+            "id": "26491",
+            "name": "",
+            "shortDescription": "",
+            "fullDescription": "",
+            "configuration": {
+              "enabled": true,
+              "defaultLevel": "warning"
+            },
+            "helpUri": ""
+          },
+          "26492": {
+            "id": "26492",
+            "name": "",
+            "shortDescription": "",
+            "fullDescription": "",
+            "configuration": {
+              "enabled": true,
+              "defaultLevel": "warning"
+            },
+            "helpUri": ""
+          },
+          "26493": {
+            "id": "26493",
+            "name": "",
+            "shortDescription": "",
+            "fullDescription": "",
+            "configuration": {
+              "enabled": true,
+              "defaultLevel": "warning"
+            },
+            "helpUri": ""
+          },
+          "26494": {
+            "id": "26494",
+            "name": "",
+            "shortDescription": "",
+            "fullDescription": "",
+            "configuration": {
+              "enabled": true,
+              "defaultLevel": "warning"
+            },
+            "helpUri": ""
+          },
+          "26495": {
+            "id": "26495",
+            "name": "",
+            "shortDescription": "",
+            "fullDescription": "",
+            "configuration": {
+              "enabled": true,
+              "defaultLevel": "warning"
+            },
+            "helpUri": ""
+          },
+          "26496": {
+            "id": "26496",
+            "name": "",
+            "shortDescription": "",
+            "fullDescription": "",
+            "configuration": {
+              "enabled": true,
+              "defaultLevel": "warning"
+            },
+            "helpUri": ""
+          },
+          "26497": {
+            "id": "26497",
+            "name": "",
+            "shortDescription": "",
+            "fullDescription": "",
+            "configuration": {
+              "enabled": true,
+              "defaultLevel": "warning"
+            },
+            "helpUri": ""
+          },
+          "26498": {
+            "id": "26498",
+            "name": "",
+            "shortDescription": "",
+            "fullDescription": "",
+            "configuration": {
+              "enabled": true,
+              "defaultLevel": "warning"
+            },
+            "helpUri": ""
+          },
+          "26810": {
+            "id": "26810",
+            "name": "",
+            "shortDescription": "",
+            "fullDescription": "",
+            "configuration": {
+              "enabled": true,
+              "defaultLevel": "warning"
+            },
+            "helpUri": ""
+          },
+          "26811": {
+            "id": "26811",
+            "name": "",
+            "shortDescription": "",
+            "fullDescription": "",
+            "configuration": {
+              "enabled": true,
+              "defaultLevel": "warning"
+            },
+            "helpUri": ""
+          },
+          "26814": {
+            "id": "26814",
+            "name": "",
+            "shortDescription": "",
+            "fullDescription": "",
+            "configuration": {
+              "enabled": true,
+              "defaultLevel": "warning"
+            },
+            "helpUri": ""
+          }
+        }
+      }
+    }
+  ]
+}

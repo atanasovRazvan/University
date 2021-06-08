@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1557433251 source:c:\users\razvan\desktop\algoritmica grafurilor\crypt\main.cpp
+	<iostream>
+	<cstring>
+	<string>
+

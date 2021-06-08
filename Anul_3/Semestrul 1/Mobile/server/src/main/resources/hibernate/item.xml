@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+
+    <class name="model.Item" table="Items">
+        <id name="id" column="id"/>
+        <property name="price" column="price"/>
+        <property name="priceEstimation" column="priceEstimation"/>
+        <property name="description" column="description"/>
+        <property name="ownerUsername" column="ownerUsername"/>
+        <property name="version" column="version"/>
+        <property name="lat" column="lat"/>
+        <property name="lng" column="lng"/>
+        <property name="photoPath" column="photoPath"/>
+    </class>
+
+</hibernate-mapping>

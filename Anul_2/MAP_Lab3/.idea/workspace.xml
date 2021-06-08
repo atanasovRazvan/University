@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="1482ff6d-55f5-410f-b808-1d0bf9de6372" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageViewManager">
+    <option name="myElementSize" value="232" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view />
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="JavaFXApplication" />
+        <option value="HTTP Request" />
+        <option value="FxmlFile" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1StvolMS98ZpgJdpY32ieKwSNcW" />
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="preferences.JavaFX" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Razvan\Desktop\MAP_Lab3\src\main\resources" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="lab3.main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestStudent" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;Entities.TestStudent&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":cleanTest" />
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="TestTema.tostring" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;Entities.TestTema.tostring&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":cleanTest" />
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="Tests in 'Entities'" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;Entities.*&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":cleanTest" />
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="Tests in 'lab3.test'" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests *" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":cleanTest" />
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Gradle.Tests in 'lab3.test'" />
+        <item itemvalue="Gradle.TestTema.tostring" />
+        <item itemvalue="Gradle.TestStudent" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Gradle.Tests in 'Entities'" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1482ff6d-55f5-410f-b808-1d0bf9de6372" name="Default Changelist" comment="" />
+      <created>1572395883952</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1572395883952</updated>
+      <workItem from="1572395886830" duration="3146000" />
+      <workItem from="1572399113304" duration="283000" />
+      <workItem from="1572417185947" duration="2155000" />
+      <workItem from="1572420009366" duration="2281000" />
+      <workItem from="1572424936934" duration="1198000" />
+      <workItem from="1572711606952" duration="718000" />
+      <workItem from="1572717052098" duration="5861000" />
+      <workItem from="1572880733165" duration="2118000" />
+      <workItem from="1572956105007" duration="2551000" />
+      <workItem from="1572959389809" duration="1223000" />
+      <workItem from="1572965031101" duration="3012000" />
+      <workItem from="1573021494177" duration="5542000" />
+      <workItem from="1573515253815" duration="3802000" />
+      <workItem from="1573558731630" duration="5705000" />
+      <workItem from="1573578096822" duration="4274000" />
+      <workItem from="1573637972566" duration="47000" />
+      <workItem from="1573646922682" duration="4884000" />
+      <workItem from="1573658411932" duration="3000" />
+      <workItem from="1573658464829" duration="1628000" />
+      <workItem from="1573988231054" duration="1073000" />
+      <workItem from="1573993825021" duration="2635000" />
+      <workItem from="1574198473716" duration="1500000" />
+      <workItem from="1574216624528" duration="57000" />
+      <workItem from="1574249834668" duration="1612000" />
+      <workItem from="1574258440505" duration="11733000" />
+      <workItem from="1574272687501" duration="21000" />
+      <workItem from="1574348810484" duration="2062000" />
+      <workItem from="1574356328318" duration="4030000" />
+      <workItem from="1574704792948" duration="2020000" />
+      <workItem from="1574788992558" duration="3744000" />
+      <workItem from="1574835434842" duration="2894000" />
+      <workItem from="1575440509996" duration="2911000" />
+      <workItem from="1575971105522" duration="118000" />
+      <workItem from="1576011318305" duration="10000" />
+      <workItem from="1576017149776" duration="102000" />
+      <workItem from="1576022202979" duration="190000" />
+      <workItem from="1576067247124" duration="812000" />
+      <workItem from="1576382708616" duration="8112000" />
+      <workItem from="1576402751122" duration="65000" />
+      <workItem from="1576414516476" duration="5397000" />
+      <workItem from="1576420475036" duration="94000" />
+      <workItem from="1576421940589" duration="3739000" />
+      <workItem from="1576485364939" duration="8039000" />
+      <workItem from="1576500662742" duration="10600000" />
+      <workItem from="1576628500588" duration="12445000" />
+      <workItem from="1576649144587" duration="5915000" />
+      <workItem from="1576968958418" duration="1720000" />
+      <workItem from="1579268825058" duration="174000" />
+      <workItem from="1579269034424" duration="1209000" />
+      <workItem from="1579270367578" duration="7000" />
+      <workItem from="1582002181182" duration="64000" />
+      <workItem from="1582010243126" duration="4603000" />
+      <workItem from="1583772216434" duration="25000" />
+      <workItem from="1585017307925" duration="305000" />
+      <workItem from="1585017774358" duration="3206000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Controllers/RaportsController.java</url>
+          <line>170</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/lab3$Tests_in__lab3_test_.ic" NAME="Tests in 'lab3.test' Coverage Results" MODIFIED="1574841016071" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/lab3$TestStudent.ic" NAME="TestStudent Coverage Results" MODIFIED="1573650856931" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+  </component>
+</project>

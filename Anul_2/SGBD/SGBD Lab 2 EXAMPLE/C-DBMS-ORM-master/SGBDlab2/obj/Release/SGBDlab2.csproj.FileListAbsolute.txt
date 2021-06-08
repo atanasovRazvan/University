@@ -1,0 +1,9 @@
+C:\Users\George\source\repos\SGBDlab2\SGBDlab2\bin\Release\SGBDlab2.exe.config
+C:\Users\George\source\repos\SGBDlab2\SGBDlab2\bin\Release\SGBDlab2.exe
+C:\Users\George\source\repos\SGBDlab2\SGBDlab2\bin\Release\SGBDlab2.pdb
+C:\Users\George\source\repos\SGBDlab2\SGBDlab2\obj\Release\SGBDlab2.Form1.resources
+C:\Users\George\source\repos\SGBDlab2\SGBDlab2\obj\Release\SGBDlab2.Properties.Resources.resources
+C:\Users\George\source\repos\SGBDlab2\SGBDlab2\obj\Release\SGBDlab2.csproj.GenerateResource.cache
+C:\Users\George\source\repos\SGBDlab2\SGBDlab2\obj\Release\SGBDlab2.csproj.CoreCompileInputs.cache
+C:\Users\George\source\repos\SGBDlab2\SGBDlab2\obj\Release\SGBDlab2.exe
+C:\Users\George\source\repos\SGBDlab2\SGBDlab2\obj\Release\SGBDlab2.pdb

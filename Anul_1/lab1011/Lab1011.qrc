@@ -1,0 +1,5 @@
+<RCC>
+    <qresource prefix="/Lab1011">
+        <file>Resources/ap.png</file>
+    </qresource>
+</RCC>

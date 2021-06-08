@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="socialnetwork.controllers.LoginController">
+   <children>
+      <Label layoutX="278.0" layoutY="71.0" text="Login">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <TextField fx:id="input" layoutX="299.0" layoutY="113.0" />
+      <Label layoutX="215.0" layoutY="117.0" text="Your user ID:" />
+      <Button layoutX="274.0" layoutY="331.0" mnemonicParsing="false" onAction="#login" text="Submit" />
+      <Label layoutX="229.0" layoutY="172.0" text="or Create Account">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <TextField fx:id="idInput" layoutX="299.0" layoutY="213.0" />
+      <TextField fx:id="firstNameInput" layoutX="299.0" layoutY="250.0" />
+      <TextField fx:id="lastNameInput" layoutX="299.0" layoutY="288.0" />
+      <Label layoutX="215.0" layoutY="217.0" text="Your user ID:" />
+      <Label layoutX="215.0" layoutY="254.0" text="First Name:" />
+      <Label layoutX="215.0" layoutY="292.0" text="Last name:" />
+   </children>
+</AnchorPane>

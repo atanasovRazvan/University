@@ -1,0 +1,12 @@
+D:\MPP\MusicFestCSharpNetwork\Model\bin\Debug\Model.dll
+D:\MPP\MusicFestCSharpNetwork\Model\bin\Debug\Model.pdb
+D:\MPP\MusicFestCSharpNetwork\Model\obj\Debug\Model.csprojAssemblyReference.cache
+D:\MPP\MusicFestCSharpNetwork\Model\obj\Debug\Model.csproj.CoreCompileInputs.cache
+D:\MPP\MusicFestCSharpNetwork\Model\obj\Debug\Model.dll
+D:\MPP\MusicFestCSharpNetwork\Model\obj\Debug\Model.pdb
+C:\Users\Razvan\Desktop\Facultate\Anul_2\MPP\MusicFestCSharpNetwork\Model\bin\Debug\Model.dll
+C:\Users\Razvan\Desktop\Facultate\Anul_2\MPP\MusicFestCSharpNetwork\Model\bin\Debug\Model.pdb
+C:\Users\Razvan\Desktop\Facultate\Anul_2\MPP\MusicFestCSharpNetwork\Model\obj\Debug\Model.csprojAssemblyReference.cache
+C:\Users\Razvan\Desktop\Facultate\Anul_2\MPP\MusicFestCSharpNetwork\Model\obj\Debug\Model.csproj.CoreCompileInputs.cache
+C:\Users\Razvan\Desktop\Facultate\Anul_2\MPP\MusicFestCSharpNetwork\Model\obj\Debug\Model.dll
+C:\Users\Razvan\Desktop\Facultate\Anul_2\MPP\MusicFestCSharpNetwork\Model\obj\Debug\Model.pdb

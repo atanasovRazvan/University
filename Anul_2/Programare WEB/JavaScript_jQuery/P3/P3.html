@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>P3</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  </head>
+  <body>
+
+    <script>
+      $(document).ready(function(){
+
+        var numberOfSelected = 0;
+        const delay = ms => new Promise(res => setTimeout(res, ms));
+
+        $("td").click(async function(){
+
+          el = $(this).children("img").attr("class", "uncovered");
+          numberOfSelected ++;
+
+          if(numberOfSelected == 2){
+
+            await delay(1000);
+            var list = document.getElementsByClassName("uncovered");
+
+            let item1 = list[0];
+            let item2 = list[1];
+
+            if(item1.getAttribute("src") == item2.getAttribute("src")){
+              item1.removeAttribute("class");
+              item1.setAttribute("class", "done");
+              item2.removeAttribute("class");
+              item2.setAttribute("class", "done");
+            }
+            else{
+              item1.removeAttribute("class");
+              item1.setAttribute("class", "covered");
+              item2.removeAttribute("class");
+              item2.setAttribute("class", "covered");
+            }
+
+            numberOfSelected = 0;
+
+          }
+
+        });
+
+      });
+    </script>
+
+    <style>
+    table {
+      border-collapse: collapse;
+    }
+
+    table, th, td {
+      border: 1px solid black;
+    }
+
+    td{
+      width: 140px;
+      height: 140px;
+    }
+
+    .covered{
+      width: 0;
+      height: 0;
+    }
+
+    .uncovered{
+      width: 130px;
+      height: 130px;
+    }
+
+    .done{
+      width: 100px;
+      height: 100px;
+    }
+    </style>
+    <table>
+      <tr>
+        <td id="11" style="border-style: solid"><img class="covered" src="forest.jpg"></td>
+        <td id="12" style="border-style: solid"><img class="covered" src="bufny.jpg"></td>
+      </tr>
+      <tr>
+        <td id="21" style="border-style: solid"><img class="covered" src="bufny.jpg"></td>
+        <td id="22" style="border-style: solid"><img class="covered" src="andreica.jpg"></td>
+      </tr>
+      <tr>
+        <td id="31" style="border-style: solid"><img class="covered" src="diosan.jpg"></td>
+        <td id="32" style="border-style: solid"><img class="covered" src="forest.jpg"></td>
+      </tr>
+      <tr>
+        <td id="41" style="border-style: solid"><img class="covered" src="diosan.jpg"></td>
+        <td id="42" style="border-style: solid"><img class="covered" src="andreica.jpg"></td>
+      </tr>
+
+  </body>
+</html>

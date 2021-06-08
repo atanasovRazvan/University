@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1553647842 source:c:\users\razvan\desktop\algoritmica grafurilor\lab3_pb1\lab3_pb1.cpp
+	<iostream>
+	<fstream>
+	<queue>
+	<vector>
+

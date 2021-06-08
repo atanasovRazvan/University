@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Entities.TestStudent" tests="11" skipped="0" failures="0" errors="0" timestamp="2019-11-27T07:50:18" hostname="DESKTOP-HD16HCH" time="0.006">
+  <properties/>
+  <testcase name="tostring" classname="Entities.TestStudent" time="0.0"/>
+  <testcase name="getNume" classname="Entities.TestStudent" time="0.0"/>
+  <testcase name="getID" classname="Entities.TestStudent" time="0.0"/>
+  <testcase name="setID" classname="Entities.TestStudent" time="0.001"/>
+  <testcase name="setProfesor" classname="Entities.TestStudent" time="0.0"/>
+  <testcase name="getProfesor" classname="Entities.TestStudent" time="0.0"/>
+  <testcase name="setEmail" classname="Entities.TestStudent" time="0.0"/>
+  <testcase name="setGrupa" classname="Entities.TestStudent" time="0.0"/>
+  <testcase name="getEmail" classname="Entities.TestStudent" time="0.0"/>
+  <testcase name="getGrupa" classname="Entities.TestStudent" time="0.0"/>
+  <testcase name="setNume" classname="Entities.TestStudent" time="0.002"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,29 @@
+Matricea de adiacenta
+0 1 0 0 
+1 0 1 1 
+0 1 0 1 
+0 1 1 0 
+
+Matricea de incidenta rezultata
+1 1 0 0 
+0 1 1 0 
+0 1 0 1 
+0 0 1 1 
+
+Matricea de incidenta
+1 1 0 0 
+0 0 1 1 
+0 1 1 0 
+0 1 0 1 
+
+Matricea de adiacenta rezultata
+0 1 0 0 
+1 0 1 1 
+0 1 0 1 
+0 1 1 0 
+
+Lista vecinilor rezultata din matricea de adiacenta
+1: 2 
+2: 1 3 4 
+3: 2 4 
+4: 2 3 

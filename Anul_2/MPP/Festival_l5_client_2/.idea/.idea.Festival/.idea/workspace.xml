@@ -1,0 +1,330 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="95302c16-fe2d-49a6-a456-17432338d03f" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/ClientGrpc/MainForm.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/850138E9-F6FD-4E85-92BC-6047D6F94AF1/8a/cdbe99d8/SQLiteConnection.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ClientGrpc/MainForm.Designer.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ClientGrpc/Form2.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/NetworkingGrpc/Class1.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/6FF151C8-A24F-45E5-B6E3-6BC715719162/76/a0522801/Control.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/6FF151C8-A24F-45E5-B6E3-6BC715719162/2a/0c178fc5/Application.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Model/Bilet.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Model/Spectacol.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Model/User.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Model/Entity.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/B578912F-3153-49E0-AAC2-0C1DCFA268EF/a3/b7de3a09/Number.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/B578912F-3153-49E0-AAC2-0C1DCFA268EF/e2/dca57f1d/Task.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/NetworkingGrpc/protos/FestivalGrpc.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Client/Program.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/NetworkingGrpc/generated/Festival.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/6FF151C8-A24F-45E5-B6E3-6BC715719162/1a/07e8e4f5/NativeWindow.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Client/FestivalController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Client/MainForm.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Client/Form1.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/C33AFD71-6EE0-4892-B8AD-69B81D88AE1C/1E0/ExceptionDispatchInfo.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ClientGrpc/LoginForm.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Client/FestivalEventArgs.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/6FF151C8-A24F-45E5-B6E3-6BC715719162/e2/b701f630/ButtonBase.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ClientGrpc/Program.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/440D1D09-336D-46EE-B6BA-2229A55AC755/59/bb73a3e2/Assembly.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ClientGrpc/LoginForm.Designer.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Client/Form1.Designer.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ClientGrpc/Form1.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/6FF151C8-A24F-45E5-B6E3-6BC715719162/4c/88a93ec6/Button.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Client/Properties/AssemblyInfo.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ClientGrpc/Form1.Designer.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ClientGrpc/FestivalController.cs" root0="SKIP_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Model/Program.cs" />
+        <option value="$PROJECT_DIR$/Model/Class1.cs" />
+        <option value="$PROJECT_DIR$/Service/Class1.cs" />
+        <option value="$PROJECT_DIR$/Persistance/Class1.cs" />
+        <option value="$PROJECT_DIR$/FestivalMain/Program.cs" />
+        <option value="$PROJECT_DIR$/Service/FestivalException.cs" />
+        <option value="$PROJECT_DIR$/Server/Program.cs" />
+        <option value="$PROJECT_DIR$/Networking/AbstractServer.cs" />
+        <option value="$PROJECT_DIR$/Networking/ConcurrentServer.cs" />
+        <option value="$PROJECT_DIR$/Client/FestivalEvent.cs" />
+        <option value="$PROJECT_DIR$/Client/FestivalEventArgs.cs" />
+        <option value="$PROJECT_DIR$/Client/Properties/Settings.settings" />
+        <option value="$PROJECT_DIR$/Persistance/ICrudRepository.cs" />
+        <option value="$PROJECT_DIR$/Persistance/DBUtils.cs" />
+        <option value="$PROJECT_DIR$/Model/Bilet.cs" />
+        <option value="$PROJECT_DIR$/Model/Entity.cs" />
+        <option value="$PROJECT_DIR$/Model/User.cs" />
+        <option value="$PROJECT_DIR$/Model/Spectacol.cs" />
+        <option value="$PROJECT_DIR$/Service/BiletService.cs" />
+        <option value="$PROJECT_DIR$/Service/IObserver.cs" />
+        <option value="$PROJECT_DIR$/Service/IService.cs" />
+        <option value="$PROJECT_DIR$/Service/SpectacolService.cs" />
+        <option value="$PROJECT_DIR$/Service/UserService.cs" />
+        <option value="$PROJECT_DIR$/Persistance/BiletRepo.cs" />
+        <option value="$PROJECT_DIR$/Persistance/UserRepo.cs" />
+        <option value="$PROJECT_DIR$/Persistance/SpectacolRepo.cs" />
+        <option value="$PROJECT_DIR$/Server/StartServer.cs" />
+        <option value="$PROJECT_DIR$/Networking/Request.cs" />
+        <option value="$PROJECT_DIR$/Networking/Response.cs" />
+        <option value="$PROJECT_DIR$/Persistance/ConnectionFactory.cs" />
+        <option value="$PROJECT_DIR$/Persistance/SqliteConnectionFactory.cs" />
+        <option value="$PROJECT_DIR$/Client/Form1.cs" />
+        <option value="$PROJECT_DIR$/Server/FestivalServiceImpl.cs" />
+        <option value="$PROJECT_DIR$/Networking/FestivalWorker.cs" />
+        <option value="$PROJECT_DIR$/Client/MainForm.cs" />
+        <option value="$PROJECT_DIR$/Networking/FestivalProxy.cs" />
+        <option value="$PROJECT_DIR$/Networking/proto/Festival.proto" />
+        <option value="$PROJECT_DIR$/NetworkingGrpc/Protos/festival.proto" />
+        <option value="$PROJECT_DIR$/Networking/proto/festival.proto" />
+        <option value="$PROJECT_DIR$/NetworkingGrpc/Program.cs" />
+        <option value="$PROJECT_DIR$/NetworkingGrpc/Class1.cs" />
+        <option value="$PROJECT_DIR$/Client/FestivalController.cs" />
+        <option value="$PROJECT_DIR$/Client/Program.cs" />
+        <option value="$PROJECT_DIR$/ClientGrpc/Form1.cs" />
+        <option value="$PROJECT_DIR$/ClientGrpc/LoginForm.Designer.cs" />
+        <option value="$PROJECT_DIR$/ClientGrpc/FestivalController.cs" />
+        <option value="$PROJECT_DIR$/NetworkingGrpc/protos/festival.proto" />
+        <option value="$PROJECT_DIR$/ClientGrpc/Program.cs" />
+        <option value="$PROJECT_DIR$/ClientGrpc/LoginForm.cs" />
+        <option value="$PROJECT_DIR$/ClientGrpc/Form2.cs" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1Zyr69PjbMduzFQjN4bH7CQHXqu" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Rider.SolutionExplorerActivator" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="RunManager" selected=".NET Project.ClientGrpc">
+    <configuration name="ClientGrpc" type="DotNetProject" factoryName=".NET Project" temporary="true">
+      <option name="EXE_PATH" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="PROJECT_PATH" value="$PROJECT_DIR$/ClientGrpc/ClientGrpc.csproj" />
+      <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
+      <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
+      <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
+      <option name="PROJECT_KIND" value="DotNetCore" />
+      <option name="PROJECT_TFM" value=".NETCoreApp,Version=v3.1" />
+      <method v="2">
+        <option name="Build" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FestivalGUI" type="DotNetProject" factoryName=".NET Project" temporary="true">
+      <option name="EXE_PATH" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="PROJECT_PATH" value="$PROJECT_DIR$/Client/Client.csproj" />
+      <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
+      <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
+      <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
+      <option name="PROJECT_KIND" value="Console" />
+      <option name="PROJECT_TFM" value=".NETFramework,Version=v4.7.2" />
+      <method v="2">
+        <option name="Build" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FestivalMain" type="DotNetProject" factoryName=".NET Project">
+      <option name="EXE_PATH" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="PROJECT_PATH" value="$PROJECT_DIR$/FestivalMain/FestivalMain.csproj" />
+      <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
+      <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
+      <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
+      <option name="PROJECT_KIND" value="Console" />
+      <option name="PROJECT_TFM" value="" />
+      <method v="2">
+        <option name="Build" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Server" type="DotNetProject" factoryName=".NET Project" temporary="true">
+      <option name="EXE_PATH" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="PROJECT_PATH" value="$PROJECT_DIR$/Server/Server.csproj" />
+      <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
+      <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
+      <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
+      <option name="PROJECT_KIND" value="Console" />
+      <option name="PROJECT_TFM" value=".NETFramework,Version=v4.7.2" />
+      <method v="2">
+        <option name="Build" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue=".NET Project.ClientGrpc" />
+        <item itemvalue=".NET Project.Server" />
+        <item itemvalue=".NET Project.FestivalGUI" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="95302c16-fe2d-49a6-a456-17432338d03f" name="Default Changelist" comment="" />
+      <created>1585821996746</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1585821996746</updated>
+      <workItem from="1585821998335" duration="7539000" />
+      <workItem from="1585831486696" duration="21187000" />
+      <workItem from="1585907503622" duration="6823000" />
+      <workItem from="1586087430671" duration="81000" />
+      <workItem from="1586163812070" duration="7439000" />
+      <workItem from="1586235991814" duration="2739000" />
+      <workItem from="1587898592348" duration="662000" />
+      <workItem from="1587899295970" duration="772000" />
+      <workItem from="1587902823159" duration="3568000" />
+      <workItem from="1587906443721" duration="802000" />
+      <workItem from="1587908632668" duration="44000" />
+      <workItem from="1587909912706" duration="381000" />
+      <workItem from="1587912042452" duration="137000" />
+      <workItem from="1587912180953" duration="37000" />
+      <workItem from="1587914158843" duration="14242000" />
+      <workItem from="1587977512346" duration="4419000" />
+      <workItem from="1587989611136" duration="5735000" />
+      <workItem from="1587995662678" duration="661000" />
+      <workItem from="1588050133502" duration="2169000" />
+      <workItem from="1588414996744" duration="18000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
+  <component name="WindowStateProjectService">
+    <state x="391" y="144" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1587899223814">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="391" y="144" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1280.680@0.0.1280.680" timestamp="1587899223814" />
+    <state width="1237" height="163" key="GridCell.Tab.0.bottom" timestamp="1588053906019">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="163" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1588053906019" />
+    <state width="1237" height="163" key="GridCell.Tab.0.center" timestamp="1588053906018">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="163" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1588053906018" />
+    <state width="1237" height="163" key="GridCell.Tab.0.left" timestamp="1588053906018">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="163" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1588053906018" />
+    <state width="1237" height="163" key="GridCell.Tab.0.right" timestamp="1588053906018">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="163" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1588053906018" />
+    <state width="1237" height="204" key="GridCell.Tab.1.bottom" timestamp="1587995388932">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="204" key="GridCell.Tab.1.bottom/0.0.1280.680@0.0.1280.680" timestamp="1587995388932" />
+    <state width="1237" height="204" key="GridCell.Tab.1.center" timestamp="1587995388932">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="204" key="GridCell.Tab.1.center/0.0.1280.680@0.0.1280.680" timestamp="1587995388932" />
+    <state width="1237" height="204" key="GridCell.Tab.1.left" timestamp="1587995388932">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="204" key="GridCell.Tab.1.left/0.0.1280.680@0.0.1280.680" timestamp="1587995388932" />
+    <state width="1237" height="204" key="GridCell.Tab.1.right" timestamp="1587995388932">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="204" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1587995388932" />
+    <state width="1237" height="204" key="GridCell.Tab.2.bottom" timestamp="1587995388932">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="204" key="GridCell.Tab.2.bottom/0.0.1280.680@0.0.1280.680" timestamp="1587995388932" />
+    <state width="1237" height="204" key="GridCell.Tab.2.center" timestamp="1587995388932">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="204" key="GridCell.Tab.2.center/0.0.1280.680@0.0.1280.680" timestamp="1587995388932" />
+    <state width="1237" height="204" key="GridCell.Tab.2.left" timestamp="1587995388932">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="204" key="GridCell.Tab.2.left/0.0.1280.680@0.0.1280.680" timestamp="1587995388932" />
+    <state width="1237" height="204" key="GridCell.Tab.2.right" timestamp="1587995388932">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="204" key="GridCell.Tab.2.right/0.0.1280.680@0.0.1280.680" timestamp="1587995388932" />
+    <state width="1237" height="204" key="GridCell.Tab.3.bottom" timestamp="1587995388932">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="204" key="GridCell.Tab.3.bottom/0.0.1280.680@0.0.1280.680" timestamp="1587995388932" />
+    <state width="1237" height="204" key="GridCell.Tab.3.center" timestamp="1587995388932">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="204" key="GridCell.Tab.3.center/0.0.1280.680@0.0.1280.680" timestamp="1587995388932" />
+    <state width="1237" height="204" key="GridCell.Tab.3.left" timestamp="1587995388932">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="204" key="GridCell.Tab.3.left/0.0.1280.680@0.0.1280.680" timestamp="1587995388932" />
+    <state width="1237" height="204" key="GridCell.Tab.3.right" timestamp="1587995388932">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="204" key="GridCell.Tab.3.right/0.0.1280.680@0.0.1280.680" timestamp="1587995388932" />
+    <state width="1237" height="204" key="GridCell.Tab.4.bottom" timestamp="1587995388936">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="204" key="GridCell.Tab.4.bottom/0.0.1280.680@0.0.1280.680" timestamp="1587995388936" />
+    <state width="1237" height="204" key="GridCell.Tab.4.center" timestamp="1587995388932">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="204" key="GridCell.Tab.4.center/0.0.1280.680@0.0.1280.680" timestamp="1587995388932" />
+    <state width="1237" height="204" key="GridCell.Tab.4.left" timestamp="1587995388932">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="204" key="GridCell.Tab.4.left/0.0.1280.680@0.0.1280.680" timestamp="1587995388932" />
+    <state width="1237" height="204" key="GridCell.Tab.4.right" timestamp="1587995388936">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="204" key="GridCell.Tab.4.right/0.0.1280.680@0.0.1280.680" timestamp="1587995388936" />
+    <state x="233" y="73" key="Rider.ProjectTemplateDialog.Size" timestamp="1587908666826">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="233" y="73" key="Rider.ProjectTemplateDialog.Size/0.0.1280.680@0.0.1280.680" timestamp="1587908666826" />
+    <state x="453" y="30" key="RiderGenerateDialog" timestamp="1585841359327">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="453" y="30" key="RiderGenerateDialog/0.0.1280.680@0.0.1280.680" timestamp="1585841359327" />
+    <state x="142" y="0" key="SettingsEditor" timestamp="1588415010474">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="142" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1588415010474" />
+  </component>
+</project>

@@ -1,0 +1,31 @@
+plugins {
+    id 'java'
+    id 'application'
+}
+
+group 'temalab2'
+version '1.0-SNAPSHOT'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testCompile group: 'junit', name: 'junit', version: '4.12'
+    compile group: 'org.xerial', name: 'sqlite-jdbc', version: '3.30.1'
+    compile group: 'org.apache.logging.log4j', name: 'log4j-api', version: '2.13.1'
+    compile group: 'org.apache.logging.log4j', name: 'log4j-core', version: '2.13.1'
+    runtime group: 'org.xerial', name: 'sqlite-jdbc', version: '3.16.1'
+}
+
+mainClassName = 'Main'
+jar{
+    manifest{
+        attributes('Main-Class':'Main')
+    }
+    from{
+        configurations.compile.collect{ it.isDirectory() ? it : zipTree(it) }
+    }
+}

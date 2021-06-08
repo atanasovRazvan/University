@@ -1,0 +1,14 @@
+C:\Users\Alexandra Hulpoi\Desktop\MAP\lab10\lab10\bin\Debug\lab10.exe.config
+C:\Users\Alexandra Hulpoi\Desktop\MAP\lab10\lab10\bin\Debug\lab10.exe
+C:\Users\Alexandra Hulpoi\Desktop\MAP\lab10\lab10\bin\Debug\lab10.pdb
+C:\Users\Alexandra Hulpoi\Desktop\MAP\lab10\lab10\obj\Debug\lab10.csprojAssemblyReference.cache
+C:\Users\Alexandra Hulpoi\Desktop\MAP\lab10\lab10\obj\Debug\lab10.csproj.CoreCompileInputs.cache
+C:\Users\Alexandra Hulpoi\Desktop\MAP\lab10\lab10\obj\Debug\lab10.exe
+C:\Users\Alexandra Hulpoi\Desktop\MAP\lab10\lab10\obj\Debug\lab10.pdb
+C:\Users\Razvan\Desktop\lab10\lab10\obj\Debug\lab10.exe
+C:\Users\Razvan\Desktop\lab10\lab10\obj\Debug\lab10.pdb
+C:\Users\Razvan\Desktop\lab10\lab10\bin\Debug\lab10.exe.config
+C:\Users\Razvan\Desktop\lab10\lab10\bin\Debug\lab10.exe
+C:\Users\Razvan\Desktop\lab10\lab10\bin\Debug\lab10.pdb
+C:\Users\Razvan\Desktop\lab10\lab10\obj\Debug\lab10.csprojAssemblyReference.cache
+C:\Users\Razvan\Desktop\lab10\lab10\obj\Debug\lab10.csproj.CoreCompileInputs.cache

@@ -1,0 +1,6 @@
+
+_
+java:S1128	"DRemove this unused import 'socialnetwork.config.ApplicationContext'.(Øˆ¡àûÿÿÿÿ
+e
+java:S1128"ORemove this unused import 'socialnetwork.repository.memory.InMemoryRepository'.(Ìá×þ
+N	java:S106Q"9Replace this use of System.out or System.err by a logger.(´­öï

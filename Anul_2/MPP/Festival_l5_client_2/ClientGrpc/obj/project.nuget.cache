@@ -1,0 +1,19 @@
+{
+  "version": 2,
+  "dgSpecHash": "ZiVCh0M+MqNsgoGk4uPG+xE2OiviYa3L6sg+vphgnJoZ2wOs+uZX3GJ12wNWEJC1F4wdTzMzi+h2IidVTbw0mQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Razvan\\Desktop\\Facultate\\Anul_2\\MPP\\Festival_l5_client_2\\ClientGrpc\\ClientGrpc.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Razvan\\.nuget\\packages\\google.protobuf\\3.11.4\\google.protobuf.3.11.4.nupkg.sha512",
+    "C:\\Users\\Razvan\\.nuget\\packages\\grpc\\2.28.1\\grpc.2.28.1.nupkg.sha512",
+    "C:\\Users\\Razvan\\.nuget\\packages\\grpc.core\\2.28.1\\grpc.core.2.28.1.nupkg.sha512",
+    "C:\\Users\\Razvan\\.nuget\\packages\\grpc.core.api\\2.28.1\\grpc.core.api.2.28.1.nupkg.sha512",
+    "C:\\Users\\Razvan\\.nuget\\packages\\grpc.net.client\\2.28.0\\grpc.net.client.2.28.0.nupkg.sha512",
+    "C:\\Users\\Razvan\\.nuget\\packages\\grpc.net.common\\2.28.0\\grpc.net.common.2.28.0.nupkg.sha512",
+    "C:\\Users\\Razvan\\.nuget\\packages\\grpc.tools\\2.28.1\\grpc.tools.2.28.1.nupkg.sha512",
+    "C:\\Users\\Razvan\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\2.1.1\\microsoft.extensions.logging.abstractions.2.1.1.nupkg.sha512",
+    "C:\\Users\\Razvan\\.nuget\\packages\\system.diagnostics.diagnosticsource\\4.5.1\\system.diagnostics.diagnosticsource.4.5.1.nupkg.sha512",
+    "C:\\Users\\Razvan\\.nuget\\packages\\system.memory\\4.5.3\\system.memory.4.5.3.nupkg.sha512"
+  ],
+  "logs": []
+}

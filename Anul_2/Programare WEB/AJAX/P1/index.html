@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+
+<html lang="en" dir="ltr">
+  <head>
+
+    <meta charset="utf-8">
+    <title>Problema 1</title>
+
+    <style>
+
+      div #container {
+        display: inline;
+      }
+
+      #plecare{
+        background-color: yellow;
+      }
+
+      table, td{
+        background-color: green;
+        border: 1px solid black;
+      }
+
+    </style>
+
+  </head>
+  <body>
+    <div id="container">
+      <div>
+        <select id="plecare" onchange="showRoutes(this.value)">
+          <option value="" selected disabled hidden> Choose a city to display possible routes </option>
+          <option value="Piatra Neamt"> Piatra Neamt </option>
+          <option value="Bucuresti"> Bucuresti </option>
+          <option value="Cluj"> Cluj </option>
+          <option value="Timisoara"> Timisoara </option>
+          <option value="Galati"> Galati </option>
+        </select>
+      </div>
+
+      <div id="sosire"> </div>
+    </div>
+
+
+  <script>
+
+    function showRoutes(str) {
+      var xhttp;
+      if (str == "") {
+        document.getElementById("sosire").innerHTML = "";
+        return;
+      }
+      xhttp = new XMLHttpRequest();
+      xhttp.onreadystatechange = function() {
+        if (this.readyState == 4 && this.status == 200) {
+          document.getElementById("sosire").innerHTML = this.responseText;
+        }
+      };
+      xhttp.open("GET", "http://localhost/AJAX_p1php/script.php?q="+str, true);
+      xhttp.send(null);
+    }
+
+  </script>
+
+
+  </body>
+</html>

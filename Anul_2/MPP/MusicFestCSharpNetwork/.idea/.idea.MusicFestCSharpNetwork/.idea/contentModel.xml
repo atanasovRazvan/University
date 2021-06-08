@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Users\Birdie\.Rider2019.3\config\consoles\db" t="IncludeRecursive" />
+    <e p="C:\Users\Birdie\.Rider2019.3\config\extensions" t="IncludeRecursive" />
+    <e p="C:\Users\Birdie\.Rider2019.3\config\scratches" t="IncludeRecursive" />
+    <e p="C:\Users\Birdie\.Rider2019.3\system\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\Birdie\.Rider2019.3\system\resharper-host\local\Transient\ReSharperHost\v193\SolutionCaches\_MusicFestCSharpNetwork.378378881.00" t="ExcludeRecursive" />
+    <e p="D:\MPP\MusicFestCSharpNetwork" t="IncludeFlat">
+      <e p="Client" t="IncludeRecursive">
+        <e p="App.config" t="Include" />
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="Client.csproj" t="IncludeRecursive" />
+        <e p="Form1.cs" t="Include" />
+        <e p="Form1.Designer.cs" t="Include" />
+        <e p="Form1.resx" t="Include" />
+        <e p="obj" t="ExcludeRecursive" />
+        <e p="Program.cs" t="Include" />
+        <e p="Properties" t="Include">
+          <e p="AssemblyInfo.cs" t="Include" />
+          <e p="Resources.Designer.cs" t="Include" />
+          <e p="Resources.resx" t="Include" />
+          <e p="Settings.Designer.cs" t="Include" />
+          <e p="Settings.settings" t="Include" />
+        </e>
+        <e p="SearchResult.cs" t="Include" />
+        <e p="SearchResult.Designer.cs" t="Include" />
+        <e p="Ticketing.cs" t="Include" />
+        <e p="Ticketing.Designer.cs" t="Include" />
+      </e>
+      <e p="Model" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="Model.csproj" t="IncludeRecursive" />
+        <e p="obj" t="ExcludeRecursive" />
+        <e p="Properties" t="Include">
+          <e p="AssemblyInfo.cs" t="Include" />
+        </e>
+        <e p="Show.cs" t="Include" />
+        <e p="Ticket.cs" t="Include" />
+        <e p="User.cs" t="Include" />
+      </e>
+      <e p="MusicFestCSharpNetwork.sln" t="IncludeFlat" />
+      <e p="Networking" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="ClientWorker.cs" t="Include" />
+        <e p="Networking.csproj" t="IncludeRecursive" />
+        <e p="obj" t="ExcludeRecursive" />
+        <e p="Properties" t="Include">
+          <e p="AssemblyInfo.cs" t="Include" />
+        </e>
+        <e p="Request.cs" t="Include" />
+        <e p="Response.cs" t="Include" />
+        <e p="ServerProxy.cs" t="Include" />
+        <e p="ServerUtils.cs" t="Include" />
+        <e p="TicketDTO.cs" t="Include" />
+      </e>
+      <e p="packages" t="ExcludeRecursive" />
+      <e p="Persistence" t="IncludeRecursive">
+        <e p="App.config" t="Include" />
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="DBUtils.cs" t="Include" />
+        <e p="IShowRepository.cs" t="Include" />
+        <e p="ITicketRepository.cs" t="Include" />
+        <e p="IUserRepository.cs" t="Include" />
+        <e p="obj" t="ExcludeRecursive" />
+        <e p="packages.config" t="Include" />
+        <e p="Persistence.csproj" t="IncludeRecursive" />
+        <e p="Properties" t="Include">
+          <e p="AssemblyInfo.cs" t="Include" />
+        </e>
+        <e p="ShowDBRepository.cs" t="Include" />
+        <e p="TicketDBRepository.cs" t="Include" />
+        <e p="UserDBRepository.cs" t="Include" />
+      </e>
+      <e p="Server" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="obj" t="ExcludeRecursive" />
+        <e p="Properties" t="Include">
+          <e p="AssemblyInfo.cs" t="Include" />
+        </e>
+        <e p="Server.csproj" t="IncludeRecursive" />
+        <e p="ServerImplementation.cs" t="Include" />
+        <e p="StartServer.cs" t="Include" />
+      </e>
+      <e p="Services" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="ChatException.cs" t="Include" />
+        <e p="IObserver.cs" t="Include" />
+        <e p="IServices.cs" t="Include" />
+        <e p="obj" t="ExcludeRecursive" />
+        <e p="Properties" t="Include">
+          <e p="AssemblyInfo.cs" t="Include" />
+        </e>
+        <e p="Services.csproj" t="IncludeRecursive" />
+      </e>
+    </e>
+  </component>
+</project>

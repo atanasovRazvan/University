@@ -1,0 +1,11 @@
+
+D
+java:S1128")Remove this unused import 'model.Entity'.(¦¿´ÿ8­ß­„†/
+‚
+java:S4087"bRemove this "close" call; closing the resource is handled automatically by the try-with-resources.(ËÇÇÓûÿÿÿÿ8­ß­„†/
+B
+java:S1128"'Remove this unused import 'model.Item'.(ºÖä»8­ß­„†/
+‚
+java:S4087"bRemove this "close" call; closing the resource is handled automatically by the try-with-resources.(ËÇÇÓûÿÿÿÿ8­ß­„†/
+‚
+java:S4087"bRemove this "close" call; closing the resource is handled automatically by the try-with-resources.(ËÇÇÓûÿÿÿÿ8­ß­„†/

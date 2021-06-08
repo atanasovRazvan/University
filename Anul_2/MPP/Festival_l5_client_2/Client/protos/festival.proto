@@ -1,0 +1,76 @@
+﻿syntax = "proto3";
+package festival;
+option csharp_namespace = "Client";
+
+service FestivalService{
+
+  rpc login(LoginRequest) returns (LoginReply) {}
+  rpc saveBilet(stream SaveBiletRequest) returns (stream SaveBiletReply) {}
+  rpc findSpectacol(FindSpectacolRequest) returns (FindSpectacolReply) {}
+  rpc getAllSpectacol(GetAllRequest) returns (GetAllReply) {}
+  rpc getSpectacolByDate(GetAllByDateRequest) returns (GetAllByDateReply) {}
+
+}
+message User{
+  string username = 1;
+  string password = 2;
+}
+
+message Spectacol{
+  int32 id = 1;
+  string date = 2;
+  string loc = 3;
+  string artist = 4;
+  string ora = 5;
+  int32 locuriDisp = 6;
+  int32 locuriVandute = 7;
+}
+
+
+message Bilet{
+  int32 id = 1;
+  int32 spectacolId = 2;
+  string numeCumparator = 3;
+  int32 nrLocuri = 4;
+}
+
+message LoginRequest{
+  User user = 1;
+}
+
+message LoginReply{
+  bool logged = 1;
+}
+
+message SaveBiletRequest{
+  Bilet bilet = 1;
+}
+
+message SaveBiletReply{
+  bool saved = 1;
+  Spectacol spectacol = 2;
+}
+
+message GetAllRequest{
+
+}
+
+message GetAllReply{
+  repeated Spectacol spectacole = 1;
+}
+
+message GetAllByDateRequest{
+  string date = 1;
+}
+
+message GetAllByDateReply{
+  repeated Spectacol spectacole = 1;
+}
+
+message FindSpectacolRequest{
+  int32 spectacolId = 1;
+}
+
+message FindSpectacolReply{
+  Spectacol spectacol = 1;
+}

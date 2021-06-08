@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+
+    <style>
+
+      td{
+
+        border: 1px solid black;
+        padding: 25px 25px 25px 25px;
+
+      }
+
+      .cover{
+        display: none;
+      }
+
+    </style>
+
+  </head>
+
+  <body>
+    <table id="table">
+      <tr>
+        <td id="1" onclick="put(this)">  </td>
+        <td id="2" onclick="put(this)">  </td>
+        <td id="3" onclick="put(this)">  </td>
+      </tr>
+      <tr>
+        <td id="4" onclick="put(this)">  </td>
+        <td id="5" onclick="put(this)">  </td>
+        <td id="6" onclick="put(this)">  </td>
+      </tr>
+      <tr>
+        <td id="7" onclick="put(this)">  </td>
+        <td id="8" onclick="put(this)">  </td>
+        <td id="9" onclick="put(this)">  </td>
+      </tr>
+    </table>
+
+    <p id="fin"> </p>
+
+    <script>
+
+      var arr = ['-', '-', '-', '-', '-', '-', '-', '-', '-'];
+
+      if(Math.floor(Math.random() * 2) == 1)
+        sendToServer("---------");
+
+      function put(cell){
+
+        cell.innerHTML = "X";
+        arr[cell.id-1] = "X";
+        console.log(arr.join(""));
+        sendToServer(arr.join(""));
+
+      }
+
+      function sendToServer(str){
+
+        var xhttp;
+        xhttp = new XMLHttpRequest();
+        xhttp.onreadystatechange = function() {
+          if (this.readyState == 4 && this.status == 200) {
+
+            if(this.responseText == "fx"){
+
+              document.getElementById("table").classList.add("cover");
+              document.getElementById("fin").innerHTML = "X WON";
+
+            }
+
+            else if(this.responseText == "f0"){
+
+              document.getElementById("table").classList.add("cover");
+              document.getElementById("fin").innerHTML = "0 WON";
+
+            }
+
+            else if(this.responseText == "fr") {
+
+                document.getElementById("table").classList.add("cover");
+                document.getElementById("fin").innerHTML = "REMIZA!";
+
+            }
+            else{
+              var response = parseInt(this.responseText);
+              response = response + 1;
+              response = response.toString();
+              document.getElementById(response).innerHTML = "0";
+              response = parseInt(response);
+              arr[response-1] = "0";
+              console.log(response-1);
+              console.log(arr.join(""));
+            }
+          }
+        };
+        xhttp.open("GET", "http://localhost/AJAX_p4php/script.php?arr="+str, true);
+        xhttp.send(null);
+
+      }
+
+    </script>
+
+
+  </body>
+
+
+</html>

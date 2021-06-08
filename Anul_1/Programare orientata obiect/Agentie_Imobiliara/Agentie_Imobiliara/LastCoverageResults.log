@@ -1,0 +1,21 @@
+[2019-03-25 15:00:53] [info] Start Program:
+Path:"C:\Users\Razvan\Desktop\Programare orientata obiect\Agentie_Imobiliara\Debug\Agentie_Imobiliara.exe"
+Arguments:
+Working directory: "C:\Users\Razvan\Desktop\Programare orientata obiect\Agentie_Imobiliara\Agentie_Imobiliara\"
+Modules: Selected: C:\Users\Razvan\Desktop\Programare orientata obiect\Agentie_Imobiliara\Debug\Agentie_Imobiliara.exe Excluded: 
+Sources: Selected: C:\Users\Razvan\Desktop\Programare orientata obiect\Agentie_Imobiliara\Agentie_Imobiliara Excluded: console.c 
+Log Level: Normal
+Cover Children: 0
+Aggregate by file: 1
+Continue after C++ exception: 0
+Optimized build support: 0
+Export: Binary C:\Users\Razvan\AppData\Local\Temp\xmmnrznq.p1c 
+Input coverage: 
+Unified diff: 
+Excluded line regular expressions: 
+Substitute pdb source paths: 
+
+[2019-03-25 15:00:53] [info] Module: C:\Users\Razvan\Desktop\Programare orientata obiect\Agentie_Imobiliara\Debug\Agentie_Imobiliara.exe is selected because it matches selected pattern: C:\Users\Razvan\Desktop\Programare orientata obiect\Agentie_Imobiliara\Debug\Agentie_Imobiliara.exe
+[2019-03-25 15:00:53] [info] ----------------------------------------------------
+[2019-03-25 15:00:53] [info] Coverage binary generated in file: C:\Users\Razvan\AppData\Local\Temp\xmmnrznq.p1c
+[2019-03-25 15:00:53] [info] ----------------------------------------------------

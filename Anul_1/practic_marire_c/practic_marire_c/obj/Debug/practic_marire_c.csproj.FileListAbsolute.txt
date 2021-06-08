@@ -1,0 +1,13 @@
+C:\Users\Razvan\source\repos\practic_marire_c\practic_marire_c\bin\Debug\practic_marire_c.exe
+C:\Users\Razvan\source\repos\practic_marire_c\practic_marire_c\bin\Debug\practic_marire_c.pdb
+C:\Users\Razvan\source\repos\practic_marire_c\practic_marire_c\obj\Debug\practic_marire_c.csprojAssemblyReference.cache
+C:\Users\Razvan\source\repos\practic_marire_c\practic_marire_c\obj\Debug\practic_marire_c.csproj.CoreCompileInputs.cache
+C:\Users\Razvan\source\repos\practic_marire_c\practic_marire_c\obj\Debug\practic_marire_c.exe
+C:\Users\Razvan\source\repos\practic_marire_c\practic_marire_c\obj\Debug\practic_marire_c.pdb
+C:\Users\Razvan\Desktop\practic_marire_c\practic_marire_c\bin\Debug\practic_marire_c.exe.config
+C:\Users\Razvan\Desktop\practic_marire_c\practic_marire_c\bin\Debug\practic_marire_c.exe
+C:\Users\Razvan\Desktop\practic_marire_c\practic_marire_c\bin\Debug\practic_marire_c.pdb
+C:\Users\Razvan\Desktop\practic_marire_c\practic_marire_c\obj\Debug\practic_marire_c.csprojAssemblyReference.cache
+C:\Users\Razvan\Desktop\practic_marire_c\practic_marire_c\obj\Debug\practic_marire_c.csproj.CoreCompileInputs.cache
+C:\Users\Razvan\Desktop\practic_marire_c\practic_marire_c\obj\Debug\practic_marire_c.exe
+C:\Users\Razvan\Desktop\practic_marire_c\practic_marire_c\obj\Debug\practic_marire_c.pdb

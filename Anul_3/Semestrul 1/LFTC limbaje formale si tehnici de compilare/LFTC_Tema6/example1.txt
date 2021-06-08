@@ -1,0 +1,7 @@
+int main(){
+     int bani;
+     bani = 0;
+     int vreaubani;
+     vreaubani = 1;
+     bani = bani + 100;
+}

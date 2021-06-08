@@ -1,0 +1,12 @@
+﻿1,1 2,2,Participant
+2,1 2,3,Participant
+3,1 2,0,Rezerva
+16,1 2,0,Rezerva
+17,1 2,3,Participant
+18,1 2,4,Participant
+31,3 4,1,Participant
+32,3 4,4,Participant
+33,3 4,0,Rezerva
+65,3 4,0,Rezerva
+66,3 4,3,Participant
+67,3 4,2,Participant

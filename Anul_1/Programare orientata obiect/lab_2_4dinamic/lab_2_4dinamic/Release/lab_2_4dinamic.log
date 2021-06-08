@@ -1,0 +1,42 @@
+﻿  ExpService.c
+ExpService.c(37): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+ExpService.c(105): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+ExpService.c(109): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+ExpService.c(109): warning C4047: 'function': 'const char *' differs in levels of indirection from 'char **'
+ExpService.c(109): warning C4024: 'strcpy': different types for formal and actual parameter 2
+  UI.c
+UI.c(7): warning C4013: 'printf' undefined; assuming extern returning int
+UI.c(154): warning C4133: 'function': incompatible types - from 'Expediture *' to 'list *'
+  Utils.c
+Utils.c(19): warning C4047: '==': 'int' differs in levels of indirection from 'void *'
+Utils.c(18): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.16299.0\ucrt\stdio.h(1272): note: see declaration of 'scanf'
+Utils.c(20): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.16299.0\ucrt\stdio.h(1272): note: see declaration of 'scanf'
+Utils.c(32): warning C4047: '==': 'int' differs in levels of indirection from 'void *'
+Utils.c(31): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.16299.0\ucrt\stdio.h(1272): note: see declaration of 'scanf'
+Utils.c(33): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.16299.0\ucrt\stdio.h(1272): note: see declaration of 'scanf'
+Utils.c(50): warning C4047: '==': 'int' differs in levels of indirection from 'void *'
+Utils.c(49): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.16299.0\ucrt\stdio.h(1272): note: see declaration of 'scanf'
+Utils.c(51): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.16299.0\ucrt\stdio.h(1272): note: see declaration of 'scanf'
+Utils.c(73): warning C4047: '==': 'int' differs in levels of indirection from 'void *'
+Utils.c(86): warning C4244: 'return': conversion from 'float' to 'int', possible loss of data
+Utils.c(72): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.16299.0\ucrt\stdio.h(1272): note: see declaration of 'scanf'
+Utils.c(74): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.16299.0\ucrt\stdio.h(1272): note: see declaration of 'scanf'
+Utils.c(94): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.16299.0\ucrt\stdio.h(1272): note: see declaration of 'scanf'
+  list.c
+list.c(117): warning C4101: 'exp': unreferenced local variable
+  main.c
+  Generating code
+  25 of 54 functions (46.3%) were compiled, the rest were copied from previous compilation.
+    1 functions were new in current compilation
+    11 functions had inline decision re-evaluated but remain unchanged
+  Finished generating code
+  lab_2_4dinamic.vcxproj -> C:\Users\Marian\source\repos\lab_2_4dinamic\Release\lab_2_4dinamic.exe

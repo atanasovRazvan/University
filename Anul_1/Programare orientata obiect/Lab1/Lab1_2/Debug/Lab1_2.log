@@ -1,0 +1,4 @@
+﻿  Pb2.c
+c:\users\razvan\desktop\programare orientata obiect\lab1\lab1\pb2.c(89): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\stdio.h(1274): note: see declaration of 'scanf'
+  Lab1_2.vcxproj -> C:\Users\Razvan\Desktop\Programare orientata obiect\Lab1\Debug\Lab1_2.exe

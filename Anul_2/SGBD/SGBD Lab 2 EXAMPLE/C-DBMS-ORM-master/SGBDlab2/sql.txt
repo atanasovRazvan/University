@@ -1,0 +1,61 @@
+﻿CREATE DATABASE labsgbd
+
+use labsgbd
+
+go
+
+CREATE TABLE Parent
+(cod_pk1 INT IDENTITY NOT NULL,
+cod_pk2 INT NOT NULL,
+cod_pk3 INT NOT NULL,
+cod_pk4 INT NOT NULL,
+nume VARCHAR(200),
+PRIMARY KEY (cod_pk1, cod_pk2, cod_pk3, cod_pk4)
+);
+GO
+CREATE TABLE Child
+(cod_pk1 INT PRIMARY KEY IDENTITY, --identity face sa se puna automat numele
+field1 VARCHAR(300),
+field2 VARCHAR(300),
+cod_fk1 INT NOT NULL,
+cod_fk2 INT NOT NULL,
+cod_fk3 INT NOT NULL,
+cod_fk4 INT NOT NULL,
+FOREIGN KEY (cod_fk1, cod_fk2, cod_fk3, cod_fk4) REFERENCES Parent (cod_pk1, cod_pk2, cod_pk3, cod_pk4)
+);
+GO
+
+EXEC sp_RENAME 'Parent.cod_pk1' , 'cod_fk1', 'COLUMN'
+EXEC sp_RENAME 'Parent.cod_pk2' , 'cod_fk2', 'COLUMN'
+EXEC sp_RENAME 'Parent.cod_pk3' , 'cod_fk3', 'COLUMN'
+EXEC sp_RENAME 'Parent.cod_pk4' , 'cod_fk4', 'COLUMN'
+
+GO
+
+INSERT INTO Parent (cod_pk2,cod_pk3,cod_pk4,nume) VALUES
+(1,1,1,'nume1'),
+(2,2,2,'nume2'),
+(3,3,3,'nume3'),
+(4,4,4,'nume4'),
+(5,5,5,'nume5');
+GO
+
+SELECT * FROM Parent
+
+GO
+
+
+INSERT INTO Child (cod_fk1,cod_fk2,cod_fk3,cod_fk4,field1,field2) VALUES
+(1,1,1,1,'field11','field12'),
+(1,1,1,1,'field21','field22'),
+(1,1,1,1,'field31','field32'),
+(1,1,1,1,'field41','field42'),
+(1,1,1,1,'field51','field52'),
+(1,1,1,1,'field61','field62'),
+(2,2,2,2,'field71','field72'),
+(2,2,2,2,'field81','field82'),
+(2,2,2,2,'field91','field92'),
+(2,2,2,2,'field101','field102');
+GO
+
+SELECT * FROM Child

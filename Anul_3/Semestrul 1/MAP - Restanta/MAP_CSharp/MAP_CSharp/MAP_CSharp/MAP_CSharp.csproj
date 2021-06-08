@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{6AF79656-CDAA-411A-BDCB-F3CF34CD4894}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>MAP_CSharp</RootNamespace>
+    <AssemblyName>MAP_CSharp</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="model\Echipa.cs" />
+    <Compile Include="model\Elev.cs" />
+    <Compile Include="model\Entitate.cs" />
+    <Compile Include="model\Jucator.cs" />
+    <Compile Include="model\JucatorActiv.cs" />
+    <Compile Include="model\Meci.cs" />
+    <Compile Include="model\TipJucator.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="repositories\AbstractRepository.cs" />
+    <Compile Include="repositories\EchipaFileRepository.cs" />
+    <Compile Include="repositories\FileRepository.cs" />
+    <Compile Include="repositories\ICrudRepository.cs" />
+    <Compile Include="repositories\JucatorActivRepository.cs" />
+    <Compile Include="repositories\JucatorFileRepository.cs" />
+    <Compile Include="repositories\MeciFileRepository.cs" />
+    <Compile Include="service\Service.cs" />
+    <Compile Include="userinterface\UI.cs" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <Content Include="data\echipe.txt" />
+    <Content Include="data\jucatori.txt" />
+    <Content Include="data\jucatoriActivi.txt" />
+    <Content Include="data\meciuri.txt" />
+    <Content Include="data\scoli.txt" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

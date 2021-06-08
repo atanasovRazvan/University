@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Users\marc_\.Rider2019.3\system\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\marc_\.Rider2019.3\system\resharper-host\local\Transient\ReSharperHost\v193\SolutionCaches\_Festival.1649560499.00" t="ExcludeRecursive" />
+    <e p="C:\Users\marc_\Documents\MPP\Festival_l5_client_2" t="IncludeFlat">
+      <e p="Client" t="IncludeRecursive">
+        <e p="Client.csproj" t="IncludeRecursive" />
+      </e>
+      <e p="ClientGrpc" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="ClientGrpc.csproj" t="IncludeRecursive" />
+        <e p="Form2.cs" t="Include" />
+        <e p="Form2.Designer.cs" t="Include" />
+        <e p="Form2.resx" t="Include" />
+        <e p="LoginForm.cs" t="Include" />
+        <e p="LoginForm.Designer.cs" t="Include" />
+        <e p="LoginForm.resx" t="Include" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp3.1" t="Include">
+              <e p="ClientGrpc.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Program.cs" t="Include" />
+      </e>
+      <e p="Festival.sln" t="IncludeFlat" />
+      <e p="model" t="IncludeRecursive">
+        <e p="Bilet.cs" t="Include" />
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="Entity.cs" t="Include" />
+        <e p="Model.csproj" t="IncludeRecursive" />
+        <e p="obj" t="ExcludeRecursive" />
+        <e p="Properties" t="Include">
+          <e p="AssemblyInfo.cs" t="Include" />
+        </e>
+        <e p="Spectacol.cs" t="Include" />
+        <e p="User.cs" t="Include" />
+      </e>
+      <e p="NetworkingGrpc" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="Class1.cs" t="Include" />
+        <e p="generated" t="Include">
+          <e p="Festival.cs" t="Include" />
+        </e>
+        <e p="NetworkingGrpc.csproj" t="IncludeRecursive" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp3.1" t="Include">
+              <e p="NetworkingGrpc.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Protos" t="Include">
+          <e p="Festival.proto" t="Include" />
+          <e p="FestivalGrpc.cs" t="Include" />
+        </e>
+      </e>
+      <e p="packages" t="ExcludeRecursive" />
+    </e>
+  </component>
+</project>

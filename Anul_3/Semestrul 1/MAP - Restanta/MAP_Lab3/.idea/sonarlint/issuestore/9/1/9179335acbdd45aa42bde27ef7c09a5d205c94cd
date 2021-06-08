@@ -1,0 +1,9 @@
+
+r
+java:S3008	"WRename this field "obs_instance" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ëİ¿²ÿÿÿÿÿ
+
+java:S1845"Rename method "notifyall" to prevent any misunderstanding/clash with method "notifyAll" defined in superclass "java.lang.Object".(àÈ‹íúÿÿÿÿ
+8
+java:S1118"Hide this public constructor.(¶ÿ¬Äøÿÿÿÿ
+D
+java:S3010")Remove this assignment of "observerList".(£ƒôğúÿÿÿÿ

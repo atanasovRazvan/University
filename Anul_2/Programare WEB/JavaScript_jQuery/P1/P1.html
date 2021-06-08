@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>P1</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  </head>
+  <body>
+
+    <script>
+      $(document).ready(function(){
+        $("#firstSelect").dblclick(function(){
+
+          var obj = document.createElement("option");
+          obj.text = document.getElementById('firstSelect').options[document.getElementById('firstSelect').selectedIndex].text;
+          $("#secondSelect").append(obj);
+          $("#firstSelect option:selected").remove();
+
+        });
+
+        $("#secondSelect").dblclick(function(){
+
+          var obj = document.createElement("option");
+          obj.text = document.getElementById('secondSelect').options[document.getElementById('secondSelect').selectedIndex].text;
+          $("#firstSelect").append(obj);
+          $("#secondSelect option:selected").remove();
+
+        });
+      });
+    </script>
+
+    <select multiple=true id="firstSelect">
+      <option value="default" selected disabled hidden>None</option>
+      <option value="First1">First1</option>
+      <option value="First2">First2</option>
+      <option value="First3">First3</option>
+      <option value="First4">First4</option>
+      <option value="First5">First5</option>
+    </select id="secondSelect">
+
+    <select multiple=true id="secondSelect">
+      <option value="default" selected disabled hidden>None</option>
+      <option value="Second1">Second1</option>
+      <option value="Second2">Second2</option>
+      <option value="Second3">Second3</option>
+      <option value="Second4">Second4</option>
+      <option value="Second5">Second5</option>
+    </select>
+
+  </body>
+</html>

@@ -1,0 +1,38 @@
+     1                                  bits 32
+     2                                  global start
+     3                                  extern exit, printf, scanf
+     4                                  import exit msvcrt.dll 
+     5                                  import printf msvcrt.dll 
+     6                                  import scanf msvcrt.dll 
+     7                                  
+     8                                  segment data use32 class=data
+     9 00000000 5072696E743A202564-     	_format db "Print: %d", 10, 0
+     9 00000009 0A00               
+    10 0000000B 256400                  	_sformat db "%d", 0
+    11 0000000E 00000000                	tigari dd 0
+    12 00000012 00000000                	bani dd 0
+    13 00000016 00000000                	baniRamasi dd 0
+    14                                  
+    15                                  
+    16                                  segment code use32 class=code
+    17                                  start:
+    18 00000000 68[12000000]            	push dword bani
+    19 00000005 68[0B000000]            	push dword _sformat
+    20 0000000A FF15[00000000]          	call [scanf]
+    21 00000010 83C408                  	add esp, 4 * 2
+    22 00000013 68[0E000000]            	push dword tigari
+    23 00000018 68[0B000000]            	push dword _sformat
+    24 0000001D FF15[00000000]          	call [scanf]
+    25 00000023 83C408                  	add esp, 4 * 2
+    26 00000026 B800000000              	mov eax, 0
+    27 0000002B 0305[12000000]          	add eax, [bani]
+    28 00000031 2B05[0E000000]          	sub eax, [tigari]
+    29 00000037 A3[16000000]            	mov dword [baniRamasi], eax
+    30                                  
+    31 0000003C FF35[16000000]          	push dword [baniRamasi]
+    32                                  
+    33 00000042 68[00000000]            	push dword _format
+    34 00000047 FF15[00000000]          	call [printf]
+    35 0000004D 83C408                  	add esp, 4 * 2
+    36                                  
+    37                                  

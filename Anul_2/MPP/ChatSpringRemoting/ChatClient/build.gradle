@@ -1,0 +1,18 @@
+group 'ChatSpringRemoting'
+version '1.0-SNAPSHOT'
+
+apply plugin: 'java'
+apply plugin: 'application'
+
+sourceCompatibility = 1.8
+mainClassName='chat.client.StartClient'
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile project(':ChatModel')
+    compile project(':ChatServices')
+    compile 'org.springframework:spring-context:5.0.4.RELEASE'
+    testCompile group: 'junit', name: 'junit', version: '4.12'
+}

@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+
+    <class name="model.Hotel" table="Hotel">
+        <id name="id" column="id">
+            <generator class="increment"/>
+        </id>
+        <property name="locationId" column="locationId"/>
+        <property name="hotelName" column="hotelName"/>
+        <property name="noRooms" column="noRooms"/>
+        <property name="type" column="type"/>
+        <property name="pricePerNight" column="pricePerNight"/>
+    </class>
+
+</hibernate-mapping>

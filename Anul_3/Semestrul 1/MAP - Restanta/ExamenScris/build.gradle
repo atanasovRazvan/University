@@ -1,0 +1,17 @@
+plugins {
+    id 'java'
+}
+
+group 'org.example'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testCompile group: 'junit', name: 'junit', version: '4.12'
+    compile group: 'org.xerial', name: 'sqlite-jdbc', version: '3.30.1'
+    runtime group: 'org.xerial', name: 'sqlite-jdbc', version: '3.16.1'
+    compile 'org.hibernate:hibernate-core:5.2.10.Final'
+}

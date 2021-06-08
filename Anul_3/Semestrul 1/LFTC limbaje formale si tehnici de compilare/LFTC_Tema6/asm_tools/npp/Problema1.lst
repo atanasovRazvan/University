@@ -1,0 +1,84 @@
+     1                                  ; 5-Numar impar
+     2                                  
+     3                                  ; Cerinta: Sa se citeasca de la tastatura mai multe numere naturale pana la citirea lui 0. Sa se scrie intr un fisier
+     4                                  ; separat prin spatii numerele pozitive care au numar par de biti 1
+     5                                  
+     6                                  bits 32
+     7                                  global start
+     8                                  extern exit, fopen, scanf, fprintf, fclose
+     9                                  import exit msvcrt.dll
+    10                                  import fopen msvcrt.dll
+    11                                  import scanf msvcrt.dll
+    12                                  import fprintf msvcrt.dll
+    13                                  import fclose msvcrt.dll
+    14                                  
+    15                                  segment data use32 class=data
+    16                                  
+    17 00000000 00000000                    descriptor dd 0
+    18 00000004 00000000                    numar dd 0
+    19 00000008 256400                      format db "%d",0
+    20 0000000B 25642000                    formatfile db "%d ",0
+    21 0000000F 72657A756C7461742E-         fName db "rezultat.txt",0
+    21 00000018 74787400           
+    22 0000001C 7700                        modAcces db "w",0
+    23                                  
+    24                                  segment code use32 class=code
+    25                                      start:
+    26                                          
+    27 00000000 68[1C000000]                    push dword modAcces
+    28 00000005 68[0F000000]                    push dword fName
+    29 0000000A FF15[00000000]                  call [fopen]
+    30 00000010 83C408                          add esp, 2*4
+    31 00000013 A3[00000000]                    mov [descriptor], eax
+    32 00000018 B800000000                      mov eax, 0
+    33                                          
+    34                                          repeat:
+    35                                              
+    36 0000001D 68[04000000]                        push dword numar
+    37 00000022 68[08000000]                        push dword format
+    38 00000027 FF15[00000000]                      call [scanf]
+    39 0000002D 83C408                              add esp, 4*2
+    40                                              
+    41 00000030 A1[04000000]                        mov eax, [numar]
+    42 00000035 83F800                              cmp eax, 0
+    43 00000038 7437                                je sfarsit
+    44                                              
+    45 0000003A BB00000000                          mov ebx, 0
+    46                                              repeat2:
+    47 0000003F 83F800                                  cmp eax, 0
+    48 00000042 7409                                    jz sfarsit2
+    49 00000044 D1F8                                    sar eax, 1
+    50 00000046 7202                                    jb corect
+    51 00000048 7301                                    jae incorect
+    52                                              
+    53                                                  corect:
+    54 0000004A 43                                          inc ebx
+    55                                                  incorect:
+    56 0000004B EBF2                                    jmp repeat2
+    57                                              sfarsit2:
+    58                                              
+    59 0000004D F7C301000000                        test ebx, 1
+    60 00000053 751A                                jne nuScrie
+    61                                                  
+    62 00000055 FF35[04000000]                          push dword [numar]
+    63 0000005B 68[08000000]                            push dword format
+    64 00000060 FF35[00000000]                          push dword [descriptor]
+    65 00000066 FF15[00000000]                          call [fprintf]
+    66 0000006C 83C40C                                  add esp, 4*3
+    67                                                  
+    68                                              nuScrie:
+    69                                              
+    70 0000006F EBAC                            jmp repeat
+    71                                          sfarsit:
+    72                                          
+    73 00000071 FF35[00000000]                  push dword [descriptor]
+    74 00000077 FF15[00000000]                  call [fclose]
+    75 0000007D 83C404                          add esp, 4
+    76                                          
+    77 00000080 6A00                            push    dword 0
+    78 00000082 FF15[00000000]                  call    [exit]
+    79                                          
+    80                                          
+    81                                          
+    82                                          
+    83                                          

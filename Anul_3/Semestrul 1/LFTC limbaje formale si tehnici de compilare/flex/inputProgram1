@@ -1,0 +1,12 @@
+int main(){
+    int P123; int A; int r@;
+    double pi;
+    pi = 3.14159;
+    cin>>r;
+    P=2*pi*r;
+    B=pi*r*r;
+    cout<<P;
+    cout<<A;
+}
+
+

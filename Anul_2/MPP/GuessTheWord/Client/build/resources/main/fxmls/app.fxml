@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controllers.AppCtrl">
+   <children>
+      <TextField fx:id="wordInput" layoutX="226.0" layoutY="161.0" />
+      <Button fx:id="submitWord" layoutX="258.0" layoutY="200.0" mnemonicParsing="false" onAction="#handleSubmitbtn" text="Submit word" />
+      <Label fx:id="labelPlayer1" layoutX="128.0" layoutY="81.0" text="player1: _____" />
+      <Label fx:id="labelPlayer2" layoutX="375.0" layoutY="81.0" text="player2: ______" />
+      <TextField fx:id="player1Input" layoutX="96.0" layoutY="99.0" />
+      <TextField fx:id="player2Input" layoutX="338.0" layoutY="99.0" />
+      <TextField fx:id="letterInput" layoutX="272.0" layoutY="240.0" prefHeight="26.0" prefWidth="53.0" />
+      <Button fx:id="submitWholeWord" onAction="#sendWholeWord" layoutX="239.0" layoutY="34.0" mnemonicParsing="false" text="Submit whole word" />
+      <Button fx:id="submitLetter" onAction="#sendLetter" layoutX="258.0" layoutY="274.0" mnemonicParsing="false" text="Submit letter" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,157 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Razvan\\Desktop\\Facultate\\Anul_2\\MPP\\Festival_l5_client_2\\ClientGrpc\\ClientGrpc.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Razvan\\Desktop\\Facultate\\Anul_2\\MPP\\Festival_l5_client_2\\ClientGrpc\\ClientGrpc.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Razvan\\Desktop\\Facultate\\Anul_2\\MPP\\Festival_l5_client_2\\ClientGrpc\\ClientGrpc.csproj",
+        "projectName": "ClientGrpc",
+        "projectPath": "C:\\Users\\Razvan\\Desktop\\Facultate\\Anul_2\\MPP\\Festival_l5_client_2\\ClientGrpc\\ClientGrpc.csproj",
+        "packagesPath": "C:\\Users\\Razvan\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Razvan\\Desktop\\Facultate\\Anul_2\\MPP\\Festival_l5_client_2\\ClientGrpc\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Razvan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\Users\\Razvan\\Desktop\\Facultate\\Anul_2\\MPP\\Festival_l5_client_2\\Model\\Model.csproj": {
+                "projectPath": "C:\\Users\\Razvan\\Desktop\\Facultate\\Anul_2\\MPP\\Festival_l5_client_2\\Model\\Model.csproj"
+              },
+              "C:\\Users\\Razvan\\Desktop\\Facultate\\Anul_2\\MPP\\Festival_l5_client_2\\NetworkingGrpc\\NetworkingGrpc.csproj": {
+                "projectPath": "C:\\Users\\Razvan\\Desktop\\Facultate\\Anul_2\\MPP\\Festival_l5_client_2\\NetworkingGrpc\\NetworkingGrpc.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Grpc.Net.Client": {
+              "target": "Package",
+              "version": "[2.28.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WindowsForms": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Razvan\\Desktop\\Facultate\\Anul_2\\MPP\\Festival_l5_client_2\\Model\\Model.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Razvan\\Desktop\\Facultate\\Anul_2\\MPP\\Festival_l5_client_2\\Model\\Model.csproj",
+        "projectName": "Model",
+        "projectPath": "C:\\Users\\Razvan\\Desktop\\Facultate\\Anul_2\\MPP\\Festival_l5_client_2\\Model\\Model.csproj"
+      },
+      "frameworks": {
+        "net472": {}
+      }
+    },
+    "C:\\Users\\Razvan\\Desktop\\Facultate\\Anul_2\\MPP\\Festival_l5_client_2\\NetworkingGrpc\\NetworkingGrpc.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Razvan\\Desktop\\Facultate\\Anul_2\\MPP\\Festival_l5_client_2\\NetworkingGrpc\\NetworkingGrpc.csproj",
+        "projectName": "NetworkingGrpc",
+        "projectPath": "C:\\Users\\Razvan\\Desktop\\Facultate\\Anul_2\\MPP\\Festival_l5_client_2\\NetworkingGrpc\\NetworkingGrpc.csproj",
+        "packagesPath": "C:\\Users\\Razvan\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Razvan\\Desktop\\Facultate\\Anul_2\\MPP\\Festival_l5_client_2\\NetworkingGrpc\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Razvan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Google.Protobuf": {
+              "target": "Package",
+              "version": "[3.11.4, )"
+            },
+            "Grpc": {
+              "target": "Package",
+              "version": "[2.28.1, )"
+            },
+            "Grpc.Core": {
+              "target": "Package",
+              "version": "[2.28.1, )"
+            },
+            "Grpc.Tools": {
+              "target": "Package",
+              "version": "[2.28.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,70 @@
+﻿syntax = "proto3";
+package festival;
+option csharp_namespace = "NetworkingGrpc";
+
+
+service FestivalService{
+
+  rpc subscribe(SubscribeRequest) returns (stream ServerReply) {}
+  rpc login(LoginRequest) returns (ServerReply) {}
+  rpc saveBilet(stream SaveBiletRequest) returns (stream ServerReply) {}
+  rpc findSpectacol(FindSpectacolRequest) returns (ServerReply) {}
+  rpc getAllSpectacol(GetAllRequest) returns (ServerReply) {}
+  rpc getSpectacolByDate(GetAllByDateRequest) returns (ServerReply) {}
+
+}
+
+message User{
+  string username = 1;
+  string password = 2;
+}
+
+message Spectacol{
+  int32 id = 1;
+  string date = 2;
+  string loc = 3;
+  string artist = 4;
+  string ora = 5;
+  int32 locuriDisp = 6;
+  int32 locuriVandute = 7;
+}
+
+message Bilet{
+  int32 id = 1;
+  int32 spectacolId = 2;
+  string numeCumparator = 3;
+  int32 nrLocuri = 4;
+}
+
+message SubscribeRequest{
+
+}
+
+message LoginRequest{
+  User user = 1;
+}
+
+message ServerReply{
+  bool logged = 1;
+  bool saved = 2;
+  Spectacol spectacol = 3;
+  repeated Spectacol allSpectacole = 4;
+  repeated Spectacol allSpectacoleByDate = 5;
+  Spectacol spectacolFound = 6;
+}
+
+message SaveBiletRequest{
+  Bilet bilet = 1;
+}
+
+message GetAllRequest{
+
+}
+
+message GetAllByDateRequest{
+  string date = 1;
+}
+
+message FindSpectacolRequest{
+  int32 spectacolId = 1;
+}

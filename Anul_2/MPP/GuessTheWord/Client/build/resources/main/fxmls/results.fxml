@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controllers.ResultsCtrl">
+    <children>
+        <Label layoutX="244.0" layoutY="65.0" text="Top players" textFill="#0011ff">
+            <font>
+                <Font size="22.0" />
+            </font>
+        </Label>
+        <Label fx:id="player1" layoutX="230.0" layoutY="156.0" text="player1" />
+        <Label fx:id="player2" layoutX="230.0" layoutY="200.0" text="player2" />
+        <Label fx:id="player3" layoutX="230.0" layoutY="241.0" text="player3" />
+        <Label fx:id="score1" layoutX="342.0" layoutY="156.0" text="score1" />
+        <Label fx:id="score2" layoutX="342.0" layoutY="200.0" text="score2" />
+        <Label fx:id="score3" layoutX="342.0" layoutY="241.0" text="score3" />
+    </children>
+</AnchorPane>

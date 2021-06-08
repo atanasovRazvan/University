@@ -1,0 +1,2 @@
+IP: 54.216.82.109
+DNS: ec2-54-216-82-109.eu-west-1.compute.amazonaws.com

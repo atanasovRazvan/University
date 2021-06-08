@@ -1,0 +1,9 @@
+int main(){
+     int tigari;
+     int bani;
+     int baniRamasi;
+     cin >> bani;
+     cin >> tigari;
+     baniRamasi = bani - tigari;
+     cout << baniRamasi;
+}

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Repository.AbstractCrudRepositoryTest" tests="6" skipped="0" failures="0" errors="0" timestamp="2019-11-27T07:50:18" hostname="DESKTOP-HD16HCH" time="0.006">
+  <properties/>
+  <testcase name="delete" classname="Repository.AbstractCrudRepositoryTest" time="0.0"/>
+  <testcase name="findAll" classname="Repository.AbstractCrudRepositoryTest" time="0.0"/>
+  <testcase name="findOne" classname="Repository.AbstractCrudRepositoryTest" time="0.0"/>
+  <testcase name="update" classname="Repository.AbstractCrudRepositoryTest" time="0.0"/>
+  <testcase name="save" classname="Repository.AbstractCrudRepositoryTest" time="0.0"/>
+  <testcase name="size" classname="Repository.AbstractCrudRepositoryTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

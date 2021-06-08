@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module external.linked.project.id=":ChatPersistence:main" external.linked.project.path="$MODULE_DIR$/../../../ChatPersistence" external.root.project.path="$MODULE_DIR$/../../.." external.system.id="GRADLE" external.system.module.group="ChatRMI" external.system.module.type="sourceSet" external.system.module.version="1.0" type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_8">
+    <output url="file://$MODULE_DIR$/../../../ChatPersistence/build/classes/main" />
+    <exclude-output />
+    <content url="file://$MODULE_DIR$/../../../ChatPersistence/src/main">
+      <sourceFolder url="file://$MODULE_DIR$/../../../ChatPersistence/src/main/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../ChatPersistence/src/main/resources" type="java-resource" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module" module-name="ChatModel_main" />
+    <orderEntry type="library" scope="RUNTIME" name="Gradle: org.xerial:sqlite-jdbc:3.16.1" level="project" />
+  </component>
+</module>

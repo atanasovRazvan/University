@@ -1,0 +1,432 @@
+02 Mar 2018 10:54:51,773 INFO  tasks.repository.SortingTaskJdbcRepository 23 <init> - Initializing SortingTaskRepository with properties: 
+02 Mar 2018 10:54:51,779 TRACE tasks.repository.SortingTaskJdbcRepository 110 findAll - Enter
+02 Mar 2018 10:54:52,070 TRACE tasks.repository.SortingTaskJdbcRepository 129 findAll - Exit with([ Task: 1 Task1 Ascending QUICK_SORT 234,  Task: 2 Task2 Descending BUBBLE_SORT 100,  Task: 3 Task3 Ascending SELECTION_SORT 300,  Task: 4 Ana are mere Descending QUICK_SORT 200,  Task: 5 Task5 Ascending QUICK_SORT 500,  Task: 6 Task6 Ascending BUBBLE_SORT 100,  Task: 8 ddddd Ascending BUBBLE_SORT 2000,  Task: 44 222 Descending BUBBLE_SORT 234])
+02 Mar 2018 10:56:27,795 INFO  tasks.repository.SortingTaskJdbcRepository 23 <init> - Initializing SortingTaskRepository with properties: {0} 
+02 Mar 2018 10:56:27,800 TRACE tasks.repository.SortingTaskJdbcRepository 111 findAll - Enter
+02 Mar 2018 10:56:28,093 TRACE tasks.repository.SortingTaskJdbcRepository 130 findAll - Exit with([ Task: 1 Task1 Ascending QUICK_SORT 234,  Task: 2 Task2 Descending BUBBLE_SORT 100,  Task: 3 Task3 Ascending SELECTION_SORT 300,  Task: 4 Ana are mere Descending QUICK_SORT 200,  Task: 5 Task5 Ascending QUICK_SORT 500,  Task: 6 Task6 Ascending BUBBLE_SORT 100,  Task: 8 ddddd Ascending BUBBLE_SORT 2000,  Task: 44 222 Descending BUBBLE_SORT 234])
+02 Mar 2018 10:56:47,992 TRACE tasks.repository.SortingTaskJdbcRepository 47 save - Enter saving task {0} 
+02 Mar 2018 10:56:47,998 TRACE tasks.repository.SortingTaskJdbcRepository 60 save - Exit
+02 Mar 2018 10:58:55,830 INFO  tasks.repository.SortingTaskJdbcRepository 23 <init> - Initializing SortingTaskRepository with properties: {stasks.jdbc.url=jdbc:sqlite:/Users/grigo/didactic/MPP/ExempleCurs/2017/database/tasks.db, tasks.jdbc.user=test, tasks.jdbc.pass=passtest, tasks.jdbc.url=jdbc:mysql://localhost:3306/mpp, tasks.jdbc.driver=com.mysql.jdbc.Driver, stasks.jdbc.driver=org.sqlite.JDBC} 
+02 Mar 2018 10:58:55,836 TRACE tasks.repository.SortingTaskJdbcRepository 112 findAll - Enter
+02 Mar 2018 10:58:56,133 TRACE tasks.repository.SortingTaskJdbcRepository 131 findAll - Exit with([ Task: 1 Task1 Ascending QUICK_SORT 234,  Task: 2 Task2 Descending BUBBLE_SORT 100,  Task: 3 Task3 Ascending SELECTION_SORT 300,  Task: 4 Ana are mere Descending QUICK_SORT 200,  Task: 5 Task5 Ascending QUICK_SORT 500,  Task: 6 Task6 Ascending BUBBLE_SORT 100,  Task: 8 ddddd Ascending BUBBLE_SORT 2000,  Task: 23 fdjksfaf Descending BUBBLE_SORT 1234,  Task: 44 222 Descending BUBBLE_SORT 234])
+02 Mar 2018 10:59:14,648 TRACE tasks.repository.SortingTaskJdbcRepository 47 save - Enter saving task  Task: 3455 sdffwweww Descending SELECTION_SORT 4567 
+02 Mar 2018 10:59:14,652 TRACE tasks.repository.SortingTaskJdbcRepository 60 save - Exit
+02 Mar 2018 10:59:32,693 TRACE tasks.repository.SortingTaskJdbcRepository 66 delete - Enter deleting task with 3455
+02 Mar 2018 10:59:41,652 TRACE tasks.repository.SortingTaskJdbcRepository 66 delete - Enter deleting task with 23
+02 Mar 2018 10:59:50,351 TRACE tasks.repository.SortingTaskJdbcRepository 66 delete - Enter deleting task with 8
+02 Mar 2018 10:59:58,063 TRACE tasks.repository.SortingTaskJdbcRepository 66 delete - Enter deleting task with 44
+02 Mar 2018 11:00:44,912 INFO  tasks.repository.SortingTaskJdbcRepository 23 <init> - Initializing SortingTaskRepository with properties: {stasks.jdbc.url=jdbc:sqlite:/Users/grigo/didactic/MPP/ExempleCurs/2017/database/tasks.db, tasks.jdbc.user=test, tasks.jdbc.pass=passtest, tasks.jdbc.url=jdbc:mysql://localhost:3306/mpp, tasks.jdbc.driver=com.mysql.jdbc.Driver, stasks.jdbc.driver=org.sqlite.JDBC} 
+02 Mar 2018 11:00:44,919 TRACE tasks.repository.SortingTaskJdbcRepository 113 findAll - Enter
+02 Mar 2018 11:00:45,212 TRACE tasks.repository.SortingTaskJdbcRepository 132 findAll - Exit with([ Task: 1 Task1 Ascending QUICK_SORT 234,  Task: 2 Task2 Descending BUBBLE_SORT 100,  Task: 3 Task3 Ascending SELECTION_SORT 300,  Task: 4 Ana are mere Descending QUICK_SORT 200,  Task: 5 Task5 Ascending QUICK_SORT 500,  Task: 6 Task6 Ascending BUBBLE_SORT 100])
+02 Mar 2018 11:00:57,000 TRACE tasks.repository.SortingTaskJdbcRepository 47 save - Enter saving task  Task: 23 11ssdad Descending QUICK_SORT 3456 
+02 Mar 2018 11:00:57,004 TRACE tasks.repository.SortingTaskJdbcRepository 60 save - Exit
+02 Mar 2018 11:01:05,596 TRACE tasks.repository.SortingTaskJdbcRepository 66 delete - Enter deleting task with 23
+02 Mar 2018 11:01:05,600 TRACE tasks.repository.SortingTaskJdbcRepository 75 delete - Exit
+02 Mar 2018 11:13:17,149 INFO  tasks.repository.SortingTaskJdbcRepository 23 <init> - Initializing SortingTaskRepository with properties: {mtasks.jdbc.driver=com.mysql.jdbc.Driver, mtasks.jdbc.user=test, tasks.jdbc.url=jdbc:sqlite:/Users/grigo/didactic/MPP/databases/Tasks, tasks.jdbc.driver=org.sqlite.JDBC, tasks.jdbc.url1=jdbc:sqlite:/Users/grigo/didactic/MPP/ExempleCurs/2017/database/tasks.db, mtasks.jdbc.pass=passtest, mtasks.jdbc.url=jdbc:mysql://localhost:3306/mpp} 
+02 Mar 2018 11:13:17,155 TRACE tasks.repository.SortingTaskJdbcRepository 113 findAll - Enter
+02 Mar 2018 11:14:22,212 INFO  tasks.repository.SortingTaskJdbcRepository 23 <init> - Initializing SortingTaskRepository with properties: {mtasks.jdbc.driver=com.mysql.jdbc.Driver, mtasks.jdbc.user=test, tasks.jdbc.url=jdbc:sqlite:/Users/grigo/didactic/MPP/databases/Tasks, tasks.jdbc.driver=org.sqlite.JDBC, tasks.jdbc.url1=jdbc:sqlite:/Users/grigo/didactic/MPP/ExempleCurs/2017/database/tasks.db, mtasks.jdbc.pass=passtest, mtasks.jdbc.url=jdbc:mysql://localhost:3306/mpp} 
+02 Mar 2018 11:14:22,221 TRACE tasks.repository.SortingTaskJdbcRepository 113 findAll - Enter
+02 Mar 2018 11:14:22,375 TRACE tasks.repository.SortingTaskJdbcRepository 132 findAll - Exit with([ Task: 23 aaaa Ascending BUBBLE_SORT 100,  Task: 11 bb Descending QUICK_SORT 200])
+02 Mar 2018 11:14:52,475 TRACE tasks.repository.SortingTaskJdbcRepository 47 save - Enter saving task  Task: 34 eqweq Descending SELECTION_SORT 1233 
+02 Mar 2018 11:14:52,478 TRACE tasks.repository.SortingTaskJdbcRepository 60 save - Exit
+02 Mar 2018 11:19:28,587 INFO  tasks.repository.SortingTaskJdbcRepository 23 <init> - Initializing SortingTaskRepository with properties: {mtasks.jdbc.driver=com.mysql.jdbc.Driver, mtasks.jdbc.user=test, tasks.jdbc.url=jdbc:sqlite:/Users/grigo/didactic/MPP/databases/Tasks, tasks.jdbc.driver=org.sqlite.JDBC, tasks.jdbc.url1=jdbc:sqlite:/Users/grigo/didactic/MPP/ExempleCurs/2017/database/tasks.db, mtasks.jdbc.pass=passtest, mtasks.jdbc.url=jdbc:mysql://localhost:3306/mpp} 
+02 Mar 2018 11:19:28,596 TRACE tasks.repository.SortingTaskJdbcRepository 113 findAll - Enter
+02 Mar 2018 11:19:28,597 TRACE tasks.repository.JdbcUtils 49 getConnection - Enter
+02 Mar 2018 11:19:28,597 TRACE tasks.repository.JdbcUtils 22 getNewConnection - Enter
+02 Mar 2018 11:19:28,597 INFO  tasks.repository.JdbcUtils 27 getNewConnection - trying to connect to database ...
+02 Mar 2018 11:19:28,598 INFO  tasks.repository.JdbcUtils 28 getNewConnection - user: 
+02 Mar 2018 11:19:28,598 INFO  tasks.repository.JdbcUtils 29 getNewConnection - pass:
+02 Mar 2018 11:19:28,603 INFO  tasks.repository.JdbcUtils 33 getNewConnection - Loaded driver ...
+02 Mar 2018 11:19:28,737 TRACE tasks.repository.JdbcUtils 58 getConnection - Exit with(org.sqlite.SQLiteConnection@39dc9ee7)
+02 Mar 2018 11:19:28,740 TRACE tasks.repository.SortingTaskJdbcRepository 132 findAll - Exit with([ Task: 23 aaaa Ascending BUBBLE_SORT 100,  Task: 11 bb Descending QUICK_SORT 200,  Task: 34 eqweq Descending SELECTION_SORT 1233])
+02 Mar 2018 11:20:00,630 INFO  tasks.repository.SortingTaskJdbcRepository 23 <init> - Initializing SortingTaskRepository with properties: {mtasks.jdbc.driver=com.mysql.jdbc.Driver, mtasks.jdbc.user=test, tasks.jdbc.url=jdbc:sqlite:/Users/grigo/didactic/MPP/databases/Tasks, tasks.jdbc.driver=org.sqlite.JDBC, tasks.jdbc.url1=jdbc:sqlite:/Users/grigo/didactic/MPP/ExempleCurs/2017/database/tasks.db, mtasks.jdbc.pass=passtest, mtasks.jdbc.url=jdbc:mysql://localhost:3306/mpp} 
+02 Mar 2018 11:20:00,638 TRACE tasks.repository.SortingTaskJdbcRepository 113 findAll - Enter
+02 Mar 2018 11:20:00,638 TRACE tasks.repository.JdbcUtils 49 getConnection - Enter
+02 Mar 2018 11:20:00,638 TRACE tasks.repository.JdbcUtils 22 getNewConnection - Enter
+02 Mar 2018 11:20:00,638 INFO  tasks.repository.JdbcUtils 27 getNewConnection - trying to connect to database ... jdbc:sqlite:/Users/grigo/didactic/MPP/databases/Tasks
+02 Mar 2018 11:20:00,639 INFO  tasks.repository.JdbcUtils 28 getNewConnection - user: null
+02 Mar 2018 11:20:00,639 INFO  tasks.repository.JdbcUtils 29 getNewConnection - pass: null
+02 Mar 2018 11:20:00,643 INFO  tasks.repository.JdbcUtils 33 getNewConnection - Loaded driver ...org.sqlite.JDBC
+02 Mar 2018 11:20:00,778 TRACE tasks.repository.JdbcUtils 58 getConnection - Exit with(org.sqlite.SQLiteConnection@3ec93227)
+02 Mar 2018 11:20:00,782 TRACE tasks.repository.SortingTaskJdbcRepository 132 findAll - Exit with([ Task: 23 aaaa Ascending BUBBLE_SORT 100,  Task: 11 bb Descending QUICK_SORT 200,  Task: 34 eqweq Descending SELECTION_SORT 1233])
+02 Mar 2018 11:20:23,030 TRACE tasks.repository.SortingTaskJdbcRepository 47 save - Enter saving task  Task: 56 fafsfa Descending QUICK_SORT 2342423 
+02 Mar 2018 11:20:23,030 TRACE tasks.repository.JdbcUtils 49 getConnection - Enter
+02 Mar 2018 11:20:23,031 TRACE tasks.repository.JdbcUtils 58 getConnection - Exit with(org.sqlite.SQLiteConnection@3ec93227)
+02 Mar 2018 11:20:23,035 TRACE tasks.repository.SortingTaskJdbcRepository 60 save - Exit
+02 Mar 2018 11:20:48,766 INFO  tasks.repository.SortingTaskJdbcRepository 23 <init> - Initializing SortingTaskRepository with properties: {mtasks.jdbc.driver=com.mysql.jdbc.Driver, mtasks.jdbc.user=test, tasks.jdbc.url2=jdbc:sqlite:/Users/grigo/didactic/MPP/databases/Tasks, tasks.jdbc.driver=org.sqlite.JDBC, tasks.jdbc.url1=jdbc:sqlite:/Users/grigo/didactic/MPP/ExempleCurs/2017/database/tasks.db, mtasks.jdbc.pass=passtest, mtasks.jdbc.url=jdbc:mysql://localhost:3306/mpp} 
+02 Mar 2018 11:20:48,771 TRACE tasks.repository.SortingTaskJdbcRepository 113 findAll - Enter
+02 Mar 2018 11:20:48,771 TRACE tasks.repository.JdbcUtils 49 getConnection - Enter
+02 Mar 2018 11:20:48,771 TRACE tasks.repository.JdbcUtils 22 getNewConnection - Enter
+02 Mar 2018 11:20:48,772 INFO  tasks.repository.JdbcUtils 27 getNewConnection - trying to connect to database ... null
+02 Mar 2018 11:20:48,772 INFO  tasks.repository.JdbcUtils 28 getNewConnection - user: null
+02 Mar 2018 11:20:48,772 INFO  tasks.repository.JdbcUtils 29 getNewConnection - pass: null
+02 Mar 2018 11:20:48,776 INFO  tasks.repository.JdbcUtils 33 getNewConnection - Loaded driver ...org.sqlite.JDBC
+02 Mar 2018 11:20:48,777 ERROR tasks.repository.JdbcUtils 42 getNewConnection - java.sql.SQLException: The url cannot be null
+02 Mar 2018 11:20:48,777 TRACE tasks.repository.JdbcUtils 58 getConnection - Exit
+02 Mar 2018 11:21:14,302 INFO  tasks.repository.SortingTaskJdbcRepository 23 <init> - Initializing SortingTaskRepository with properties: {mtasks.jdbc.driver=com.mysql.jdbc.Driver, mtasks.jdbc.user=test, tasks.jdbc.url2=jdbc:sqlite:/Users/grigo/didactic/MPP/databases/Tasks, tasks.jdbc.url=jdbc:sqlite:/Users/grigo/didactic/MPP/ExempleCurs/2017/database/tasks.db, tasks.jdbc.driver=org.sqlite.JDBC, mtasks.jdbc.pass=passtest, mtasks.jdbc.url=jdbc:mysql://localhost:3306/mpp} 
+02 Mar 2018 11:21:14,307 TRACE tasks.repository.SortingTaskJdbcRepository 113 findAll - Enter
+02 Mar 2018 11:21:14,307 TRACE tasks.repository.JdbcUtils 49 getConnection - Enter
+02 Mar 2018 11:21:14,307 TRACE tasks.repository.JdbcUtils 22 getNewConnection - Enter
+02 Mar 2018 11:21:14,307 INFO  tasks.repository.JdbcUtils 27 getNewConnection - trying to connect to database ... jdbc:sqlite:/Users/grigo/didactic/MPP/ExempleCurs/2017/database/tasks.db
+02 Mar 2018 11:21:14,308 INFO  tasks.repository.JdbcUtils 28 getNewConnection - user: null
+02 Mar 2018 11:21:14,308 INFO  tasks.repository.JdbcUtils 29 getNewConnection - pass: null
+02 Mar 2018 11:21:14,315 INFO  tasks.repository.JdbcUtils 33 getNewConnection - Loaded driver ...org.sqlite.JDBC
+02 Mar 2018 11:21:14,466 TRACE tasks.repository.JdbcUtils 58 getConnection - Exit with(org.sqlite.SQLiteConnection@39dc9ee7)
+02 Mar 2018 11:21:14,471 TRACE tasks.repository.SortingTaskJdbcRepository 132 findAll - Exit with([ Task: 1 Lite_task1 Ascending SELECTION_SORT 300,  Task: 2 Lite_task2 Ascending BUBBLE_SORT 400,  Task: 3 Lite_task3 Descending BUBBLE_SORT 500,  Task: 4 Ana are mere Ascending QUICK_SORT 600,  Task: 5 Lite_task5 Descending QUICK_SORT 700,  Task: 6 Lite_task6 Ascending QUICK_SORT 300,  Task: 7 Lite_task7 Descending SELECTION_SORT 5500,  Task: 8 Lite_task8 Ascending QUICK_SORT 100])
+02 Mar 2018 11:27:12,664 INFO  tasks.repository.SortingTaskJdbcRepository 23 <init> - Initializing SortingTaskRepository with properties: {stasks.jdbc.url=jdbc:sqlite:/Users/grigo/didactic/MPP/ExempleCurs/2017/database/tasks.db, tasks.jdbc.user=test, stasks.jdbc.url2=jdbc:sqlite:/Users/grigo/didactic/MPP/databases/Tasks, tasks.jdbc.pass=passtest, tasks.jdbc.url=jdbc:mysql://localhost:3306/mpp, tasks.jdbc.driver=com.mysql.jdbc.Driver, stasks.jdbc.driver=org.sqlite.JDBC} 
+02 Mar 2018 11:27:12,668 TRACE tasks.repository.SortingTaskJdbcRepository 113 findAll - Enter
+02 Mar 2018 11:27:12,669 TRACE tasks.repository.JdbcUtils 49 getConnection - Enter
+02 Mar 2018 11:27:12,669 TRACE tasks.repository.JdbcUtils 22 getNewConnection - Enter
+02 Mar 2018 11:27:12,669 INFO  tasks.repository.JdbcUtils 27 getNewConnection - trying to connect to database ... jdbc:mysql://localhost:3306/mpp
+02 Mar 2018 11:27:12,669 INFO  tasks.repository.JdbcUtils 28 getNewConnection - user: test
+02 Mar 2018 11:27:12,669 INFO  tasks.repository.JdbcUtils 29 getNewConnection - pass: passtest
+02 Mar 2018 11:27:12,675 INFO  tasks.repository.JdbcUtils 33 getNewConnection - Loaded driver ...com.mysql.jdbc.Driver
+02 Mar 2018 11:27:12,966 TRACE tasks.repository.JdbcUtils 58 getConnection - Exit with(com.mysql.jdbc.JDBC4Connection@2d7fbd35)
+02 Mar 2018 11:27:12,983 TRACE tasks.repository.SortingTaskJdbcRepository 132 findAll - Exit with([ Task: 1 Task1 Ascending QUICK_SORT 234,  Task: 2 Task2 Descending BUBBLE_SORT 100,  Task: 3 Task3 Ascending SELECTION_SORT 300,  Task: 4 Ana are mere Descending QUICK_SORT 200,  Task: 5 Task5 Ascending QUICK_SORT 500,  Task: 6 Task6 Ascending BUBBLE_SORT 100])
+02 Mar 2018 11:27:30,573 TRACE tasks.repository.SortingTaskJdbcRepository 47 save - Enter saving task  Task: 34 ferwr Descending BUBBLE_SORT 23445 
+02 Mar 2018 11:27:30,574 TRACE tasks.repository.JdbcUtils 49 getConnection - Enter
+02 Mar 2018 11:27:30,574 TRACE tasks.repository.JdbcUtils 58 getConnection - Exit with(com.mysql.jdbc.JDBC4Connection@2d7fbd35)
+02 Mar 2018 11:27:30,578 TRACE tasks.repository.SortingTaskJdbcRepository 60 save - Exit
+02 Mar 2018 11:27:59,278 TRACE tasks.repository.SortingTaskJdbcRepository 47 save - Enter saving task  Task: 67 rrtyy Ascending QUICK_SORT 111 
+02 Mar 2018 11:27:59,279 TRACE tasks.repository.JdbcUtils 49 getConnection - Enter
+02 Mar 2018 11:27:59,279 TRACE tasks.repository.JdbcUtils 58 getConnection - Exit with(com.mysql.jdbc.JDBC4Connection@2d7fbd35)
+02 Mar 2018 11:27:59,282 TRACE tasks.repository.SortingTaskJdbcRepository 60 save - Exit
+02 Mar 2018 11:28:40,897 INFO  tasks.repository.SortingTaskJdbcRepository 23 <init> - Initializing SortingTaskRepository with properties: {stasks.jdbc.url=jdbc:sqlite:/Users/grigo/didactic/MPP/ExempleCurs/2017/database/tasks.db, tasks.jdbc.user=test, stasks.jdbc.url2=jdbc:sqlite:/Users/grigo/didactic/MPP/databases/Tasks, tasks.jdbc.pass=passtest, tasks.jdbc.url=jdbc:mysql://localhost:3306/mpp, tasks.jdbc.driver=com.mysql.jdbc.Driver, stasks.jdbc.driver=org.sqlite.JDBC} 
+02 Mar 2018 11:28:40,906 INFO  tasks.repository.JdbcUtils 27 getNewConnection - trying to connect to database ... jdbc:mysql://localhost:3306/mpp
+02 Mar 2018 11:28:40,907 INFO  tasks.repository.JdbcUtils 28 getNewConnection - user: test
+02 Mar 2018 11:28:40,907 INFO  tasks.repository.JdbcUtils 29 getNewConnection - pass: passtest
+02 Mar 2018 11:28:40,914 INFO  tasks.repository.JdbcUtils 33 getNewConnection - Loaded driver ...com.mysql.jdbc.Driver
+02 Mar 2018 11:31:15,760 INFO  tasks.repository.SortingTaskJdbcRepository 23 <init> - Initializing SortingTaskRepository with properties: {mtasks.jdbc.driver=com.mysql.jdbc.Driver, mtasks.jdbc.user=test, tasks.jdbc.url2=jdbc:sqlite:/Users/grigo/didactic/MPP/databases/Tasks, tasks.jdbc.url=jdbc:sqlite:/Users/grigo/didactic/MPP/ExempleCurs/2017/database/tasks.db, tasks.jdbc.driver=org.sqlite.JDBC, mtasks.jdbc.pass=passtest, mtasks.jdbc.url=jdbc:mysql://localhost:3306/mpp} 
+02 Mar 2018 11:31:15,766 TRACE tasks.repository.SortingTaskJdbcRepository 113 findAll - Enter
+02 Mar 2018 11:31:15,766 TRACE tasks.repository.JdbcUtils 49 getConnection - Enter
+02 Mar 2018 11:31:15,766 TRACE tasks.repository.JdbcUtils 22 getNewConnection - Enter
+02 Mar 2018 11:31:15,767 INFO  tasks.repository.JdbcUtils 27 getNewConnection - trying to connect to database ... jdbc:sqlite:/Users/grigo/didactic/MPP/ExempleCurs/2017/database/tasks.db
+02 Mar 2018 11:31:15,767 INFO  tasks.repository.JdbcUtils 28 getNewConnection - user: null
+02 Mar 2018 11:31:15,767 INFO  tasks.repository.JdbcUtils 29 getNewConnection - pass: null
+02 Mar 2018 11:31:15,773 INFO  tasks.repository.JdbcUtils 33 getNewConnection - Loaded driver ...org.sqlite.JDBC
+02 Mar 2018 11:31:15,913 TRACE tasks.repository.JdbcUtils 58 getConnection - Exit with(org.sqlite.SQLiteConnection@180dcb01)
+02 Mar 2018 11:31:15,917 TRACE tasks.repository.SortingTaskJdbcRepository 132 findAll - Exit with([ Task: 1 Lite_task1 Ascending SELECTION_SORT 300,  Task: 2 Lite_task2 Ascending BUBBLE_SORT 400,  Task: 3 Lite_task3 Descending BUBBLE_SORT 500,  Task: 4 Ana are mere Ascending QUICK_SORT 600,  Task: 5 Lite_task5 Descending QUICK_SORT 700,  Task: 6 Lite_task6 Ascending QUICK_SORT 300,  Task: 7 Lite_task7 Descending SELECTION_SORT 5500,  Task: 8 Lite_task8 Ascending QUICK_SORT 100])
+02 Mar 2018 11:31:29,764 TRACE tasks.repository.SortingTaskJdbcRepository 47 save - Enter saving task  Task: 12 wqw Ascending QUICK_SORT 4566 
+02 Mar 2018 11:31:29,765 TRACE tasks.repository.JdbcUtils 49 getConnection - Enter
+02 Mar 2018 11:31:29,766 TRACE tasks.repository.JdbcUtils 58 getConnection - Exit with(org.sqlite.SQLiteConnection@180dcb01)
+02 Mar 2018 11:31:29,771 TRACE tasks.repository.SortingTaskJdbcRepository 60 save - Exit
+04 Mar 2018 17:32:28,505 INFO  tasks.repository.SortingTaskJdbcRepository 23 <init> - Initializing SortingTaskRepository with properties: {mtasks.jdbc.driver=com.mysql.jdbc.Driver, mtasks.jdbc.user=test, tasks.jdbc.url=jdbc:sqlite:/Users/grigo/didactic/MPP/databases/Tasks.db, tasks.jdbc.driver=org.sqlite.JDBC, tasks.jdbc.url1=jdbc:sqlite:/Users/grigo/didactic/MPP/ExempleCurs/2017/database/tasks.db, mtasks.jdbc.pass=passtest, mtasks.jdbc.url=jdbc:mysql://localhost:3306/mpp} 
+04 Mar 2018 17:32:28,511 TRACE tasks.repository.SortingTaskJdbcRepository 113 findAll - Enter
+04 Mar 2018 17:32:28,511 TRACE tasks.repository.JdbcUtils 49 getConnection - Enter
+04 Mar 2018 17:32:28,511 TRACE tasks.repository.JdbcUtils 22 getNewConnection - Enter
+04 Mar 2018 17:32:28,512 INFO  tasks.repository.JdbcUtils 27 getNewConnection - trying to connect to database ... jdbc:sqlite:/Users/grigo/didactic/MPP/databases/Tasks.db
+04 Mar 2018 17:32:28,512 INFO  tasks.repository.JdbcUtils 28 getNewConnection - user: null
+04 Mar 2018 17:32:28,512 INFO  tasks.repository.JdbcUtils 29 getNewConnection - pass: null
+04 Mar 2018 17:32:28,518 INFO  tasks.repository.JdbcUtils 33 getNewConnection - Loaded driver ...org.sqlite.JDBC
+04 Mar 2018 17:32:28,685 TRACE tasks.repository.JdbcUtils 58 getConnection - Exit with(org.sqlite.SQLiteConnection@57d51e15)
+04 Mar 2018 17:32:28,693 TRACE tasks.repository.SortingTaskJdbcRepository 132 findAll - Exit with([ Task: 23 aaaa Ascending BUBBLE_SORT 100,  Task: 11 bb Descending QUICK_SORT 200,  Task: 34 eqweq Descending SELECTION_SORT 1233,  Task: 56 fafsfa Descending QUICK_SORT 2342423])
+04 Mar 2018 17:33:22,502 INFO  tasks.repository.SortingTaskJdbcRepository 23 <init> - Initializing SortingTaskRepository with properties: {mtasks.jdbc.driver=com.mysql.jdbc.Driver, mtasks.jdbc.user=test, tasks.jdbc.url=jdbc:sqlite:/Users/grigo/didactic/MPP/ExempleCurs/2017/database/tasks.db, tasks.jdbc.driver=org.sqlite.JDBC, tasks.jdbc.url1=jdbc:sqlite:/Users/grigo/didactic/MPP/databases/Tasks.db, mtasks.jdbc.pass=passtest, mtasks.jdbc.url=jdbc:mysql://localhost:3306/mpp} 
+04 Mar 2018 17:33:22,524 TRACE tasks.repository.SortingTaskJdbcRepository 113 findAll - Enter
+04 Mar 2018 17:33:22,526 TRACE tasks.repository.JdbcUtils 49 getConnection - Enter
+04 Mar 2018 17:33:22,527 TRACE tasks.repository.JdbcUtils 22 getNewConnection - Enter
+04 Mar 2018 17:33:22,527 INFO  tasks.repository.JdbcUtils 27 getNewConnection - trying to connect to database ... jdbc:sqlite:/Users/grigo/didactic/MPP/ExempleCurs/2017/database/tasks.db
+04 Mar 2018 17:33:22,528 INFO  tasks.repository.JdbcUtils 28 getNewConnection - user: null
+04 Mar 2018 17:33:22,528 INFO  tasks.repository.JdbcUtils 29 getNewConnection - pass: null
+04 Mar 2018 17:33:22,541 INFO  tasks.repository.JdbcUtils 33 getNewConnection - Loaded driver ...org.sqlite.JDBC
+04 Mar 2018 17:33:22,740 TRACE tasks.repository.JdbcUtils 58 getConnection - Exit with(org.sqlite.SQLiteConnection@7ecaa614)
+04 Mar 2018 17:33:22,749 TRACE tasks.repository.SortingTaskJdbcRepository 132 findAll - Exit with([ Task: 1 Lite_task1 Ascending SELECTION_SORT 300,  Task: 2 Lite_task2 Ascending BUBBLE_SORT 400,  Task: 3 Lite_task3 Descending BUBBLE_SORT 500,  Task: 4 Ana are mere Ascending QUICK_SORT 600,  Task: 5 Lite_task5 Descending QUICK_SORT 700,  Task: 6 Lite_task6 Ascending QUICK_SORT 300,  Task: 7 Lite_task7 Descending SELECTION_SORT 5500,  Task: 8 Lite_task8 Ascending QUICK_SORT 100,  Task: 12 wqw Ascending QUICK_SORT 4566])
+05 Mar 2018 09:25:09,612 INFO  tasks.repository.SortingTaskJdbcRepository 23 <init> - Initializing SortingTaskRepository with properties: {mtasks.jdbc.driver=com.mysql.jdbc.Driver, mtasks.jdbc.user=test, tasks.jdbc.url=jdbc:sqlite:/Users/grigo/didactic/MPP/ExempleCurs/2017/database/tasks.db, tasks.jdbc.driver=org.sqlite.JDBC, tasks.jdbc.url1=jdbc:sqlite:/Users/grigo/didactic/MPP/databases/Tasks.db, mtasks.jdbc.pass=passtest, mtasks.jdbc.url=jdbc:mysql://localhost:3306/mpp} 
+05 Mar 2018 09:25:09,616 TRACE tasks.repository.SortingTaskJdbcRepository 113 findAll - Enter
+05 Mar 2018 09:25:09,617 TRACE tasks.repository.JdbcUtils 49 getConnection - Enter
+05 Mar 2018 09:25:09,617 TRACE tasks.repository.JdbcUtils 22 getNewConnection - Enter
+05 Mar 2018 09:25:09,617 INFO  tasks.repository.JdbcUtils 27 getNewConnection - trying to connect to database ... jdbc:sqlite:/Users/grigo/didactic/MPP/ExempleCurs/2017/database/tasks.db
+05 Mar 2018 09:25:09,617 INFO  tasks.repository.JdbcUtils 28 getNewConnection - user: null
+05 Mar 2018 09:25:09,617 INFO  tasks.repository.JdbcUtils 29 getNewConnection - pass: null
+05 Mar 2018 09:25:09,621 INFO  tasks.repository.JdbcUtils 33 getNewConnection - Loaded driver ...org.sqlite.JDBC
+05 Mar 2018 09:25:09,748 TRACE tasks.repository.JdbcUtils 58 getConnection - Exit with(org.sqlite.SQLiteConnection@3ec93227)
+05 Mar 2018 09:25:09,751 TRACE tasks.repository.SortingTaskJdbcRepository 132 findAll - Exit with([ Task: 1 Lite_task1 Ascending SELECTION_SORT 300,  Task: 2 Lite_task2 Ascending BUBBLE_SORT 400,  Task: 3 Lite_task3 Descending BUBBLE_SORT 500,  Task: 4 Ana are pere Ascending QUICK_SORT 600,  Task: 5 Lite_task5 Descending QUICK_SORT 700,  Task: 6 Lite_task6 Ascending QUICK_SORT 300,  Task: 7 Lite_task7 Descending SELECTION_SORT 5500,  Task: 8 Lite_task8 Ascending QUICK_SORT 100,  Task: 12 wqw Ascending QUICK_SORT 4566])
+05 Mar 2018 09:25:27,349 INFO  tasks.repository.SortingTaskJdbcRepository 23 <init> - Initializing SortingTaskRepository with properties: {mtasks.jdbc.driver=com.mysql.jdbc.Driver, mtasks.jdbc.user=test, tasks.jdbc.url=jdbc:sqlite:/Users/grigo/didactic/MPP/databases/Tasks.db, tasks.jdbc.driver=org.sqlite.JDBC, tasks.jdbc.url1=jdbc:sqlite:/Users/grigo/didactic/MPP/ExempleCurs/2017/database/tasks.db, mtasks.jdbc.pass=passtest, mtasks.jdbc.url=jdbc:mysql://localhost:3306/mpp} 
+05 Mar 2018 09:25:27,354 TRACE tasks.repository.SortingTaskJdbcRepository 113 findAll - Enter
+05 Mar 2018 09:25:27,354 TRACE tasks.repository.JdbcUtils 49 getConnection - Enter
+05 Mar 2018 09:25:27,354 TRACE tasks.repository.JdbcUtils 22 getNewConnection - Enter
+05 Mar 2018 09:25:27,354 INFO  tasks.repository.JdbcUtils 27 getNewConnection - trying to connect to database ... jdbc:sqlite:/Users/grigo/didactic/MPP/databases/Tasks.db
+05 Mar 2018 09:25:27,355 INFO  tasks.repository.JdbcUtils 28 getNewConnection - user: null
+05 Mar 2018 09:25:27,355 INFO  tasks.repository.JdbcUtils 29 getNewConnection - pass: null
+05 Mar 2018 09:25:27,359 INFO  tasks.repository.JdbcUtils 33 getNewConnection - Loaded driver ...org.sqlite.JDBC
+05 Mar 2018 09:25:27,482 TRACE tasks.repository.JdbcUtils 58 getConnection - Exit with(org.sqlite.SQLiteConnection@7ecaa614)
+05 Mar 2018 09:25:27,486 TRACE tasks.repository.SortingTaskJdbcRepository 132 findAll - Exit with([ Task: 23 aaaa Ascending BUBBLE_SORT 100,  Task: 11 bb Descending QUICK_SORT 200,  Task: 34 eqweq Descending SELECTION_SORT 1233,  Task: 56 fafsfa Descending QUICK_SORT 2342423])
+05 Mar 2018 09:25:54,436 INFO  tasks.repository.SortingTaskJdbcRepository 23 <init> - Initializing SortingTaskRepository with properties: {mtasks.jdbc.url1=jdbc:sqlite:/Users/grigo/didactic/MPP/ExempleCurs/2017/database/tasks.db, tasks.jdbc.user=test, mtasks.jdbc.driver=org.sqlite.JDBC, tasks.jdbc.pass=passtest, tasks.jdbc.url=jdbc:mysql://localhost:3306/mpp, tasks.jdbc.driver=com.mysql.jdbc.Driver, mtasks.jdbc.url=jdbc:sqlite:/Users/grigo/didactic/MPP/databases/Tasks.db} 
+05 Mar 2018 09:25:54,442 TRACE tasks.repository.SortingTaskJdbcRepository 113 findAll - Enter
+05 Mar 2018 09:25:54,442 TRACE tasks.repository.JdbcUtils 49 getConnection - Enter
+05 Mar 2018 09:25:54,442 TRACE tasks.repository.JdbcUtils 22 getNewConnection - Enter
+05 Mar 2018 09:25:54,443 INFO  tasks.repository.JdbcUtils 27 getNewConnection - trying to connect to database ... jdbc:mysql://localhost:3306/mpp
+05 Mar 2018 09:25:54,443 INFO  tasks.repository.JdbcUtils 28 getNewConnection - user: test
+05 Mar 2018 09:25:54,443 INFO  tasks.repository.JdbcUtils 29 getNewConnection - pass: passtest
+05 Mar 2018 09:25:54,447 INFO  tasks.repository.JdbcUtils 33 getNewConnection - Loaded driver ...com.mysql.jdbc.Driver
+05 Mar 2018 09:25:54,699 TRACE tasks.repository.JdbcUtils 58 getConnection - Exit with(com.mysql.jdbc.JDBC4Connection@4f21c7ec)
+05 Mar 2018 09:25:54,712 TRACE tasks.repository.SortingTaskJdbcRepository 132 findAll - Exit with([ Task: 1 Task1 Ascending QUICK_SORT 234,  Task: 2 Task2 Descending BUBBLE_SORT 100,  Task: 3 Task3 Ascending SELECTION_SORT 300,  Task: 4 Ana are mere Descending QUICK_SORT 200,  Task: 5 Task5 Ascending QUICK_SORT 500,  Task: 6 Task6 Ascending BUBBLE_SORT 100,  Task: 111 33 Ascending QUICK_SORT 444,  Task: 123 aaa Descending BUBBLE_SORT 300])
+07 Mar 2018 11:12:07,524 INFO  tasks.repository.SortingTaskJdbcRepository 23 <init> - Initializing SortingTaskRepository with properties: {mtasks.jdbc.url1=jdbc:sqlite:/Users/grigo/didactic/MPP/ExempleCurs/2017/database/tasks.db, tasks.jdbc.user=test, mtasks.jdbc.driver=org.sqlite.JDBC, tasks.jdbc.pass=passtest, tasks.jdbc.url=jdbc:mysql://localhost:3306/mpp, tasks.jdbc.driver=com.mysql.jdbc.Driver, mtasks.jdbc.url=jdbc:sqlite:/Users/grigo/didactic/MPP/databases/Tasks.db} 
+07 Mar 2018 11:12:07,528 TRACE tasks.repository.SortingTaskJdbcRepository 113 findAll - Enter
+07 Mar 2018 11:12:07,529 TRACE tasks.repository.JdbcUtils 49 getConnection - Enter
+07 Mar 2018 11:12:07,529 TRACE tasks.repository.JdbcUtils 22 getNewConnection - Enter
+07 Mar 2018 11:12:07,529 INFO  tasks.repository.JdbcUtils 27 getNewConnection - trying to connect to database ... jdbc:mysql://localhost:3306/mpp
+07 Mar 2018 11:12:07,529 INFO  tasks.repository.JdbcUtils 28 getNewConnection - user: test
+07 Mar 2018 11:12:07,529 INFO  tasks.repository.JdbcUtils 29 getNewConnection - pass: passtest
+07 Mar 2018 11:12:07,533 INFO  tasks.repository.JdbcUtils 33 getNewConnection - Loaded driver ...com.mysql.jdbc.Driver
+07 Mar 2018 11:12:07,768 TRACE tasks.repository.JdbcUtils 58 getConnection - Exit with(com.mysql.jdbc.JDBC4Connection@4f21c7ec)
+07 Mar 2018 11:12:07,780 TRACE tasks.repository.SortingTaskJdbcRepository 132 findAll - Exit with([ Task: 1 Task1 Ascending QUICK_SORT 234,  Task: 2 Task2 Descending BUBBLE_SORT 100,  Task: 3 Task3 Ascending SELECTION_SORT 300,  Task: 4 Ana are mere Descending QUICK_SORT 200,  Task: 5 Task5 Ascending QUICK_SORT 500,  Task: 6 Task6 Ascending BUBBLE_SORT 100,  Task: 111 33 Ascending QUICK_SORT 444,  Task: 123 aaa Descending BUBBLE_SORT 300])
+07 Mar 2018 11:15:56,910 INFO  tasks.repository.SortingTaskJdbcRepository 23 <init> - Initializing SortingTaskRepository with properties: {mtasks.jdbc.url1=jdbc:sqlite:/Users/grigo/didactic/MPP/ExempleCurs/2017/database/tasks.db, mtasks.jdbc.driver=com.mysql.jdbc.Driver, mtasks.jdbc.user=test, tasks.jdbc.url=jdbc:sqlite:/Users/grigo/didactic/MPP/databases/Tasks.db, tasks.jdbc.driver=org.sqlite.JDBC, mtasks.jdbc.pass=passtest, mtasks.jdbc.url=jdbc:mysql://localhost:3306/mpp} 
+07 Mar 2018 11:15:56,915 TRACE tasks.repository.SortingTaskJdbcRepository 113 findAll - Enter
+07 Mar 2018 11:15:56,915 TRACE tasks.repository.JdbcUtils 49 getConnection - Enter
+07 Mar 2018 11:15:56,915 TRACE tasks.repository.JdbcUtils 22 getNewConnection - Enter
+07 Mar 2018 11:15:56,915 INFO  tasks.repository.JdbcUtils 27 getNewConnection - trying to connect to database ... jdbc:sqlite:/Users/grigo/didactic/MPP/databases/Tasks.db
+07 Mar 2018 11:15:56,915 INFO  tasks.repository.JdbcUtils 28 getNewConnection - user: null
+07 Mar 2018 11:15:56,916 INFO  tasks.repository.JdbcUtils 29 getNewConnection - pass: null
+07 Mar 2018 11:15:56,919 INFO  tasks.repository.JdbcUtils 33 getNewConnection - Loaded driver ...org.sqlite.JDBC
+07 Mar 2018 11:15:57,040 TRACE tasks.repository.JdbcUtils 58 getConnection - Exit with(org.sqlite.SQLiteConnection@7da0128e)
+07 Mar 2018 11:15:57,044 TRACE tasks.repository.SortingTaskJdbcRepository 132 findAll - Exit with([ Task: 23 aaaa Ascending BUBBLE_SORT 100,  Task: 11 bb Descending QUICK_SORT 200,  Task: 34 eqweq Descending SELECTION_SORT 1233,  Task: 56 fafsfa Descending QUICK_SORT 2342423])
+07 Mar 2018 11:16:37,655 INFO  tasks.repository.SortingTaskJdbcRepository 23 <init> - Initializing SortingTaskRepository with properties: {mtasks.jdbc.driver=com.mysql.jdbc.Driver, mtasks.jdbc.user=test, tasks.jdbc.url=jdbc:sqlite:/Users/grigo/didactic/MPP/ExempleCurs/2017/database/tasks.db, tasks.jdbc.driver=org.sqlite.JDBC, tasks.jdbc.url1=jdbc:sqlite:/Users/grigo/didactic/MPP/databases/Tasks.db, mtasks.jdbc.pass=passtest, mtasks.jdbc.url=jdbc:mysql://localhost:3306/mpp} 
+07 Mar 2018 11:16:37,659 TRACE tasks.repository.SortingTaskJdbcRepository 113 findAll - Enter
+07 Mar 2018 11:16:37,660 TRACE tasks.repository.JdbcUtils 49 getConnection - Enter
+07 Mar 2018 11:16:37,660 TRACE tasks.repository.JdbcUtils 22 getNewConnection - Enter
+07 Mar 2018 11:16:37,660 INFO  tasks.repository.JdbcUtils 27 getNewConnection - trying to connect to database ... jdbc:sqlite:/Users/grigo/didactic/MPP/ExempleCurs/2017/database/tasks.db
+07 Mar 2018 11:16:37,660 INFO  tasks.repository.JdbcUtils 28 getNewConnection - user: null
+07 Mar 2018 11:16:37,660 INFO  tasks.repository.JdbcUtils 29 getNewConnection - pass: null
+07 Mar 2018 11:16:37,664 INFO  tasks.repository.JdbcUtils 33 getNewConnection - Loaded driver ...org.sqlite.JDBC
+07 Mar 2018 11:16:37,800 TRACE tasks.repository.JdbcUtils 58 getConnection - Exit with(org.sqlite.SQLiteConnection@7da0128e)
+07 Mar 2018 11:16:37,803 TRACE tasks.repository.SortingTaskJdbcRepository 132 findAll - Exit with([ Task: 1 Lite_task1 Ascending SELECTION_SORT 300,  Task: 2 Lite_task2 Ascending BUBBLE_SORT 400,  Task: 3 Lite_task3 Descending BUBBLE_SORT 500,  Task: 4 Ana are pere Ascending QUICK_SORT 600,  Task: 5 Lite_task5 Descending QUICK_SORT 700,  Task: 6 Lite_task6 Ascending QUICK_SORT 300,  Task: 7 Lite_task7 Descending SELECTION_SORT 5500,  Task: 8 Lite_task8 Ascending QUICK_SORT 100,  Task: 12 wqw Ascending QUICK_SORT 4566])
+06 Jan 2019 09:48:44,347 INFO  tasks.repository.SortingTaskJdbcRepository 23 <init> - Initializing SortingTaskRepository with properties: {mtasks.jdbc.driver=com.mysql.jdbc.Driver, mtasks.jdbc.user=test, tasks.jdbc.url=jdbc:sqlite:/Users/grigo/didactic/MPP/ExempleCurs/2017/database/tasks.db, tasks.jdbc.driver=org.sqlite.JDBC, tasks.jdbc.url1=jdbc:sqlite:/Users/grigo/didactic/MPP/databases/Tasks.db, mtasks.jdbc.pass=passtest, mtasks.jdbc.url=jdbc:mysql://localhost:3306/mpp} 
+06 Jan 2019 09:48:44,354 TRACE tasks.repository.SortingTaskJdbcRepository 113 findAll - Enter
+06 Jan 2019 09:48:44,354 TRACE tasks.repository.JdbcUtils 49 getConnection - Enter
+06 Jan 2019 09:48:44,354 TRACE tasks.repository.JdbcUtils 22 getNewConnection - Enter
+06 Jan 2019 09:48:44,355 INFO  tasks.repository.JdbcUtils 27 getNewConnection - trying to connect to database ... jdbc:sqlite:/Users/grigo/didactic/MPP/ExempleCurs/2017/database/tasks.db
+06 Jan 2019 09:48:44,355 INFO  tasks.repository.JdbcUtils 28 getNewConnection - user: null
+06 Jan 2019 09:48:44,355 INFO  tasks.repository.JdbcUtils 29 getNewConnection - pass: null
+06 Jan 2019 09:48:44,361 INFO  tasks.repository.JdbcUtils 33 getNewConnection - Loaded driver ...org.sqlite.JDBC
+06 Jan 2019 09:48:44,503 TRACE tasks.repository.JdbcUtils 58 getConnection - Exit with(org.sqlite.SQLiteConnection@4239579e)
+06 Jan 2019 09:48:44,508 TRACE tasks.repository.SortingTaskJdbcRepository 132 findAll - Exit with([ Task: 1 Lite_task1 Ascending SELECTION_SORT 300,  Task: 2 Lite_task2 Ascending BUBBLE_SORT 400,  Task: 3 Lite_task3 Descending BUBBLE_SORT 500,  Task: 4 Ana are pere Ascending QUICK_SORT 600,  Task: 5 Lite_task5 Descending QUICK_SORT 700,  Task: 6 Lite_task6 Ascending QUICK_SORT 300,  Task: 7 Lite_task7 Descending SELECTION_SORT 5500,  Task: 8 Lite_task8 Ascending QUICK_SORT 100,  Task: 12 wqw Ascending QUICK_SORT 4566])
+03 Mar 2019 13:03:27,844 INFO  tasks.repository.SortingTaskJdbcRepository 23 <init> - Initializing SortingTaskRepository with properties: {mtasks.jdbc.driver=com.mysql.jdbc.Driver, mtasks.jdbc.user=test, tasks.jdbc.url=jdbc:sqlite:/Users/grigo/didactic/MPP/ExempleCurs/2017/database/tasks.db, tasks.jdbc.driver=org.sqlite.JDBC, tasks.jdbc.url1=jdbc:sqlite:/Users/grigo/didactic/MPP/databases/Tasks.db, mtasks.jdbc.pass=passtest, mtasks.jdbc.url=jdbc:mysql://localhost:3306/mpp} 
+03 Mar 2019 13:03:27,849 TRACE tasks.repository.SortingTaskJdbcRepository 113 findAll - Enter
+03 Mar 2019 13:03:27,849 TRACE tasks.repository.JdbcUtils 49 getConnection - Enter
+03 Mar 2019 13:03:27,849 TRACE tasks.repository.JdbcUtils 22 getNewConnection - Enter
+03 Mar 2019 13:03:27,849 INFO  tasks.repository.JdbcUtils 27 getNewConnection - trying to connect to database ... jdbc:sqlite:/Users/grigo/didactic/MPP/ExempleCurs/2017/database/tasks.db
+03 Mar 2019 13:03:27,850 INFO  tasks.repository.JdbcUtils 28 getNewConnection - user: null
+03 Mar 2019 13:03:27,850 INFO  tasks.repository.JdbcUtils 29 getNewConnection - pass: null
+03 Mar 2019 13:03:27,855 INFO  tasks.repository.JdbcUtils 33 getNewConnection - Loaded driver ...org.sqlite.JDBC
+03 Mar 2019 13:03:28,008 TRACE tasks.repository.JdbcUtils 58 getConnection - Exit with(org.sqlite.SQLiteConnection@5baf77d2)
+03 Mar 2019 13:03:28,016 TRACE tasks.repository.SortingTaskJdbcRepository 132 findAll - Exit with([ Task: 1 Lite_task1 Ascending SELECTION_SORT 300,  Task: 2 Lite_task2 Ascending BUBBLE_SORT 400,  Task: 3 Lite_task3 Descending BUBBLE_SORT 500,  Task: 4 Ana are pere Ascending QUICK_SORT 600,  Task: 5 Lite_task5 Descending QUICK_SORT 700,  Task: 6 Lite_task6 Ascending QUICK_SORT 300,  Task: 7 Lite_task7 Descending SELECTION_SORT 5500,  Task: 8 Lite_task8 Ascending QUICK_SORT 100,  Task: 12 wqw Ascending QUICK_SORT 4566,  Task: 13 Test2019 Ascending QUICK_SORT 200,  Task: 14 TestJava2019 Descending SELECTION_SORT 300])
+03 Mar 2019 13:04:11,718 INFO  tasks.repository.SortingTaskJdbcRepository 23 <init> - Initializing SortingTaskRepository with properties: {tasks.jdbc.user=test, mtasks.jdbc.driver=org.sqlite.JDBC, tasks.jdbc.pass=passtest, tasks.jdbc.url=jdbc:mysql://localhost:3306/mpp, tasks.jdbc.driver=com.mysql.jdbc.Driver, tasks.jdbc.url1=jdbc:sqlite:/Users/grigo/didactic/MPP/databases/Tasks.db, mtasks.jdbc.url=jdbc:sqlite:/Users/grigo/didactic/MPP/ExempleCurs/2017/database/tasks.db} 
+03 Mar 2019 13:04:11,725 TRACE tasks.repository.SortingTaskJdbcRepository 113 findAll - Enter
+03 Mar 2019 13:04:11,725 TRACE tasks.repository.JdbcUtils 49 getConnection - Enter
+03 Mar 2019 13:04:11,725 TRACE tasks.repository.JdbcUtils 22 getNewConnection - Enter
+03 Mar 2019 13:04:11,725 INFO  tasks.repository.JdbcUtils 27 getNewConnection - trying to connect to database ... jdbc:mysql://localhost:3306/mpp
+03 Mar 2019 13:04:11,726 INFO  tasks.repository.JdbcUtils 28 getNewConnection - user: test
+03 Mar 2019 13:04:11,726 INFO  tasks.repository.JdbcUtils 29 getNewConnection - pass: passtest
+03 Mar 2019 13:04:11,730 INFO  tasks.repository.JdbcUtils 33 getNewConnection - Loaded driver ...com.mysql.jdbc.Driver
+03 Mar 2019 13:04:11,968 TRACE tasks.repository.JdbcUtils 58 getConnection - Exit with(com.mysql.jdbc.JDBC4Connection@3d466084)
+03 Mar 2019 13:04:11,980 TRACE tasks.repository.SortingTaskJdbcRepository 132 findAll - Exit with([ Task: 1 Task1 Ascending QUICK_SORT 234,  Task: 2 Task2 Descending BUBBLE_SORT 100,  Task: 3 Task3 Ascending SELECTION_SORT 300,  Task: 4 Ana are pere Descending QUICK_SORT 200,  Task: 5 Task5 Ascending QUICK_SORT 500,  Task: 6 Task6 Ascending BUBBLE_SORT 100,  Task: 111 33 Ascending QUICK_SORT 444,  Task: 123 aaa Descending BUBBLE_SORT 300,  Task: 234 Test2019 Descending BUBBLE_SORT 200,  Task: 534 TestRider2019 Descending QUICK_SORT 100])
+03 Mar 2019 18:04:30,867 INFO  tasks.repository.SortingTaskJdbcRepository 23 <init> - Initializing SortingTaskRepository with properties: {tasks.jdbc.user=test, mtasks.jdbc.driver=org.sqlite.JDBC, tasks.jdbc.pass=passtest, tasks.jdbc.url=jdbc:mysql://localhost:3306/mpp, tasks.jdbc.driver=com.mysql.jdbc.Driver, tasks.jdbc.url1=jdbc:sqlite:/Users/grigo/didactic/MPP/databases/Tasks.db, mtasks.jdbc.url=jdbc:sqlite:/Users/grigo/didactic/MPP/ExempleCurs/2017/database/tasks.db} 
+03 Mar 2019 18:04:30,874 TRACE tasks.repository.SortingTaskJdbcRepository 113 findAll - Enter
+03 Mar 2019 18:04:30,874 TRACE tasks.repository.JdbcUtils 49 getConnection - Enter
+03 Mar 2019 18:04:30,874 TRACE tasks.repository.JdbcUtils 22 getNewConnection - Enter
+03 Mar 2019 18:04:30,874 INFO  tasks.repository.JdbcUtils 27 getNewConnection - trying to connect to database ... jdbc:mysql://localhost:3306/mpp
+03 Mar 2019 18:04:30,875 INFO  tasks.repository.JdbcUtils 28 getNewConnection - user: test
+03 Mar 2019 18:04:30,875 INFO  tasks.repository.JdbcUtils 29 getNewConnection - pass: passtest
+03 Mar 2019 18:04:30,879 INFO  tasks.repository.JdbcUtils 33 getNewConnection - Loaded driver ...com.mysql.jdbc.Driver
+03 Mar 2019 18:04:31,110 TRACE tasks.repository.JdbcUtils 58 getConnection - Exit with(com.mysql.jdbc.JDBC4Connection@26e1f353)
+03 Mar 2019 18:04:31,122 TRACE tasks.repository.SortingTaskJdbcRepository 132 findAll - Exit with([ Task: 1 Task1 Ascending QUICK_SORT 234,  Task: 2 Task2 Descending BUBBLE_SORT 100,  Task: 3 Task3 Ascending SELECTION_SORT 300,  Task: 4 Ana are pere Descending QUICK_SORT 200,  Task: 5 Task5 Ascending QUICK_SORT 500,  Task: 6 Task6 Ascending BUBBLE_SORT 100,  Task: 111 33 Ascending QUICK_SORT 444,  Task: 123 aaa Descending BUBBLE_SORT 300,  Task: 234 Test2019 Descending BUBBLE_SORT 200,  Task: 534 TestRider2019 Descending QUICK_SORT 100])
+03 Mar 2019 18:05:38,631 INFO  tasks.repository.SortingTaskJdbcRepository 23 <init> - Initializing SortingTaskRepository with properties: {tasks.jdbc.user=test, mtasks.jdbc.driver=org.sqlite.JDBC, tasks.jdbc.pass=passtest, tasks.jdbc.url=jdbc:mysql://localhost:3306/mpp, tasks.jdbc.driver=com.mysql.jdbc.Driver, tasks.jdbc.url1=jdbc:sqlite:/Users/grigo/didactic/MPP/databases/Tasks.db, mtasks.jdbc.url=jdbc:sqlite:/Users/grigo/didactic/MPP/ExempleCurs/2017/database/tasks.db} 
+03 Mar 2019 18:05:38,636 TRACE tasks.repository.SortingTaskJdbcRepository 113 findAll - Enter
+03 Mar 2019 18:05:38,636 TRACE tasks.repository.JdbcUtils 49 getConnection - Enter
+03 Mar 2019 18:05:38,636 TRACE tasks.repository.JdbcUtils 22 getNewConnection - Enter
+03 Mar 2019 18:05:38,637 INFO  tasks.repository.JdbcUtils 27 getNewConnection - trying to connect to database ... jdbc:mysql://localhost:3306/mpp
+03 Mar 2019 18:05:38,637 INFO  tasks.repository.JdbcUtils 28 getNewConnection - user: test
+03 Mar 2019 18:05:38,637 INFO  tasks.repository.JdbcUtils 29 getNewConnection - pass: passtest
+03 Mar 2019 18:05:38,641 INFO  tasks.repository.JdbcUtils 33 getNewConnection - Loaded driver ...com.mysql.jdbc.Driver
+03 Mar 2019 18:05:38,870 TRACE tasks.repository.JdbcUtils 58 getConnection - Exit with(com.mysql.jdbc.JDBC4Connection@5a5949ed)
+03 Mar 2019 18:05:38,881 TRACE tasks.repository.SortingTaskJdbcRepository 132 findAll - Exit with([ Task: 1 Task1 Ascending QUICK_SORT 234,  Task: 2 Task2 Descending BUBBLE_SORT 100,  Task: 3 Task3 Ascending SELECTION_SORT 300,  Task: 4 Ana are pere Descending QUICK_SORT 200,  Task: 5 Task5 Ascending QUICK_SORT 500,  Task: 6 Task6 Ascending BUBBLE_SORT 100,  Task: 111 33 Ascending QUICK_SORT 444,  Task: 123 aaa Descending BUBBLE_SORT 300,  Task: 234 Test2019 Descending BUBBLE_SORT 200,  Task: 534 TestRider2019 Descending QUICK_SORT 100])
+03 Mar 2019 18:06:08,197 INFO  tasks.repository.SortingTaskJdbcRepository 23 <init> - Initializing SortingTaskRepository with properties: {mtasks.jdbc.driver=com.mysql.jdbc.Driver, mtasks.jdbc.user=test, tasks.jdbc.url=jdbc:sqlite:/Users/grigo/didactic/MPP/ExempleCurs/2017/database/tasks.db, tasks.jdbc.driver=org.sqlite.JDBC, tasks.jdbc.url1=jdbc:sqlite:/Users/grigo/didactic/MPP/databases/Tasks.db, mtasks.jdbc.pass=passtest, mtasks.jdbc.url=jdbc:mysql://localhost:3306/mpp} 
+03 Mar 2019 18:06:08,202 TRACE tasks.repository.SortingTaskJdbcRepository 113 findAll - Enter
+03 Mar 2019 18:06:08,203 TRACE tasks.repository.JdbcUtils 49 getConnection - Enter
+03 Mar 2019 18:06:08,203 TRACE tasks.repository.JdbcUtils 22 getNewConnection - Enter
+03 Mar 2019 18:06:08,203 INFO  tasks.repository.JdbcUtils 27 getNewConnection - trying to connect to database ... jdbc:sqlite:/Users/grigo/didactic/MPP/ExempleCurs/2017/database/tasks.db
+03 Mar 2019 18:06:08,203 INFO  tasks.repository.JdbcUtils 28 getNewConnection - user: null
+03 Mar 2019 18:06:08,203 INFO  tasks.repository.JdbcUtils 29 getNewConnection - pass: null
+03 Mar 2019 18:06:08,207 INFO  tasks.repository.JdbcUtils 33 getNewConnection - Loaded driver ...org.sqlite.JDBC
+03 Mar 2019 18:06:08,332 TRACE tasks.repository.JdbcUtils 58 getConnection - Exit with(org.sqlite.SQLiteConnection@5baf77d2)
+03 Mar 2019 18:06:08,337 TRACE tasks.repository.SortingTaskJdbcRepository 132 findAll - Exit with([ Task: 1 Lite_task1 Ascending SELECTION_SORT 300,  Task: 2 Lite_task2 Ascending BUBBLE_SORT 400,  Task: 3 Lite_task3 Descending BUBBLE_SORT 500,  Task: 4 Ana are pere Ascending QUICK_SORT 600,  Task: 5 Lite_task5 Descending QUICK_SORT 700,  Task: 6 Lite_task6 Ascending QUICK_SORT 300,  Task: 7 Lite_task7 Descending SELECTION_SORT 5500,  Task: 8 Lite_task8 Ascending QUICK_SORT 100,  Task: 12 wqw Ascending QUICK_SORT 4566,  Task: 13 Test2019 Ascending QUICK_SORT 200,  Task: 14 TestJava2019 Descending SELECTION_SORT 300])
+03 Mar 2019 18:09:33,357 INFO  tasks.repository.SortingTaskJdbcRepository 23 <init> - Initializing SortingTaskRepository with properties: {mtasks.jdbc.driver=com.mysql.jdbc.Driver, mtasks.jdbc.user=test, tasks.jdbc.url=jdbc:sqlite:/Users/grigo/didactic/MPP/ExempleCurs/2017/database/tasks.db, tasks.jdbc.driver=org.sqlite.JDBC, tasks.jdbc.url1=jdbc:sqlite:/Users/grigo/didactic/MPP/databases/Tasks.db, mtasks.jdbc.pass=passtest, mtasks.jdbc.url=jdbc:mysql://localhost:3306/mpp} 
+03 Mar 2019 18:09:33,387 TRACE tasks.repository.SortingTaskJdbcRepository 113 findAll - Enter
+03 Mar 2019 18:09:33,388 TRACE tasks.repository.JdbcUtils 49 getConnection - Enter
+03 Mar 2019 18:09:33,388 TRACE tasks.repository.JdbcUtils 22 getNewConnection - Enter
+03 Mar 2019 18:09:33,388 INFO  tasks.repository.JdbcUtils 27 getNewConnection - trying to connect to database ... jdbc:sqlite:/Users/grigo/didactic/MPP/ExempleCurs/2017/database/tasks.db
+03 Mar 2019 18:09:33,388 INFO  tasks.repository.JdbcUtils 28 getNewConnection - user: null
+03 Mar 2019 18:09:33,389 INFO  tasks.repository.JdbcUtils 29 getNewConnection - pass: null
+03 Mar 2019 18:09:33,394 INFO  tasks.repository.JdbcUtils 33 getNewConnection - Loaded driver ...org.sqlite.JDBC
+03 Mar 2019 18:09:33,545 TRACE tasks.repository.JdbcUtils 58 getConnection - Exit with(org.sqlite.SQLiteConnection@9f42522)
+03 Mar 2019 18:09:33,550 TRACE tasks.repository.SortingTaskJdbcRepository 132 findAll - Exit with([ Task: 1 Lite_task1 Ascending SELECTION_SORT 300,  Task: 2 Lite_task2 Ascending BUBBLE_SORT 400,  Task: 3 Lite_task3 Descending BUBBLE_SORT 500,  Task: 4 Ana are pere Ascending QUICK_SORT 600,  Task: 5 Lite_task5 Descending QUICK_SORT 700,  Task: 6 Lite_task6 Ascending QUICK_SORT 300,  Task: 7 Lite_task7 Descending SELECTION_SORT 5500,  Task: 8 Lite_task8 Ascending QUICK_SORT 100,  Task: 12 wqw Ascending QUICK_SORT 4566,  Task: 13 Test2019 Ascending QUICK_SORT 200,  Task: 14 TestJava2019 Descending SELECTION_SORT 300])
+03 Mar 2019 18:09:53,724 INFO  tasks.repository.SortingTaskJdbcRepository 23 <init> - Initializing SortingTaskRepository with properties: {mtasks.jdbc.driver=com.mysql.jdbc.Driver, mtasks.jdbc.user=test, tasks.jdbc.url=jdbc:sqlite:/Users/grigo/didactic/MPP/ExempleCurs/2017/database/tasks.db, tasks.jdbc.driver=org.sqlite.JDBC, tasks.jdbc.url1=jdbc:sqlite:/Users/grigo/didactic/MPP/databases/Tasks.db, mtasks.jdbc.pass=passtest, mtasks.jdbc.url=jdbc:mysql://localhost:3306/mpp} 
+03 Mar 2019 18:09:53,731 TRACE tasks.repository.SortingTaskJdbcRepository 113 findAll - Enter
+03 Mar 2019 18:09:53,731 TRACE tasks.repository.JdbcUtils 49 getConnection - Enter
+03 Mar 2019 18:09:53,731 TRACE tasks.repository.JdbcUtils 22 getNewConnection - Enter
+03 Mar 2019 18:09:53,732 INFO  tasks.repository.JdbcUtils 27 getNewConnection - trying to connect to database ... jdbc:sqlite:/Users/grigo/didactic/MPP/ExempleCurs/2017/database/tasks.db
+03 Mar 2019 18:09:53,733 INFO  tasks.repository.JdbcUtils 28 getNewConnection - user: null
+03 Mar 2019 18:09:53,734 INFO  tasks.repository.JdbcUtils 29 getNewConnection - pass: null
+03 Mar 2019 18:09:53,741 INFO  tasks.repository.JdbcUtils 33 getNewConnection - Loaded driver ...org.sqlite.JDBC
+03 Mar 2019 18:09:53,881 TRACE tasks.repository.JdbcUtils 58 getConnection - Exit with(org.sqlite.SQLiteConnection@7901d19)
+03 Mar 2019 18:09:53,886 TRACE tasks.repository.SortingTaskJdbcRepository 132 findAll - Exit with([ Task: 1 Lite_task1 Ascending SELECTION_SORT 300,  Task: 2 Lite_task2 Ascending BUBBLE_SORT 400,  Task: 3 Lite_task3 Descending BUBBLE_SORT 500,  Task: 4 Ana are pere Ascending QUICK_SORT 600,  Task: 5 Lite_task5 Descending QUICK_SORT 700,  Task: 6 Lite_task6 Ascending QUICK_SORT 300,  Task: 7 Lite_task7 Descending SELECTION_SORT 5500,  Task: 8 Lite_task8 Ascending QUICK_SORT 100,  Task: 12 wqw Ascending QUICK_SORT 4566,  Task: 13 Test2019 Ascending QUICK_SORT 200,  Task: 14 TestJava2019 Descending SELECTION_SORT 300])
+04 Mar 2019 19:46:37,006 INFO  tasks.repository.SortingTaskJdbcRepository 23 <init> - Initializing SortingTaskRepository with properties: {mtasks.jdbc.driver=com.mysql.jdbc.Driver, mtasks.jdbc.user=test, tasks.jdbc.url=jdbc:sqlite:/Users/grigo/didactic/MPP/ExempleCurs/2017/database/tasks.db, tasks.jdbc.driver=org.sqlite.JDBC, tasks.jdbc.url1=jdbc:sqlite:/Users/grigo/didactic/MPP/databases/Tasks.db, mtasks.jdbc.pass=passtest, mtasks.jdbc.url=jdbc:mysql://localhost:3306/mpp} 
+04 Mar 2019 19:46:37,011 TRACE tasks.repository.SortingTaskJdbcRepository 113 findAll - Enter
+04 Mar 2019 19:46:37,011 TRACE tasks.repository.JdbcUtils 49 getConnection - Enter
+04 Mar 2019 19:46:37,011 TRACE tasks.repository.JdbcUtils 22 getNewConnection - Enter
+04 Mar 2019 19:46:37,012 INFO  tasks.repository.JdbcUtils 27 getNewConnection - trying to connect to database ... jdbc:sqlite:/Users/grigo/didactic/MPP/ExempleCurs/2017/database/tasks.db
+04 Mar 2019 19:46:37,012 INFO  tasks.repository.JdbcUtils 28 getNewConnection - user: null
+04 Mar 2019 19:46:37,012 INFO  tasks.repository.JdbcUtils 29 getNewConnection - pass: null
+04 Mar 2019 19:46:37,017 INFO  tasks.repository.JdbcUtils 33 getNewConnection - Loaded driver ...org.sqlite.JDBC
+04 Mar 2019 19:46:37,146 TRACE tasks.repository.JdbcUtils 58 getConnection - Exit with(org.sqlite.SQLiteConnection@7ecaa614)
+04 Mar 2019 19:46:37,152 TRACE tasks.repository.SortingTaskJdbcRepository 132 findAll - Exit with([ Task: 1 Lite_task1 Ascending SELECTION_SORT 300,  Task: 2 Lite_task2 Ascending BUBBLE_SORT 400,  Task: 3 Lite_task3 Descending BUBBLE_SORT 500,  Task: 4 Ana are pere Ascending QUICK_SORT 600,  Task: 5 Lite_task5 Descending QUICK_SORT 700,  Task: 6 Lite_task6 Ascending QUICK_SORT 300,  Task: 7 Lite_task7 Descending SELECTION_SORT 5500,  Task: 8 Lite_task8 Ascending QUICK_SORT 100,  Task: 12 wqw Ascending QUICK_SORT 4566,  Task: 13 Test2019 Ascending QUICK_SORT 200,  Task: 14 TestJava2019 Descending SELECTION_SORT 300])
+04 Mar 2019 19:47:22,722 INFO  tasks.repository.SortingTaskJdbcRepository 23 <init> - Initializing SortingTaskRepository with properties: {mtasks.jdbc.driver=com.mysql.jdbc.Driver, mtasks.jdbc.user=test, tasks.jdbc.url=jdbc:sqlite:/Users/grigo/didactic/MPP/ExempleCurs/2017/database/tasks.db, tasks.jdbc.driver=org.sqlite.JDBC, tasks.jdbc.url1=jdbc:sqlite:/Users/grigo/didactic/MPP/databases/Tasks.db, mtasks.jdbc.pass=passtest, mtasks.jdbc.url=jdbc:mysql://localhost:3306/mpp} 
+04 Mar 2019 19:47:22,727 TRACE tasks.repository.SortingTaskJdbcRepository 113 findAll - Enter
+04 Mar 2019 19:47:22,728 TRACE tasks.repository.JdbcUtils 49 getConnection - Enter
+04 Mar 2019 19:47:22,728 TRACE tasks.repository.JdbcUtils 22 getNewConnection - Enter
+04 Mar 2019 19:47:22,728 INFO  tasks.repository.JdbcUtils 27 getNewConnection - trying to connect to database ... jdbc:sqlite:/Users/grigo/didactic/MPP/ExempleCurs/2017/database/tasks.db
+04 Mar 2019 19:47:22,728 INFO  tasks.repository.JdbcUtils 28 getNewConnection - user: null
+04 Mar 2019 19:47:22,729 INFO  tasks.repository.JdbcUtils 29 getNewConnection - pass: null
+04 Mar 2019 19:47:22,734 INFO  tasks.repository.JdbcUtils 33 getNewConnection - Loaded driver ...org.sqlite.JDBC
+04 Mar 2019 19:47:22,855 TRACE tasks.repository.JdbcUtils 58 getConnection - Exit with(org.sqlite.SQLiteConnection@21431121)
+04 Mar 2019 19:47:22,861 TRACE tasks.repository.SortingTaskJdbcRepository 132 findAll - Exit with([ Task: 1 Lite_task1 Ascending SELECTION_SORT 300,  Task: 2 Lite_task2 Ascending BUBBLE_SORT 400,  Task: 3 Lite_task3 Descending BUBBLE_SORT 500,  Task: 4 Ana are pere Ascending QUICK_SORT 600,  Task: 5 Lite_task5 Descending QUICK_SORT 700,  Task: 6 Lite_task6 Ascending QUICK_SORT 300,  Task: 7 Lite_task7 Descending SELECTION_SORT 5500,  Task: 8 Lite_task8 Ascending QUICK_SORT 100,  Task: 12 wqw Ascending QUICK_SORT 4566,  Task: 13 Test2019 Ascending QUICK_SORT 200,  Task: 14 TestJava2019 Descending SELECTION_SORT 300])
+04 Mar 2019 19:48:00,320 INFO  tasks.repository.SortingTaskJdbcRepository 23 <init> - Initializing SortingTaskRepository with properties: {mtasks.jdbc.driver=com.mysql.jdbc.Driver, mtasks.jdbc.user=test, tasks.jdbc.url=jdbc:sqlite:/Users/grigo/didactic/MPP/ExempleCurs/2017/database/tasks.db, tasks.jdbc.driver=org.sqlite.JDBC, tasks.jdbc.url1=jdbc:sqlite:/Users/grigo/didactic/MPP/databases/Tasks.db, mtasks.jdbc.pass=passtest, mtasks.jdbc.url=jdbc:mysql://localhost:3306/mpp} 
+04 Mar 2019 19:48:00,324 INFO  tasks.repository.JdbcUtils 27 getNewConnection - trying to connect to database ... jdbc:sqlite:/Users/grigo/didactic/MPP/ExempleCurs/2017/database/tasks.db
+04 Mar 2019 19:48:00,324 INFO  tasks.repository.JdbcUtils 28 getNewConnection - user: null
+04 Mar 2019 19:48:00,325 INFO  tasks.repository.JdbcUtils 29 getNewConnection - pass: null
+04 Mar 2019 19:48:00,329 INFO  tasks.repository.JdbcUtils 33 getNewConnection - Loaded driver ...org.sqlite.JDBC
+04 Mar 2019 19:48:26,994 INFO  tasks.repository.SortingTaskJdbcRepository 23 <init> - Initializing SortingTaskRepository with properties: {mtasks.jdbc.driver=com.mysql.jdbc.Driver, mtasks.jdbc.user=test, tasks.jdbc.url=jdbc:sqlite:/Users/grigo/didactic/MPP/ExempleCurs/2017/database/tasks.db, tasks.jdbc.driver=org.sqlite.JDBC, tasks.jdbc.url1=jdbc:sqlite:/Users/grigo/didactic/MPP/databases/Tasks.db, mtasks.jdbc.pass=passtest, mtasks.jdbc.url=jdbc:mysql://localhost:3306/mpp} 
+04 Mar 2019 19:48:26,998 TRACE tasks.repository.SortingTaskJdbcRepository 113 findAll - Enter
+04 Mar 2019 19:48:26,998 TRACE tasks.repository.JdbcUtils 49 getConnection - Enter
+04 Mar 2019 19:48:26,999 TRACE tasks.repository.JdbcUtils 22 getNewConnection - Enter
+04 Mar 2019 19:48:26,999 INFO  tasks.repository.JdbcUtils 27 getNewConnection - trying to connect to database ... jdbc:sqlite:/Users/grigo/didactic/MPP/ExempleCurs/2017/database/tasks.db
+04 Mar 2019 19:48:26,999 INFO  tasks.repository.JdbcUtils 28 getNewConnection - user: null
+04 Mar 2019 19:48:26,999 INFO  tasks.repository.JdbcUtils 29 getNewConnection - pass: null
+04 Mar 2019 19:48:27,003 INFO  tasks.repository.JdbcUtils 33 getNewConnection - Loaded driver ...org.sqlite.JDBC
+04 Mar 2019 19:48:27,135 TRACE tasks.repository.JdbcUtils 58 getConnection - Exit with(org.sqlite.SQLiteConnection@690115cb)
+04 Mar 2019 19:48:27,139 TRACE tasks.repository.SortingTaskJdbcRepository 132 findAll - Exit with([ Task: 1 Lite_task1 Ascending SELECTION_SORT 300,  Task: 2 Lite_task2 Ascending BUBBLE_SORT 400,  Task: 3 Lite_task3 Descending BUBBLE_SORT 500,  Task: 4 Ana are pere Ascending QUICK_SORT 600,  Task: 5 Lite_task5 Descending QUICK_SORT 700,  Task: 6 Lite_task6 Ascending QUICK_SORT 300,  Task: 7 Lite_task7 Descending SELECTION_SORT 5500,  Task: 8 Lite_task8 Ascending QUICK_SORT 100,  Task: 12 wqw Ascending QUICK_SORT 4566,  Task: 13 Test2019 Ascending QUICK_SORT 200,  Task: 14 TestJava2019 Descending SELECTION_SORT 300])
+04 Mar 2019 19:56:59,849 INFO  tasks.repository.SortingTaskJdbcRepository 23 <init> - Initializing SortingTaskRepository with properties: {mtasks.jdbc.driver=com.mysql.jdbc.Driver, mtasks.jdbc.user=test, tasks.jdbc.url=jdbc:sqlite:/Users/grigo/didactic/MPP/ExempleCurs/2017/database/tasks.db, tasks.jdbc.driver=org.sqlite.JDBC, tasks.jdbc.url1=jdbc:sqlite:/Users/grigo/didactic/MPP/databases/Tasks.db, mtasks.jdbc.pass=passtest, mtasks.jdbc.url=jdbc:mysql://localhost:3306/mpp} 
+04 Mar 2019 19:56:59,853 TRACE tasks.repository.SortingTaskJdbcRepository 113 findAll - Enter
+04 Mar 2019 19:56:59,853 TRACE tasks.repository.JdbcUtils 49 getConnection - Enter
+04 Mar 2019 19:56:59,854 TRACE tasks.repository.JdbcUtils 22 getNewConnection - Enter
+04 Mar 2019 19:56:59,854 INFO  tasks.repository.JdbcUtils 27 getNewConnection - trying to connect to database ... jdbc:sqlite:/Users/grigo/didactic/MPP/ExempleCurs/2017/database/tasks.db
+04 Mar 2019 19:56:59,854 INFO  tasks.repository.JdbcUtils 28 getNewConnection - user: null
+04 Mar 2019 19:56:59,854 INFO  tasks.repository.JdbcUtils 29 getNewConnection - pass: null
+04 Mar 2019 19:56:59,859 INFO  tasks.repository.JdbcUtils 33 getNewConnection - Loaded driver ...org.sqlite.JDBC
+04 Mar 2019 19:56:59,990 TRACE tasks.repository.JdbcUtils 58 getConnection - Exit with(org.sqlite.SQLiteConnection@2dc41d5d)
+04 Mar 2019 19:56:59,996 TRACE tasks.repository.SortingTaskJdbcRepository 132 findAll - Exit with([ Task: 1 Lite_task1 Ascending SELECTION_SORT 300,  Task: 2 Lite_task2 Ascending BUBBLE_SORT 400,  Task: 3 Lite_task3 Descending BUBBLE_SORT 500,  Task: 4 Ana are pere Ascending QUICK_SORT 600,  Task: 5 Lite_task5 Descending QUICK_SORT 700,  Task: 6 Lite_task6 Ascending QUICK_SORT 300,  Task: 7 Lite_task7 Descending SELECTION_SORT 5500,  Task: 8 Lite_task8 Ascending QUICK_SORT 100,  Task: 12 wqw Ascending QUICK_SORT 4566,  Task: 13 Test2019 Ascending QUICK_SORT 200,  Task: 14 TestJava2019 Descending SELECTION_SORT 300])
+04 Mar 2019 20:00:07,831 INFO  tasks.repository.SortingTaskJdbcRepository 23 <init> - Initializing SortingTaskRepository with properties: {mtasks.jdbc.driver=com.mysql.jdbc.Driver, mtasks.jdbc.user=test, tasks.jdbc.url=jdbc:sqlite:/Users/grigo/didactic/MPP/ExempleCurs/2017/database/tasks.db, tasks.jdbc.driver=org.sqlite.JDBC, tasks.jdbc.url1=jdbc:sqlite:/Users/grigo/didactic/MPP/databases/Tasks.db, mtasks.jdbc.pass=passtest, mtasks.jdbc.url=jdbc:mysql://localhost:3306/mpp} 
+04 Mar 2019 20:00:07,835 TRACE tasks.repository.SortingTaskJdbcRepository 113 findAll - Enter
+04 Mar 2019 20:00:07,835 TRACE tasks.repository.JdbcUtils 49 getConnection - Enter
+04 Mar 2019 20:00:07,835 TRACE tasks.repository.JdbcUtils 22 getNewConnection - Enter
+04 Mar 2019 20:00:07,836 INFO  tasks.repository.JdbcUtils 27 getNewConnection - trying to connect to database ... jdbc:sqlite:/Users/grigo/didactic/MPP/ExempleCurs/2017/database/tasks.db
+04 Mar 2019 20:00:07,836 INFO  tasks.repository.JdbcUtils 28 getNewConnection - user: null
+04 Mar 2019 20:00:07,836 INFO  tasks.repository.JdbcUtils 29 getNewConnection - pass: null
+04 Mar 2019 20:00:07,840 INFO  tasks.repository.JdbcUtils 33 getNewConnection - Loaded driver ...org.sqlite.JDBC
+04 Mar 2019 20:00:07,966 TRACE tasks.repository.JdbcUtils 58 getConnection - Exit with(org.sqlite.SQLiteConnection@2dc41d5d)
+04 Mar 2019 20:00:07,973 TRACE tasks.repository.SortingTaskJdbcRepository 132 findAll - Exit with([ Task: 1 Lite_task1 Ascending SELECTION_SORT 300,  Task: 2 Lite_task2 Ascending BUBBLE_SORT 400,  Task: 3 Lite_task3 Descending BUBBLE_SORT 500,  Task: 4 Ana are pere Ascending QUICK_SORT 600,  Task: 5 Lite_task5 Descending QUICK_SORT 700,  Task: 6 Lite_task6 Ascending QUICK_SORT 300,  Task: 7 Lite_task7 Descending SELECTION_SORT 5500,  Task: 8 Lite_task8 Ascending QUICK_SORT 100,  Task: 12 wqw Ascending QUICK_SORT 4566,  Task: 13 Test2019 Ascending QUICK_SORT 200,  Task: 14 TestJava2019 Descending SELECTION_SORT 300])
+05 Mar 2019 10:25:45,450 INFO  tasks.repository.SortingTaskJdbcRepository 23 <init> - Initializing SortingTaskRepository with properties: {mtasks.jdbc.driver=com.mysql.jdbc.Driver, mtasks.jdbc.user=test, tasks.jdbc.url=jdbc:sqlite:/Users/grigo/didactic/MPP/ExempleCurs/2017/database/tasks.db, tasks.jdbc.driver=org.sqlite.JDBC, tasks.jdbc.url1=jdbc:sqlite:/Users/grigo/didactic/MPP/databases/Tasks.db, mtasks.jdbc.pass=passtest, mtasks.jdbc.url=jdbc:mysql://localhost:3306/mpp} 
+05 Mar 2019 10:25:45,455 TRACE tasks.repository.SortingTaskJdbcRepository 113 findAll - Enter
+05 Mar 2019 10:25:45,455 TRACE tasks.repository.JdbcUtils 49 getConnection - Enter
+05 Mar 2019 10:25:45,456 TRACE tasks.repository.JdbcUtils 22 getNewConnection - Enter
+05 Mar 2019 10:25:45,456 INFO  tasks.repository.JdbcUtils 27 getNewConnection - trying to connect to database ... jdbc:sqlite:/Users/grigo/didactic/MPP/ExempleCurs/2017/database/tasks.db
+05 Mar 2019 10:25:45,456 INFO  tasks.repository.JdbcUtils 28 getNewConnection - user: null
+05 Mar 2019 10:25:45,457 INFO  tasks.repository.JdbcUtils 29 getNewConnection - pass: null
+05 Mar 2019 10:25:45,463 INFO  tasks.repository.JdbcUtils 33 getNewConnection - Loaded driver ...org.sqlite.JDBC
+05 Mar 2019 10:25:45,593 TRACE tasks.repository.JdbcUtils 58 getConnection - Exit with(org.sqlite.SQLiteConnection@4268014b)
+05 Mar 2019 10:25:45,597 TRACE tasks.repository.SortingTaskJdbcRepository 132 findAll - Exit with([ Task: 1 Lite_task1 Ascending SELECTION_SORT 300,  Task: 2 Lite_task2 Ascending BUBBLE_SORT 400,  Task: 3 Lite_task3 Descending BUBBLE_SORT 500,  Task: 4 Ana are pere Ascending QUICK_SORT 600,  Task: 5 Lite_task5 Descending QUICK_SORT 700,  Task: 6 Lite_task6 Ascending QUICK_SORT 300,  Task: 7 Lite_task7 Descending SELECTION_SORT 5500,  Task: 8 Lite_task8 Ascending QUICK_SORT 100,  Task: 12 wqw Ascending QUICK_SORT 4566,  Task: 13 Test2019 Ascending QUICK_SORT 200,  Task: 14 TestJava2019 Descending SELECTION_SORT 300])
+05 Jan 2020 15:19:51,946 ERROR tasks.repository.SortingTaskJdbcRepository 57 save - org.sqlite.SQLiteException: [SQLITE_CONSTRAINT_PRIMARYKEY]  A PRIMARY KEY constraint failed (UNIQUE constraint failed: SortingTasks.id)
+28 Feb 2020 13:19:56,926 ERROR tasks.repository.JdbcUtils 42 getNewConnection - com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+28 Feb 2020 13:21:20,480 ERROR tasks.repository.JdbcUtils 42 getNewConnection - com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+01 Mar 2020 13:08:37,867 INFO  tasks.repository.SortingTaskJdbcRepository 23 <init> - Initializing SortingTaskRepository with properties: {tasks.jdbc.pass=passtest, mtasks.jdbc.url=jdbc:mariadb://localhost:3306/mpp, mtasks.jdbc.url1=jdbc:sqlite:/Users/grigo/didactic/MPP/databases/Tasks.db, tasks.jdbc.url=jdbc:mysql://localhost:3306/mpp, mtasks.jdbc.pass=passtest, tasks.jdbc.driver=com.mysql.jdbc.Driver, mmtasks.jdbc.url=jdbc:sqlite:/Users/grigo/didactic/MPP/ExempleCurs/2017/database/tasks.db, tasks.jdbc.user=test, mtasks.jdbc.driver=org.mariadb.jdbc.Driver, mtasks.jdbc.user=test} 
+01 Mar 2020 13:08:37,874 TRACE tasks.repository.JdbcUtils 49 getConnection - Enter
+01 Mar 2020 13:08:37,874 TRACE tasks.repository.JdbcUtils 22 getNewConnection - Enter
+01 Mar 2020 13:08:37,875 INFO  tasks.repository.JdbcUtils 27 getNewConnection - trying to connect to database ... jdbc:mysql://localhost:3306/mpp
+01 Mar 2020 13:08:37,875 INFO  tasks.repository.JdbcUtils 28 getNewConnection - user: test
+01 Mar 2020 13:08:37,876 INFO  tasks.repository.JdbcUtils 29 getNewConnection - pass: passtest
+01 Mar 2020 13:08:38,182 TRACE tasks.repository.JdbcUtils 58 getConnection - Exit with(com.mysql.jdbc.JDBC4Connection@3a2401c3)
+01 Mar 2020 13:08:38,194 TRACE tasks.repository.SortingTaskJdbcRepository 132 findAll - Exit with([ Task: 1 Task1 Ascending QUICK_SORT 234,  Task: 2 Task2 Descending BUBBLE_SORT 100,  Task: 3 Task3 Ascending SELECTION_SORT 300,  Task: 4 Ana are pere Descending QUICK_SORT 200,  Task: 5 Task5 Ascending QUICK_SORT 500,  Task: 6 Task6 Ascending BUBBLE_SORT 100,  Task: 111 33 Ascending QUICK_SORT 444,  Task: 112 rrr Ascending QUICK_SORT 100,  Task: 123 aaa Descending BUBBLE_SORT 300,  Task: 134 Test231 Ascending QUICK_SORT 200,  Task: 234 Test2019 Descending BUBBLE_SORT 200,  Task: 534 TestRider2019 Descending QUICK_SORT 100])
+01 Mar 2020 13:08:58,423 INFO  tasks.repository.SortingTaskJdbcRepository 23 <init> - Initializing SortingTaskRepository with properties: {tasks.jdbc.pass=passtest, mtasks.jdbc.url=jdbc:mariadb://localhost:3306/mpp, mtasks.jdbc.url1=jdbc:sqlite:/Users/grigo/didactic/MPP/databases/Tasks.db, tasks.jdbc.url=jdbc:mysql://localhost:3306/mpp, mtasks.jdbc.pass=passtest, tasks.jdbc.driver=com.mysql.jdbc.Driver, mmtasks.jdbc.url=jdbc:sqlite:/Users/grigo/didactic/MPP/ExempleCurs/2017/database/tasks.db, tasks.jdbc.user=test, mtasks.jdbc.driver=org.mariadb.jdbc.Driver, mtasks.jdbc.user=test} 
+01 Mar 2020 13:08:58,428 TRACE tasks.repository.JdbcUtils 49 getConnection - Enter
+01 Mar 2020 13:08:58,428 TRACE tasks.repository.JdbcUtils 22 getNewConnection - Enter
+01 Mar 2020 13:08:58,429 INFO  tasks.repository.JdbcUtils 27 getNewConnection - trying to connect to database ... jdbc:mysql://localhost:3306/mpp
+01 Mar 2020 13:08:58,429 INFO  tasks.repository.JdbcUtils 28 getNewConnection - user: test
+01 Mar 2020 13:08:58,429 INFO  tasks.repository.JdbcUtils 29 getNewConnection - pass: passtest
+01 Mar 2020 13:08:58,748 TRACE tasks.repository.JdbcUtils 58 getConnection - Exit with(com.mysql.jdbc.JDBC4Connection@6bf12a09)
+01 Mar 2020 13:08:58,766 TRACE tasks.repository.SortingTaskJdbcRepository 132 findAll - Exit with([ Task: 1 Task1 Ascending QUICK_SORT 234,  Task: 2 Task2 Descending BUBBLE_SORT 100,  Task: 3 Task3 Ascending SELECTION_SORT 300,  Task: 4 Ana are pere Descending QUICK_SORT 200,  Task: 5 Task5 Ascending QUICK_SORT 500,  Task: 6 Task6 Ascending BUBBLE_SORT 100,  Task: 111 33 Ascending QUICK_SORT 444,  Task: 112 rrr Ascending QUICK_SORT 100,  Task: 123 aaa Descending BUBBLE_SORT 300,  Task: 134 Test231 Ascending QUICK_SORT 200,  Task: 234 Test2019 Descending BUBBLE_SORT 200,  Task: 534 TestRider2019 Descending QUICK_SORT 100])
+01 Mar 2020 13:28:27,479 INFO  tasks.repository.SortingTaskJdbcRepository 23 <init> - Initializing SortingTaskRepository with properties: {tasks.jdbc.pass=passtest, mtasks.jdbc.url=jdbc:mariadb://localhost:3306/mpp, mtasks.jdbc.url1=jdbc:sqlite:/Users/grigo/didactic/MPP/databases/Tasks.db, tasks.jdbc.url=jdbc:mysql://localhost:3306/mpp, mtasks.jdbc.pass=passtest, tasks.jdbc.driver=com.mysql.jdbc.Driver, mmtasks.jdbc.url=jdbc:sqlite:/Users/grigo/didactic/MPP/ExempleCurs/2017/database/tasks.db, tasks.jdbc.user=test, mtasks.jdbc.driver=org.mariadb.jdbc.Driver, mtasks.jdbc.user=test} 
+01 Mar 2020 13:28:27,484 TRACE tasks.repository.JdbcUtils 49 getConnection - Enter
+01 Mar 2020 13:28:27,484 TRACE tasks.repository.JdbcUtils 22 getNewConnection - Enter
+01 Mar 2020 13:28:27,484 INFO  tasks.repository.JdbcUtils 27 getNewConnection - trying to connect to database ... jdbc:mysql://localhost:3306/mpp
+01 Mar 2020 13:28:27,485 INFO  tasks.repository.JdbcUtils 28 getNewConnection - user: test
+01 Mar 2020 13:28:27,485 INFO  tasks.repository.JdbcUtils 29 getNewConnection - pass: passtest
+01 Mar 2020 13:28:27,799 TRACE tasks.repository.JdbcUtils 58 getConnection - Exit with(com.mysql.jdbc.JDBC4Connection@985dfe2)
+01 Mar 2020 13:28:27,814 TRACE tasks.repository.SortingTaskJdbcRepository 132 findAll - Exit with([ Task: 1 Task1 Ascending QUICK_SORT 234,  Task: 2 Task2 Descending BUBBLE_SORT 100,  Task: 3 Task3 Ascending SELECTION_SORT 300,  Task: 4 Ana are pere Descending QUICK_SORT 200,  Task: 5 Task5 Ascending QUICK_SORT 500,  Task: 6 Task6 Ascending BUBBLE_SORT 100,  Task: 111 33 Ascending QUICK_SORT 444,  Task: 112 rrr Ascending QUICK_SORT 100,  Task: 123 aaa Descending BUBBLE_SORT 300,  Task: 134 Test231 Ascending QUICK_SORT 200,  Task: 234 Test2019 Descending BUBBLE_SORT 200,  Task: 534 TestRider2019 Descending QUICK_SORT 100])
+01 Mar 2020 13:28:39,550 TRACE tasks.repository.SortingTaskJdbcRepository 66 delete - Enter deleting task with 112
+01 Mar 2020 13:28:39,551 TRACE tasks.repository.JdbcUtils 49 getConnection - Enter
+01 Mar 2020 13:28:39,552 TRACE tasks.repository.JdbcUtils 58 getConnection - Exit with(com.mysql.jdbc.JDBC4Connection@985dfe2)
+01 Mar 2020 13:28:39,556 TRACE tasks.repository.SortingTaskJdbcRepository 75 delete - Exit
+01 Mar 2020 13:28:51,204 TRACE tasks.repository.SortingTaskJdbcRepository 66 delete - Enter deleting task with 123
+01 Mar 2020 13:28:51,205 TRACE tasks.repository.JdbcUtils 49 getConnection - Enter
+01 Mar 2020 13:28:51,206 TRACE tasks.repository.JdbcUtils 58 getConnection - Exit with(com.mysql.jdbc.JDBC4Connection@985dfe2)
+01 Mar 2020 13:28:51,209 TRACE tasks.repository.SortingTaskJdbcRepository 75 delete - Exit
+01 Mar 2020 13:33:32,019 INFO  tasks.repository.SortingTaskJdbcRepository 23 <init> - Initializing SortingTaskRepository with properties: {tasks.jdbc.pass=passtest, mtasks.jdbc.url=jdbc:mariadb://localhost:3306/mpp, mtasks.jdbc.url1=jdbc:sqlite:/Users/grigo/didactic/MPP/databases/Tasks.db, tasks.jdbc.url=jdbc:mysql://localhost:3306/mpp, mtasks.jdbc.pass=passtest, tasks.jdbc.driver=com.mysql.jdbc.Driver, mmtasks.jdbc.url=jdbc:sqlite:/Users/grigo/didactic/MPP/ExempleCurs/2017/database/tasks.db, tasks.jdbc.user=test, mtasks.jdbc.driver=org.mariadb.jdbc.Driver, mtasks.jdbc.user=test} 
+01 Mar 2020 13:33:32,024 TRACE tasks.repository.JdbcUtils 49 getConnection - Enter
+01 Mar 2020 13:33:32,024 TRACE tasks.repository.JdbcUtils 22 getNewConnection - Enter
+01 Mar 2020 13:33:32,024 INFO  tasks.repository.JdbcUtils 27 getNewConnection - trying to connect to database ... jdbc:mysql://localhost:3306/mpp
+01 Mar 2020 13:33:32,024 INFO  tasks.repository.JdbcUtils 28 getNewConnection - user: test
+01 Mar 2020 13:33:32,025 INFO  tasks.repository.JdbcUtils 29 getNewConnection - pass: passtest
+01 Mar 2020 13:33:32,335 TRACE tasks.repository.JdbcUtils 58 getConnection - Exit with(com.mysql.jdbc.JDBC4Connection@19a4ec43)
+01 Mar 2020 13:33:32,352 TRACE tasks.repository.SortingTaskJdbcRepository 132 findAll - Exit with([ Task: 1 Task1 Ascending QUICK_SORT 234,  Task: 2 Task2 Descending BUBBLE_SORT 100,  Task: 3 Task3 Ascending SELECTION_SORT 300,  Task: 4 Ana are pere Descending QUICK_SORT 200,  Task: 5 Task5 Ascending QUICK_SORT 500,  Task: 6 Task6 Ascending BUBBLE_SORT 100,  Task: 111 33 Ascending QUICK_SORT 444,  Task: 134 Test231 Ascending QUICK_SORT 200,  Task: 234 Test2019 Descending BUBBLE_SORT 200,  Task: 534 TestRider2019 Descending QUICK_SORT 100])
+01 Mar 2020 13:34:05,799 TRACE tasks.repository.SortingTaskJdbcRepository 66 delete - Enter deleting task with 111
+01 Mar 2020 13:34:05,799 TRACE tasks.repository.JdbcUtils 49 getConnection - Enter
+01 Mar 2020 13:34:05,800 TRACE tasks.repository.JdbcUtils 58 getConnection - Exit with(com.mysql.jdbc.JDBC4Connection@19a4ec43)
+01 Mar 2020 13:34:05,803 TRACE tasks.repository.SortingTaskJdbcRepository 75 delete - Exit
+01 Mar 2020 13:35:38,925 TRACE tasks.repository.SortingTaskJdbcRepository 66 delete - Enter deleting task with 5
+01 Mar 2020 13:35:38,925 TRACE tasks.repository.JdbcUtils 49 getConnection - Enter
+01 Mar 2020 13:35:38,926 TRACE tasks.repository.JdbcUtils 58 getConnection - Exit with(com.mysql.jdbc.JDBC4Connection@19a4ec43)
+01 Mar 2020 13:35:38,930 TRACE tasks.repository.SortingTaskJdbcRepository 75 delete - Exit
+02 Mar 2020 11:27:59,527 INFO  tasks.repository.SortingTaskJdbcRepository 23 <init> - Initializing SortingTaskRepository with properties: {tasks.jdbc.pass=passtest, mtasks.jdbc.url=jdbc:mariadb://localhost:3306/mpp, mtasks.jdbc.url1=jdbc:sqlite:/Users/grigo/didactic/MPP/databases/Tasks.db, tasks.jdbc.url=jdbc:mysql://localhost:3306/mpp, mtasks.jdbc.pass=passtest, tasks.jdbc.driver=com.mysql.jdbc.Driver, mmtasks.jdbc.url=jdbc:sqlite:/Users/grigo/didactic/MPP/ExempleCurs/2017/database/tasks.db, tasks.jdbc.user=test, mtasks.jdbc.driver=org.mariadb.jdbc.Driver, mtasks.jdbc.user=test} 
+02 Mar 2020 11:27:59,532 TRACE tasks.repository.JdbcUtils 49 getConnection - Enter
+02 Mar 2020 11:27:59,533 TRACE tasks.repository.JdbcUtils 22 getNewConnection - Enter
+02 Mar 2020 11:27:59,533 INFO  tasks.repository.JdbcUtils 27 getNewConnection - trying to connect to database ... jdbc:mysql://localhost:3306/mpp
+02 Mar 2020 11:27:59,533 INFO  tasks.repository.JdbcUtils 28 getNewConnection - user: test
+02 Mar 2020 11:27:59,533 INFO  tasks.repository.JdbcUtils 29 getNewConnection - pass: passtest
+02 Mar 2020 11:27:59,820 TRACE tasks.repository.JdbcUtils 58 getConnection - Exit with(com.mysql.jdbc.JDBC4Connection@259d4671)
+02 Mar 2020 11:27:59,834 TRACE tasks.repository.SortingTaskJdbcRepository 132 findAll - Exit with([ Task: 1 Task1 Ascending QUICK_SORT 234,  Task: 2 Task2 Descending BUBBLE_SORT 100,  Task: 3 Task3 Ascending SELECTION_SORT 300,  Task: 4 Ana are pere Descending QUICK_SORT 200,  Task: 6 Task6 Ascending BUBBLE_SORT 100,  Task: 134 Test231 Ascending QUICK_SORT 200,  Task: 234 Test2019 Descending BUBBLE_SORT 200,  Task: 534 TestRider2019 Descending QUICK_SORT 100])
+02 Mar 2020 11:30:00,516 INFO  tasks.repository.SortingTaskJdbcRepository 23 <init> - Initializing SortingTaskRepository with properties: {mtasks.jdbc.url=jdbc:mariadb://localhost:3306/mpp, tasks.jdbc.url=jdbc:sqlite:/Users/grigo/didactic/MPP/databases/Tasks.db, mntasks.jdbc.user=test, mtasks.jdbc.pass=passtest, mmtasks.jdbc.url=jdbc:sqlite:/Users/grigo/didactic/MPP/ExempleCurs/2017/database/tasks.db, mntasks.jdbc.driver=com.mysql.jdbc.Driver, mntasks.jdbc.pass=passtest, mtasks.jdbc.driver=org.mariadb.jdbc.Driver, mtasks.jdbc.user=test, mntasks.jdbc.url=jdbc:mysql://localhost:3306/mpp} 
+02 Mar 2020 11:30:00,521 TRACE tasks.repository.JdbcUtils 49 getConnection - Enter
+02 Mar 2020 11:30:00,521 TRACE tasks.repository.JdbcUtils 22 getNewConnection - Enter
+02 Mar 2020 11:30:00,522 INFO  tasks.repository.JdbcUtils 27 getNewConnection - trying to connect to database ... jdbc:sqlite:/Users/grigo/didactic/MPP/databases/Tasks.db
+02 Mar 2020 11:30:00,522 INFO  tasks.repository.JdbcUtils 28 getNewConnection - user: null
+02 Mar 2020 11:30:00,522 INFO  tasks.repository.JdbcUtils 29 getNewConnection - pass: null
+02 Mar 2020 11:30:00,977 TRACE tasks.repository.JdbcUtils 58 getConnection - Exit with(org.sqlite.SQLiteConnection@73e3819a)
+02 Mar 2020 11:30:00,981 TRACE tasks.repository.SortingTaskJdbcRepository 132 findAll - Exit with([ Task: 23 aaaa Ascending BUBBLE_SORT 100,  Task: 11 bb Descending QUICK_SORT 200,  Task: 34 eqweq Descending SELECTION_SORT 1233,  Task: 56 fafsfa Descending QUICK_SORT 2342423])
+02 Mar 2020 11:30:22,981 INFO  tasks.repository.SortingTaskJdbcRepository 23 <init> - Initializing SortingTaskRepository with properties: {mtasks.jdbc.url=jdbc:mariadb://localhost:3306/mpp, tasks.jdbc.url=jdbc:sqlite:/Users/grigo/didactic/MPP/ExempleCurs/2017/database/tasks.db, mntasks.jdbc.user=test, mtasks.jdbc.pass=passtest, mmtasks.jdbc.url=jdbc:sqlite:/Users/grigo/didactic/MPP/databases/Tasks.db, mntasks.jdbc.driver=com.mysql.jdbc.Driver, mntasks.jdbc.pass=passtest, mtasks.jdbc.driver=org.mariadb.jdbc.Driver, mtasks.jdbc.user=test, mntasks.jdbc.url=jdbc:mysql://localhost:3306/mpp} 
+02 Mar 2020 11:30:22,986 TRACE tasks.repository.JdbcUtils 49 getConnection - Enter
+02 Mar 2020 11:30:22,986 TRACE tasks.repository.JdbcUtils 22 getNewConnection - Enter
+02 Mar 2020 11:30:22,986 INFO  tasks.repository.JdbcUtils 27 getNewConnection - trying to connect to database ... jdbc:sqlite:/Users/grigo/didactic/MPP/ExempleCurs/2017/database/tasks.db
+02 Mar 2020 11:30:22,987 INFO  tasks.repository.JdbcUtils 28 getNewConnection - user: null
+02 Mar 2020 11:30:22,987 INFO  tasks.repository.JdbcUtils 29 getNewConnection - pass: null
+02 Mar 2020 11:30:23,428 TRACE tasks.repository.JdbcUtils 58 getConnection - Exit with(org.sqlite.SQLiteConnection@73e3819a)
+02 Mar 2020 11:30:23,434 TRACE tasks.repository.SortingTaskJdbcRepository 132 findAll - Exit with([ Task: 1 Lite_task1 Ascending SELECTION_SORT 300,  Task: 2 Lite_task2 Ascending BUBBLE_SORT 400,  Task: 3 Lite_task3 Descending BUBBLE_SORT 500,  Task: 4 Ana are pere Ascending QUICK_SORT 600,  Task: 5 Lite_task5 Descending QUICK_SORT 700,  Task: 6 Lite_task6 Ascending QUICK_SORT 300,  Task: 7 Lite_task7 Descending SELECTION_SORT 5500,  Task: 8 Lite_task8 Ascending QUICK_SORT 100,  Task: 12 wqw Ascending QUICK_SORT 4566,  Task: 13 Test2019 Ascending QUICK_SORT 200,  Task: 14 TestJava2019 Descending SELECTION_SORT 300,  Task: 56 Lite_task5 Descending QUICK_SORT 700,  Task: 70 Lite_task7 Descending SELECTION_SORT 5500,  Task: 72 Lite_task7 Descending SELECTION_SORT 5500,  Task: 79 Lite_task7 Descending SELECTION_SORT 5500,  Task: 131 Test2019 Ascending QUICK_SORT 200,  Task: 231 Test2020 Ascending BUBBLE_SORT 100])
+02 Mar 2020 11:31:30,083 INFO  tasks.repository.SortingTaskJdbcRepository 23 <init> - Initializing SortingTaskRepository with properties: {mtasks.jdbc.url=jdbc:mariadb://localhost:3306/mpp, tasks.jdbc.url=jdbc:sqlite:/Users/grigo/didactic/MPP/ExempleCurs/2017/database/tasks.db, mntasks.jdbc.user=test, mtasks.jdbc.pass=passtest, mmtasks.jdbc.url=jdbc:sqlite:/Users/grigo/didactic/MPP/databases/Tasks.db, mntasks.jdbc.driver=com.mysql.jdbc.Driver, mntasks.jdbc.pass=passtest, mtasks.jdbc.driver=org.mariadb.jdbc.Driver, mtasks.jdbc.user=test, mntasks.jdbc.url=jdbc:mysql://localhost:3306/mpp} 
+02 Mar 2020 11:31:30,089 TRACE tasks.repository.JdbcUtils 49 getConnection - Enter
+02 Mar 2020 11:31:30,089 TRACE tasks.repository.JdbcUtils 22 getNewConnection - Enter
+02 Mar 2020 11:31:30,089 INFO  tasks.repository.JdbcUtils 27 getNewConnection - trying to connect to database ... jdbc:sqlite:/Users/grigo/didactic/MPP/ExempleCurs/2017/database/tasks.db
+02 Mar 2020 11:31:30,090 INFO  tasks.repository.JdbcUtils 28 getNewConnection - user: null
+02 Mar 2020 11:31:30,090 INFO  tasks.repository.JdbcUtils 29 getNewConnection - pass: null
+02 Mar 2020 11:31:30,732 TRACE tasks.repository.JdbcUtils 58 getConnection - Exit with(org.sqlite.SQLiteConnection@74db42cb)
+02 Mar 2020 11:31:30,736 TRACE tasks.repository.SortingTaskJdbcRepository 132 findAll - Exit with([ Task: 1 Lite_task1 Ascending SELECTION_SORT 300,  Task: 2 Lite_task2 Ascending BUBBLE_SORT 400,  Task: 3 Lite_task3 Descending BUBBLE_SORT 500,  Task: 4 Ana are pere Ascending QUICK_SORT 600,  Task: 5 Lite_task5 Descending QUICK_SORT 700,  Task: 6 Lite_task6 Ascending QUICK_SORT 300,  Task: 7 Lite_task7 Descending SELECTION_SORT 5500,  Task: 8 Lite_task8 Ascending QUICK_SORT 100,  Task: 12 wqw Ascending QUICK_SORT 4566,  Task: 13 Test2019 Ascending QUICK_SORT 200,  Task: 56 Lite_task5 Descending QUICK_SORT 700,  Task: 70 Lite_task7 Descending SELECTION_SORT 5500,  Task: 72 Lite_task7 Descending SELECTION_SORT 5500,  Task: 79 Lite_task7 Descending SELECTION_SORT 5500,  Task: 131 Test2019 Ascending QUICK_SORT 200,  Task: 231 Test2020 Ascending BUBBLE_SORT 100])
+02 Mar 2020 16:31:44,216 INFO  tasks.repository.SortingTaskJdbcRepository 23 <init> - Initializing SortingTaskRepository with properties: {mtasks.jdbc.url=jdbc:mariadb://localhost:3306/mpp, tasks.jdbc.url=jdbc:sqlite:/Users/grigo/didactic/MPP/ExempleCurs/2017/database/tasks.db, mntasks.jdbc.user=test, mtasks.jdbc.pass=passtest, mmtasks.jdbc.url=jdbc:sqlite:/Users/grigo/didactic/MPP/databases/Tasks.db, mntasks.jdbc.driver=com.mysql.jdbc.Driver, mntasks.jdbc.pass=passtest, mtasks.jdbc.driver=org.mariadb.jdbc.Driver, mtasks.jdbc.user=test, mntasks.jdbc.url=jdbc:mysql://localhost:3306/mpp} 
+02 Mar 2020 16:31:44,222 TRACE tasks.repository.JdbcUtils 49 getConnection - Enter
+02 Mar 2020 16:31:44,222 TRACE tasks.repository.JdbcUtils 22 getNewConnection - Enter
+02 Mar 2020 16:31:44,222 INFO  tasks.repository.JdbcUtils 27 getNewConnection - trying to connect to database ... jdbc:sqlite:/Users/grigo/didactic/MPP/ExempleCurs/2017/database/tasks.db
+02 Mar 2020 16:31:44,223 INFO  tasks.repository.JdbcUtils 28 getNewConnection - user: null
+02 Mar 2020 16:31:44,223 INFO  tasks.repository.JdbcUtils 29 getNewConnection - pass: null
+02 Mar 2020 16:31:44,918 TRACE tasks.repository.JdbcUtils 58 getConnection - Exit with(org.sqlite.SQLiteConnection@50041e6d)
+02 Mar 2020 16:31:44,922 TRACE tasks.repository.SortingTaskJdbcRepository 132 findAll - Exit with([ Task: 1 Lite_task1 Ascending SELECTION_SORT 300,  Task: 2 Lite_task2 Ascending BUBBLE_SORT 400,  Task: 3 Lite_task3 Descending BUBBLE_SORT 500,  Task: 4 Ana are pere Ascending QUICK_SORT 600,  Task: 5 Lite_task5 Descending QUICK_SORT 700,  Task: 6 Lite_task6 Ascending QUICK_SORT 300,  Task: 7 Lite_task7 Descending SELECTION_SORT 5500,  Task: 8 Lite_task8 Ascending QUICK_SORT 100,  Task: 12 wqw Ascending QUICK_SORT 4566,  Task: 13 Test2019 Ascending QUICK_SORT 200,  Task: 56 Lite_task5 Descending QUICK_SORT 700,  Task: 70 Lite_task7 Descending SELECTION_SORT 5500,  Task: 72 Lite_task7 Descending SELECTION_SORT 5500,  Task: 79 Lite_task7 Descending SELECTION_SORT 5500,  Task: 131 Test2019 Ascending QUICK_SORT 200,  Task: 231 Test2020 Ascending BUBBLE_SORT 100])

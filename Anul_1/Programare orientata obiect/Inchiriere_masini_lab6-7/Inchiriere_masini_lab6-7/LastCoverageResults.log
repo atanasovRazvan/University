@@ -1,0 +1,21 @@
+[2019-04-08 15:27:29] [info] Start Program:
+Path:"C:\Users\Razvan\Desktop\Programare orientata obiect\Inchiriere_masini_lab6-7\Debug\Inchiriere_masini_lab6-7.exe"
+Arguments:
+Working directory: "C:\Users\Razvan\Desktop\Programare orientata obiect\Inchiriere_masini_lab6-7\Inchiriere_masini_lab6-7\"
+Modules: Selected: C:\Users\Razvan\Desktop\Programare orientata obiect\Inchiriere_masini_lab6-7\Debug\Inchiriere_masini_lab6-7.exe Excluded: 
+Sources: Selected: C:\Users\Razvan\Desktop\Programare orientata obiect\Inchiriere_masini_lab6-7\Inchiriere_masini_lab6-7 Excluded: User Interface.cpp 
+Log Level: Normal
+Cover Children: 0
+Aggregate by file: 1
+Continue after C++ exception: 0
+Optimized build support: 0
+Export: Binary C:\Users\Razvan\AppData\Local\Temp\l0dy1rtn.2h2 
+Input coverage: 
+Unified diff: 
+Excluded line regular expressions: 
+Substitute pdb source paths: 
+
+[2019-04-08 15:27:29] [info] Module: C:\Users\Razvan\Desktop\Programare orientata obiect\Inchiriere_masini_lab6-7\Debug\Inchiriere_masini_lab6-7.exe is selected because it matches selected pattern: C:\Users\Razvan\Desktop\Programare orientata obiect\Inchiriere_masini_lab6-7\Debug\Inchiriere_masini_lab6-7.exe
+[2019-04-08 15:27:29] [info] ----------------------------------------------------
+[2019-04-08 15:27:29] [info] Coverage binary generated in file: C:\Users\Razvan\AppData\Local\Temp\l0dy1rtn.2h2
+[2019-04-08 15:27:29] [info] ----------------------------------------------------

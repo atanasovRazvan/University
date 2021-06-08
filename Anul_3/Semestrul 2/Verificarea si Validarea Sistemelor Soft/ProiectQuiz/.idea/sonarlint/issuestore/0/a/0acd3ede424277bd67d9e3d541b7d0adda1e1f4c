@@ -1,0 +1,29 @@
+
+¾
+java:S3577"¡Rename class "QuizServiceTestWithMockAnnotations" to match the regular expression: '^((Test|IT)[a-zA-Z0-9_]+|[A-Z][a-zA-Z0-9_]*(Test|Tests|TestCase|IT|ITCase))$'(ˆù h8›îÀÃ/
+;
+java:S5786&"Remove this 'public' modifier.(õÚ—8›îÀÃ/
+;
+java:S57867"Remove this 'public' modifier.(Ç·¤«8›îÀÃ/
+@
+java:S5786M"Remove this 'public' modifier.(§ìÕˆüÿÿÿÿ8›îÀÃ/
+@
+java:S5786Z"Remove this 'public' modifier.(Şîöÿÿÿÿÿ8›îÀÃ/
+;
+java:S5786n"Remove this 'public' modifier.(ö¬¿¸8›îÀÃ/
+<
+java:S5786‚"Remove this 'public' modifier.(›íÛ½8›îÀÃ/
+<
+java:S5786"Remove this 'public' modifier.(íó8›îÀÃ/
+A
+java:S5786±"Remove this 'public' modifier.(ßıãœÿÿÿÿÿ8›îÀÃ/
+<
+java:S5786¿"Remove this 'public' modifier.(Î¿ôÖ8›îÀÃ/
+<
+java:S5786Ï"Remove this 'public' modifier.(Ûš°8›îÀÃ/
+:
+java:S5786"Remove this 'public' modifier.(ˆù h8›îÀÃ/
+r
+java:S3415S"VSwap these 2 arguments so they are in the correct order: expected value, actual value.(´éùi8›îÀÃ/
+7
+java:S5785§"Use assertEquals instead.(†ÀÕ‘8›îÀÃ/

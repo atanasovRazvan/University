@@ -1,0 +1,13 @@
+﻿  Console.cpp
+  Repo.cpp
+c:\users\razvan\desktop\programare orientata obiect\inchiriere_masini_l8-9\inchiereri_masini\repo.cpp(153): warning C4267: 'argument': conversion from 'size_t' to '_Ty', possible loss of data
+          with
+          [
+              _Ty=int
+          ]
+  RepoFile.cpp
+  Service.cpp
+  Undo.cpp
+  main.cpp
+  Generating Code...
+  Inchiereri_masini.vcxproj -> C:\Users\Razvan\Desktop\Programare orientata obiect\Inchiriere_masini_L8-9\x64\Debug\Inchiereri_masini.exe

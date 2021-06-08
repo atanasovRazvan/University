@@ -1,0 +1,24 @@
+
+g
+java:S2095%"LUse try-with-resources or close this "BufferedReader" in a "finally" clause.(õñûºÿÿÿÿÿ
+Y
+java:S11558">Use isEmpty() to check whether the collection is empty or not.(ı›ÂÂøÿÿÿÿ
+T
+java:S1155K">Use isEmpty() to check whether the collection is empty or not.(®…‹Ö
+z
+java:S1149"eReplace the synchronized class "Vector" by an unsynchronized one such as "ArrayList" or "LinkedList".(˜÷è9
+o
+java:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(ùĞ‰™
+o
+java:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(ùĞ‰™
+S
+java:S1197'"8Move the array designator from the variable to the type.(ç„Ôşÿÿÿÿ
+Q	java:S1255"<This block of commented-out lines of code should be removed.(õ¹Ôî
+M
+java:S1611:"2Remove the parentheses around the "quiz" parameter(¤ÑÀÿÿÿÿÿ
+7
+java:S1116C"Remove this empty statement.(ôŸìúÿÿÿÿ
+_
+java:S2147W"DCombine this catch with the one at line 85, which has the same body.(ÉşäŒşÿÿÿÿ
+<
+java:S1481("&Remove this unused "d" local variable.(Ê›ïÛ

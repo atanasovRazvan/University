@@ -1,0 +1,7 @@
+C:\Users\Razvan\Desktop\Facultate\Anul_3\MAP - Restanta\MAP_CSharp\MAP_CSharp\MAP_CSharp\obj\Debug\MAP_CSharp.csprojAssemblyReference.cache
+C:\Users\Razvan\Desktop\Facultate\Anul_3\MAP - Restanta\MAP_CSharp\MAP_CSharp\MAP_CSharp\obj\Debug\MAP_CSharp.csproj.CoreCompileInputs.cache
+C:\Users\Razvan\Desktop\Facultate\Anul_3\MAP - Restanta\MAP_CSharp\MAP_CSharp\MAP_CSharp\bin\Debug\MAP_CSharp.exe.config
+C:\Users\Razvan\Desktop\Facultate\Anul_3\MAP - Restanta\MAP_CSharp\MAP_CSharp\MAP_CSharp\bin\Debug\MAP_CSharp.exe
+C:\Users\Razvan\Desktop\Facultate\Anul_3\MAP - Restanta\MAP_CSharp\MAP_CSharp\MAP_CSharp\bin\Debug\MAP_CSharp.pdb
+C:\Users\Razvan\Desktop\Facultate\Anul_3\MAP - Restanta\MAP_CSharp\MAP_CSharp\MAP_CSharp\obj\Debug\MAP_CSharp.exe
+C:\Users\Razvan\Desktop\Facultate\Anul_3\MAP - Restanta\MAP_CSharp\MAP_CSharp\MAP_CSharp\obj\Debug\MAP_CSharp.pdb

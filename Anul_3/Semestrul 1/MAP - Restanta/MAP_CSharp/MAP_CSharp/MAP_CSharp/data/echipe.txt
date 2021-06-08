@@ -1,0 +1,28 @@
+﻿team1,Houston Rockets
+team2,Los Angeles Lakers
+team3,LA Clippers
+team4,Chicago Bulls
+team5,Cleveland Cavaliers
+team6,Utah Jazz
+team7,Brooklyn Nets
+team8,New Orleans Pelicans
+team9,Indiana Pacers
+team10,Toronto Raptors
+team11,Charlotte Hornets
+team12,Phoenix Suns
+team13,Portland TrailBlazers
+team14,Golden State Warriors
+team15,Napoca 
+team16,San Antonio Spurs
+team17,Orlando Magic
+team18,Denver Nuggets
+team19,Detroit Pistons
+team20,Atlanta Hawks
+team21,Dallas Mavericks
+team22,Sacramento Kings
+team23,Oklahoma City Thunder
+team24,Boston Celtics
+team25,New York Knicks
+team26,Minnesota Timberwolves
+team27,Miami Heat
+team28,Milwaukee Bucks

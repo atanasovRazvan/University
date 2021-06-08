@@ -1,0 +1,22 @@
+
+`	java:S112"FDefine and throw a dedicated exception instead of using a generic one.(‚ëô¡şÿÿÿÿ
+[	java:S112"FDefine and throw a dedicated exception instead of using a generic one.(«¤ÜÕ
+Z	java:S112"FDefine and throw a dedicated exception instead of using a generic one.(¡Í™w
+Z	java:S112("FDefine and throw a dedicated exception instead of using a generic one.(·¬¡M
+b	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(××ğÀ
+œ
+java:S1186/"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(¹‡Øïüÿÿÿÿ
+œ
+java:S11864"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(ÂŞº÷úÿÿÿÿ
+~
+java:S1845/"cRename method "setup" to prevent any misunderstanding/clash with method "setUp" defined on line 16.(¹‡Øïüÿÿÿÿ
+„
+java:S18454"iRename method "teardown" to prevent any misunderstanding/clash with method "tearDown" defined on line 23.(ÂŞº÷úÿÿÿÿ
+‡
+java:S1130"lRemove the declaration of thrown exception 'java.lang.Exception', as it cannot be thrown from method's body.(‚ëô¡şÿÿÿÿ
+‚
+java:S1130"lRemove the declaration of thrown exception 'java.lang.Exception', as it cannot be thrown from method's body.(«¤ÜÕ
+b	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¡Í™w
+b	java:S100("NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(·¬¡M
+
+java:S1130("lRemove the declaration of thrown exception 'java.lang.Exception', as it cannot be thrown from method's body.(·¬¡M

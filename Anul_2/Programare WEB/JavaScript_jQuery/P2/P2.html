@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>P2</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  </head>
+  <body>
+    <script>
+      $(document).ready(function(){
+
+        var err1 = $("<p class='one'></p>").text("Numele este introdus gresit!"); $("body").append(err1); $("p.one").css("color", "red");
+        var err2 = $("<p class='two'></p>").text("Varsta este introdusa gresit!"); $("body").append(err2); $("p.two").css("color", "red");
+        var err3 = $("<p class='three'></p>").text("Emailul este incorect!"); $("body").append(err3); $("p.three").css("color", "red");
+        var good = $("<p class='four'></p>").text("Datele introduse sunt corecte!"); $("body").append(good); $("p.four").css("color", "green");
+        $("p.one").hide(); $("p.two").hide(); $("p.three").hide(); $("p.four").hide();
+
+
+        $("#submit").click(function(){
+
+          let nr = 0;
+
+          if($("#name").val().length == 0){
+
+            $("#name").css("border-color", "red");
+            $("p.one").show();
+            nr=1;
+          }
+          else {
+            $("p.one").hide();
+            $("#name").css("border-color", "black")
+          }
+
+          if(isNaN($("#varsta").val()) || $("#varsta").val()<1 || $("#varsta").val()>100){
+            $("#varsta").css("border-color", "red");
+            $("p.two").show();
+            nr=1;
+          }
+          else{
+            $("#varsta").css("border-color", "black");
+            $("p.two").hide();
+          }
+
+          if($("#email").val().length == 0 || /\b[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,}\b/.test($("#email").val())){
+            $("#email").css("border-color", "red");
+            $("p.three").show();
+            nr=1;
+          }
+          else{
+            $("#email").css("border-color", "black");
+            $("p.three").hide();
+          }
+
+          if(nr==0) {
+            $("p.four").show()
+          }
+          else{
+            $("p.four").hide();
+          }
+        });
+      });
+    </script>
+
+  <form id="form">
+    Name: <input type="text" id="name" name="name"> </input>
+    <br>
+    Data Nasterii: <input type="date" id="data" name="data"> </input>
+    <br>
+    Varsta: <input type="text" id="varsta" name="varsta"> </input>
+    <br>
+    Email: <input type="text" id="email" name="email"> </input>
+    <br>
+    <input type="button" value="Trimite" id="submit" name="submit"> </input>
+  </form>
+
+  </body>
+
+</html>
